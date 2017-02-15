@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C5AB88;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 45px;
+}
+@media (max-width: 400px) {
+  body {
+    margin: 20px;
+  }
+}
+table {
+  color: white;
+  width: 100%;
+}
+th {
+  font-weight: 500;
+}
+a {
+  color: white;
+  transition: .25s color;
+}
+h1, h2 {
+  color: white;
+}
+h1 {
+  margin: 0;
+  font-size: 54px;
+  padding: 0 0 10px;
+  border-bottom: 5px solid white;
+}
+.head-title a,
+.head-title a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #3B6279;
+}
+a:active {
+  color: #3B6279;
+}
+table td, table th {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: left;
+  border-width: 5px;
+  margin: auto;
+  font-size: 20px;
+}
+td {
+  font-weight: 300;
+}
+@media (max-width: 400px) {
+  table td,
+  table th {
+    font-size: 16px;
+  }
+}
+caption {
+  caption-side: bottom;
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+table.locations,
+table.keynotes,
+table.speaker-list {
+  margin-bottom: 4rem;
+  border-top: 3px solid white;
+}
+table.speaker-list {
+  margin-top: 2rem;
+}
+.sixty {
+  width: 100%;
+}
+.meta {
+  font-size: .7em;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  margin: 2em auto;
+  padding: 2em 0 1em;
+}
+@media (min-width: 1024px) {
+  .sixty {
+    width: 60%;
+  }
+}
+.date {
+  width: 25%;
+}
+.speaker {
+  width: 25%;
+}
+.keynotes td {
+  border-right: none;
+}
+.keynote {
+  text-align: center;
+  width: 25%;
+  padding-right: .5em;
+  display: inline-block;
+  vertical-align: top;
+  transition: .5s padding;
+}
+@media (max-width: 600px) {
+  .keynote {
+    width: 50%;
+  }
+}
+.keynote .image {
+  width: 100%;
+  height: 200px;
+  background-position: 0;
+  background-size: cover;
+  background-color: #3B6279;
+  color: #fff;
+  font-size: 60px;
+  display: block;
+  padding-top: 0.6em;
+  font-size: 4em;
+  transition: all .5s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.keynote .image:hover {
+  opacity: .6;
+}
+@media (min-width: 1024px) {
+  .keynote .image { height: 300px }
+}
+@media (min-width: 1600px) {
+  .keynote .image { height: 400px }
+}
+.keynote h3 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 1em 0;
+}
+.keynote .bio {
+  display: none;
+  font-size: 16px;
+  text-align: left;
+}
+.keynote-selector {
+  display: none;
+}
+.keynote-selector:checked + .keynote .bio {
+  display: block;
+}
+.keynote-selector:checked + .keynote {
+  background: #799dda;
+  padding: .5em;
+}
+.location {
+  width: 30%;
+  padding: 10px 10px 10px 25px
+}
+.tagline {
+  padding: 13px 10px 7px 0px;
+}
+.second-tagline {
+  padding: 17px 10px 4rem 0px;
+}
+.second-tagline .button {
+  color: #537ABD;
+  background-color: #fff;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+}
+.second-tagline .button:hover {
+  background-color: #f2f2f2;
+}
+.second-tagline .button:active {
+  background-color: #f2f2f2;
+}
+.second-tagline .buy-tickets {
+  margin-left: 1em;
+}
+@media (max-width: 1024px) {
+  .second-tagline .buy-tickets {
+    margin-left: 0;
+    margin-top: 1em;
+  }
+}
+.second-tagline--info {
+  width: 100%;
+  margin-top: 1em;
+  vertical-align: top;
+  display: inline-block;
+  padding: .5%;
+}
+@media (min-width: 1024px) {
+  .second-tagline--info {
+    width: 30%;
+  }
+}
+.slack-link {
+  margin-top: 2em;
+}
+.transparent td {
+  border: 1px transparent;
+}
+.link, .link a {
+  background-color: white;
+  color: #3B6279;
+  text-decoration: none;
+  font-weight: 500;
+}
+.bold {
+  font-weight: 500;
+}
+footer {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}

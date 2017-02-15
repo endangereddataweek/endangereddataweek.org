@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+<div class="meta sixty">
+<h4>About {{ page.author }}</h4>
+
+<p>{{ page.bio }} Posted on {{ page.date | date: "%Y-%m-%d" }}.</p>
+</div>

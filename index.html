@@ -1,0 +1,81 @@
+---
+layout: default
+title: Home
+---
+
+<p>{{ site.date }}</p>
+
+<table>
+      <div class="second-tagline--info">
+        <strong>Building community</strong>
+        <p>Farm-to-table hexagon tattooed, pitchfork la croix williamsburg vexillologist ugh neutra distillery. Poke blog activated charcoal selfies, fam mumblecore kale chips trust fund bitters stumptown dreamcatcher. Lo-fi tousled wayfarers vegan, readymade fanny pack organic blog. You probably haven't heard of them jianbing post-ironic cray.</p>
+      </div>
+
+      <div class="second-tagline--info">
+        <strong>For those who love data</strong>
+        <p>Farm-to-table hexagon tattooed, pitchfork la croix williamsburg vexillologist ugh neutra distillery. Poke blog activated charcoal selfies, fam mumblecore kale chips trust fund bitters stumptown dreamcatcher. Lo-fi tousled wayfarers vegan, readymade fanny pack organic blog. You probably haven't heard of them jianbing post-ironic cray.</p>
+      </div>
+      <div class="second-tagline--info">
+        <strong>Rescuing and preserving data</strong>
+        <p>Farm-to-table hexagon tattooed, pitchfork la croix williamsburg vexillologist ugh neutra distillery. Poke blog activated charcoal selfies, fam mumblecore kale chips trust fund bitters stumptown dreamcatcher. Lo-fi tousled wayfarers vegan, readymade fanny pack organic blog. You probably haven't heard of them jianbing post-ironic cray.</p>
+      </div>
+
+      <p>
+        <a title="Get involved form" class="submit-talk button" href="#" target="_blank">Get Involved</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h2>Posts</h2>
+<table class="posts">
+{%  for post in site.posts %}
+<tr class="post transparent">
+  <td class="date">{{ post.date | date: "%Y-%m-%d" }}</td>
+  <td class="author">{{ post.author }}</td>
+  <td class="title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+</tr>
+{% endfor %}
+</table>
+
+<h2>Events</h2>
+<table class="locations">
+  <tr class="header">
+    <th class="date">Date</th>
+    <th class="location">Location</th>
+    <th>Link</th>
+  </tr>
+  <tr class="transparent">
+    <td class="date">
+      18 April 2017
+    </td>
+    <td class="location">
+      Omaha, Nebraska
+    </td>
+    <td>
+    <a title="Information" href="#">Information</a>
+    </td>
+  </tr>
+  <tr class="transparent">
+    <td class="date">
+      18-19 April 2017
+    </td>
+    <td class="location">
+      Lansing, Michigan
+    </td>
+    <td>
+      <a title="Information" href="#">Information</a>
+    </td>
+  </tr>
+  <tr class="transparent">
+    <td class="date">
+       17 April 2017
+    </td>
+    <td class="location">
+      Lansing, Michigan
+    </td>
+    <td>
+      <a title="Information" href="#">Information</a>
+    </td>
+  </tr>
+</table>
