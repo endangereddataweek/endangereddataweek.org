@@ -6,7 +6,7 @@ A static site, [http://endangereddataweek.org/](http://endangereddataweek.org).
 
 This is a [Jekyll](https://github.com/jekyll/jekyll) site.
 
-1. clone this repository and `cd` into the `csvconf.com` directory
+1. clone this repository and `cd` into the `endangereddataweek.org` directory
 1. run the `bundle` command
 1. run `bundle exec jekyll serve -w`
 
