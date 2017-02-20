@@ -4,6 +4,10 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+Date: {{ page.date | date: "%Y-%m-%d %r" }}  <br/>
+
+Location: {{ page.location.physical }}
+
 {{ content }}
 
 <div class="meta sixty">
