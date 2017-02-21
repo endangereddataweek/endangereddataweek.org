@@ -4,3 +4,7 @@ description: "Bringing awareness to different types of threats to publicly avail
 tag: "Bringing together researchers, journalists, librarians, technologists, and community partners to discuss data analysis, creation, sharing, retention, preservation, security."
 date: "April 17-21 2017"
 url: "http://endangereddataweek.org"
+
+collections:
+  events:
+    output: true # generate a page for each document

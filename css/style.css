@@ -37,6 +37,11 @@ h1 {
   color: white;
   text-decoration: none;
 }
+.header-logo {
+  height: 200px;
+  width: auto;
+  border-bottom: 5px solid white;
+}
 a:hover {
   color: #3B6279;
 }

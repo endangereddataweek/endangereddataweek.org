@@ -34,7 +34,7 @@ title: Home
     <th class="location">Location</th>
     <th>Link</th>
   </tr>
-  {%  for post in site.posts %}
+  {%  for post in site.posts reversed %}
   <tr class="post transparent">
     <td class="date">{{ post.date | date: "%Y-%m-%d" }}</td>
     <td class="location">{{ post.location.city }}</td>
