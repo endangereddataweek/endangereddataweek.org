@@ -3,9 +3,10 @@
 }
 
 body {
-  background-color: #C5AB88;
+  background-color: #f2f2f2;
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
+  color: #333;
 }
 @media (max-width: 400px) {
   body {
@@ -13,43 +14,43 @@ body {
   }
 }
 table {
-  color: white;
+  color: #333;
   width: 100%;
 }
 th {
   font-weight: 500;
 }
 a {
-  color: white;
+  color: #333;
   transition: .25s color;
 }
 h1, h2 {
-  color: white;
+  color: #333;
 }
 h1 {
   margin: 0;
   font-size: 54px;
   padding: 0 0 10px;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #333;
 }
 .head-title a,
 .head-title a:hover {
-  color: white;
+  color: #333;
   text-decoration: none;
 }
 .header-logo {
   height: 200px;
   width: auto;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #333;
 }
 a:hover {
-  color: #3B6279;
+  color: #ff5500;
 }
 a:active {
-  color: #3B6279;
+  color: #ff5500;
 }
 table td, table th {
-  border: 1px solid white;
+  border: 1px solid #333;
   padding: 10px;
   text-align: left;
   border-width: 5px;
@@ -77,7 +78,7 @@ table.locations,
 table.keynotes,
 table.speaker-list {
   margin-bottom: 4rem;
-  border-top: 3px solid white;
+  border-top: 3px solid #333;
 }
 table.speaker-list {
   margin-top: 2rem;
@@ -176,7 +177,7 @@ table.speaker-list {
   padding: 17px 10px 4rem 0px;
 }
 .second-tagline .button {
-  color: #537ABD;
+  color: #ff5500;
   background-color: #fff;
   transition: .25s background;
   padding: 1em 2em;
@@ -216,7 +217,7 @@ table.speaker-list {
   border: 1px transparent;
 }
 .link, .link a {
-  background-color: white;
+  background-color: #333;
   color: #3B6279;
   text-decoration: none;
   font-weight: 500;
@@ -225,7 +226,7 @@ table.speaker-list {
   font-weight: 500;
 }
 footer {
-  color: white;
+  color: #333;
   font-size: 14px;
   font-weight: 200;
 }
