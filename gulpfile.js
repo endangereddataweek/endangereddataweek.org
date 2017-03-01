@@ -8,6 +8,8 @@ var include     = require('gulp-include');
 //@see https://www.npmjs.com/package/gulp-uglify
 var uglify      = require('gulp-uglify');
 var pump        = require('pump');
+var modernizr   = require('gulp-modernizr');
+
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -82,6 +84,16 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}));
         // .pipe(gulp.dest('css'));
+});
+
+/**
+ * Build modernizr
+ */
+gulp.task('modernizr', function() {
+  gulp.src('./js/*.js')
+    .pipe(modernizr())
+    .pipe(uglify())
+    .pipe(gulp.dest("js/vendor/"));
 });
 
 /**

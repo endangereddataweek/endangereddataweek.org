@@ -5,6 +5,17 @@ tag: "Bringing together researchers, journalists, librarians, technologists, and
 date: "April 17-21 2017"
 url: "http://endangereddataweek.org"
 
+twitter_username: clirdlf
+github_username: endangereddataweek
+
 collections:
   events:
     output: true # generate a page for each document
+
+exclude: ['.gitignore', '.e']
+sass:
+  style: compressed
+  
+gems:
+  - jekyll-sitemap
+  - jekyll-feed

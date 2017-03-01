@@ -17,6 +17,7 @@
   },
   "homepage": "http://ndsa.org",
   "dependencies": {
+    
   },
   "devDependencies": {
     "browser-sync": "^2.14.0",
@@ -28,6 +29,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "node-sass": "^3.10.1",
-    "pump": "^1.0.1"
+    "pump": "^1.0.1",
+    "gulp-modernizr": "^1.0.0-alpha"
   }
 }

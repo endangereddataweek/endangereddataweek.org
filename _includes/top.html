@@ -1,15 +1,16 @@
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ site.title }} - {{ site.date }}</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Open Graph Data -->
-    <meta property="og:title" content="{{ site.title }} - {{ site.date }}"/>
-    <meta property="og:url" content="{{ site.url }}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="{{ site.description }}"/>
+    {% include twitter-card.html %}
+    {% include opengraph.html %}
 
+    <script src="js/vendor/modernizr.js"></script>
   </head>
