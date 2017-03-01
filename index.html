@@ -38,12 +38,13 @@ title: Home
     <th class="location">Location</th>
     <th>Link</th>
   </tr>
-  {%  for post in site.posts reversed %}
+  {%  for event in site.events %}
   <tr class="post transparent">
-    <td class="date">{{ post.date | date: "%Y-%m-%d" }}</td>
-    <td class="location">{{ post.location.city }}</td>
-    <td class="title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    <td class="date">{{ event.date | date: "%Y-%m-%d "}} {{ event.time | date: "%I:%M %P" }}</td>
+    <td class="location">{{ event.location_city }}</td>
+    <td class="title"><a href="{{ event.url }}">{{ event.title }}</a></td>
   </tr>
   {% endfor %}
 </table>
+
 <a title="Add your own event" class="submit-talk button" href="https://docs.google.com/forms/d/e/1FAIpQLSeTZ30rbBS5axmn-QpWZML_nEqT_bmiz9V2TiQYYTTQSsKUxw/viewform" target="_blank">Add your event to the list!</a>

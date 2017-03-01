@@ -4,9 +4,9 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-Date: {{ page.date | date: "%Y-%m-%d %r" }}  <br/>
+Date: {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
 
-Location: {{ page.location.physical }}
+Location: {{ page.location_physical }}
 
 {{ content }}
 
