@@ -1,3 +1,5 @@
+/* General */
+
 * {
   box-sizing: border-box;
 }
@@ -13,16 +15,17 @@ body {
     margin: 20px;
   }
 }
-table {
-  color: #333;
-  width: 100%;
-}
-th {
-  font-weight: 500;
-}
+
+/* Typography */
 a {
   color: #333;
   transition: .25s color;
+}
+a:hover {
+  color: #ff5500;
+}
+a:active {
+  color: #ff5500;
 }
 h1, h2 {
   color: #333;
@@ -33,6 +36,17 @@ h1 {
   padding: 0 0 10px;
   border-bottom: 5px solid #333;
 }
+.bold {
+  font-weight: 500;
+}
+.link, .link a {
+  background-color: #333;
+  color: #3B6279;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Header and navigation */
 .head-title a,
 .head-title a:hover {
   color: #333;
@@ -43,11 +57,29 @@ h1 {
   width: auto;
   border-bottom: 5px solid #333;
 }
-a:hover {
-  color: #ff5500;
+
+ul.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-a:active {
-  color: #ff5500;
+
+ul.navigation li {
+  display: inline;
+}
+@media (max-width: 600px) {
+  ul.navigation {
+    display: none; /* need to do something else here */
+  }
+}
+
+/* Tables */
+table {
+  color: #333;
+  width: 100%;
+}
+th {
+  font-weight: 500;
 }
 table td, table th {
   border: 1px solid #333;
@@ -74,16 +106,19 @@ table {
   border-collapse: collapse;
   border-style: hidden;
 }
-table.locations,
-table.keynotes,
-table.speaker-list {
+table.locations {
   margin-bottom: 4rem;
   border-top: 3px solid #333;
 }
-table.speaker-list {
-  margin-top: 2rem;
+.transparent td {
+  border: 1px transparent;
 }
+
+/* Content */
 .sixty {
+  width: 100%;
+}
+.eighty {
   width: 100%;
 }
 .meta {
@@ -97,74 +132,12 @@ table.speaker-list {
   .sixty {
     width: 60%;
   }
+  .eighty {
+    width: 80%;
+  }
 }
 .date {
   width: 25%;
-}
-.speaker {
-  width: 25%;
-}
-.keynotes td {
-  border-right: none;
-}
-.keynote {
-  text-align: center;
-  width: 25%;
-  padding-right: .5em;
-  display: inline-block;
-  vertical-align: top;
-  transition: .5s padding;
-}
-@media (max-width: 600px) {
-  .keynote {
-    width: 50%;
-  }
-}
-.keynote .image {
-  width: 100%;
-  height: 200px;
-  background-position: 0;
-  background-size: cover;
-  background-color: #3B6279;
-  color: #fff;
-  font-size: 60px;
-  display: block;
-  padding-top: 0.6em;
-  font-size: 4em;
-  transition: all .5s;
-  cursor: pointer;
-  margin: 0 auto;
-}
-.keynote .image:hover {
-  opacity: .6;
-}
-@media (min-width: 1024px) {
-  .keynote .image { height: 300px }
-}
-@media (min-width: 1600px) {
-  .keynote .image { height: 400px }
-}
-.keynote h3 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  margin: 1em 0;
-}
-.keynote .bio {
-  display: none;
-  font-size: 16px;
-  text-align: left;
-}
-.keynote-selector {
-  display: none;
-}
-.keynote-selector:checked + .keynote .bio {
-  display: block;
-}
-.keynote-selector:checked + .keynote {
-  background: #799dda;
-  padding: .5em;
 }
 .location {
   width: 30%;
@@ -189,15 +162,6 @@ table.speaker-list {
 .second-tagline .button:active {
   background-color: #f2f2f2;
 }
-.second-tagline .buy-tickets {
-  margin-left: 1em;
-}
-@media (max-width: 1024px) {
-  .second-tagline .buy-tickets {
-    margin-left: 0;
-    margin-top: 1em;
-  }
-}
 .second-tagline--info {
   width: 100%;
   margin-top: 1em;
@@ -212,18 +176,6 @@ table.speaker-list {
 }
 .slack-link {
   margin-top: 2em;
-}
-.transparent td {
-  border: 1px transparent;
-}
-.link, .link a {
-  background-color: #333;
-  color: #3B6279;
-  text-decoration: none;
-  font-weight: 500;
-}
-.bold {
-  font-weight: 500;
 }
 footer {
   color: #333;
