@@ -1,0 +1,28 @@
+{
+  "name": "endandereddataweek.org",
+  "version": "1.0.0",
+  "description": "automation for Endangered Data Week site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endangereddataweek/endangereddataweek.org.git"
+  },
+  "author": "CLIR/DLF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endangereddataweek/endangereddataweek.org/issues"
+  },
+  "homepage": "http://ndsa.org",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^3.10.1"
+  }
+}
