@@ -3,6 +3,11 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var sourcemaps  = require('gulp-sourcemaps');
+var include     = require('gulp-include');
+//@see https://www.npmjs.com/package/gulp-uglify
+var uglify      = require('gulp-uglify');
+var pump        = require('pump');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -31,10 +36,36 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
         server: {
-            baseDir: '_site'
+            baseDir: '_site',
+            injectChanges: true
         }
     });
 });
+
+/**
+ * Compile JS files from js/scripts.js using gulp-include
+ */
+gulp.task('scripts', function() {
+    pump([
+        gulp.src(['./js/src/scripts.js']),
+        include(),
+        gulp.dest('./js/src/build/'),
+    ]);
+});
+
+/**
+ * Compress and uglify JavaScript files
+ */
+ gulp.task('compress', function (cb) {
+   pump([
+         gulp.src('js/src/build/*.js'),
+         uglify(),
+         gulp.dest('js')
+     ],
+     cb
+   );
+ });
+
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
@@ -43,7 +74,8 @@ gulp.task('sass', function () {
     return gulp.src('_sass/main.scss')
         .pipe(sass({
             // includePaths: ['scss'],
-            onError: browserSync.notify
+            onError: browserSync.notify,
+            outputStyle: 'compressed'
         }))
         .pipe(gulp.dest('_site/css'))
         .pipe(gulp.dest('css'))
@@ -58,11 +90,12 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch('_sass/*.scss', ['sass']);
-    gulp.watch(['*.html', '**/*.md', 'tests/*.js', '_includes/**/*.html', '_layouts/*.html', 'js/*.js', '_posts/*', '_institutes/*'], ['jekyll-rebuild']);
+    gulp.watch('js/src/*.js', ['scripts', 'compress']);
+    gulp.watch(['**/*.html', '**/*.md', 'js/main.js', '_posts/*',], ['jekyll-rebuild']);
 });
 
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch', 'sass']);
+gulp.task('default', ['browser-sync', 'watch']);
