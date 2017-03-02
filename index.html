@@ -38,7 +38,8 @@ title: Home
     <th class="location">Location</th>
     <th>Link</th>
   </tr>
-  {%  for event in site.events %}
+  {% assign sorted = (site.events | sort: 'date') %}
+  {%  for event in sorted %}
   <tr class="post transparent">
     <td class="date">{{ event.date | date: "%Y-%m-%d "}} {{ event.time | date: "%I:%M %P" }}</td>
     <td class="location">{{ event.location_city }}</td>
