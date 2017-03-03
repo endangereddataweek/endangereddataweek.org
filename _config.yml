@@ -1,21 +1,37 @@
-markdown: kramdown
-title: Endangered Data Week
-description: "Bringing awareness to different types of threats to publicly available data, engage with the power dynamics involved in data creation, sharing, and retention, and to make endangered data more secure and accessible."
-tag: "Bringing together researchers, journalists, librarians, technologists, and community partners to discuss data analysis, creation, sharing, retention, preservation, security."
-date: "April 17-21 2017"
-url: "http://endangereddataweek.org"
+# Site wide config
+title                 : Endangered Data Week
+description           : "raising awareness of threats to publicly available data, the power dynamics of data creation, sharing, and retention, and ways to make endangered data more accessible and secure"
+tag                   : "bringing together researchers, journalists, librarians, technologists, and community partners to discuss data analysis, creation, sharing, retention, preservation, and security"
+date                  : "April 17-21, 2017"
+url                   : "http://endangereddataweek.org"
+repository            : "https://github.com/endangereddataweek/endangereddataweek.org"
 
-twitter_username: clirdlf
-github_username: endangereddataweek
+# Jekyll config
+markdown              : kramdown
+kramdown:
+  toc_levels          : 1..3
+  hard_wrap           : false
+  auto_ids            : true
+future                : true
+show_drafts           : false
+highlighter           : rouge
 
 collections:
   events:
     output: true # generate a page for each document
+    permalink: /:collection/:path/
 
-exclude: ['.gitignore', '.e']
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+
+exclude: ['templates','node_modules', '.gitignore', '.env', 'Gemfile*', 'gulpfile.js', 'Makefile', 'package.json', 'Rakefile', 'README.md']
 sass:
   style: compressed
-  
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
