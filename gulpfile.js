@@ -103,7 +103,7 @@ gulp.task('modernizr', function() {
 gulp.task('watch', function () {
     gulp.watch('_sass/*.scss', ['sass']);
     gulp.watch('js/src/*.js', ['scripts', 'compress']);
-    gulp.watch(['**/*.html', '**/*.md', 'js/main.js', '_posts/*',], ['jekyll-rebuild']);
+    gulp.watch(['**/*.html', '_events/*', 'js/main.js', '_posts/*',], ['jekyll-rebuild']);
 });
 
 /**

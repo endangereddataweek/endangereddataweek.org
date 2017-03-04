@@ -1,12 +1,12 @@
 ---
 layout: post
-date: "<%= @date %>"
-time: "<%= @time %>
-location_city: "<%= @location_city %>"
-location_physical: "<%= @location_physical %>"
-title: "<%= @title %>"
-author: "<%= @author %>"
-bio: "<%= @bio %>"
+date: "<%= @event[:date] %>"
+time: "<%= @event[:time] %>"
+location_city: "<%= @event[:institution] %>"
+location_physical: "<%= @event[:location] %>"
+title: "<%= @event[:title] %>"
+author: "<%= @event[:contact] %>"
+bio: ""
 ---
 
-<%= content %>
+<%= @event[:description] %>
