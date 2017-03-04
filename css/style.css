@@ -22,10 +22,12 @@ a {
   transition: .25s color;
 }
 a:hover {
-  color: #ff5500;
+  /*color: #ff5500;*/
+  color: #d34600;
 }
 a:active {
-  color: #ff5500;
+  color: #d34600;
+  /*color: #ff5500;*/
 }
 h1, h2 {
   color: #333;
@@ -150,7 +152,8 @@ table.locations {
   padding: 17px 10px 4rem 0px;
 }
 .second-tagline .button {
-  color: #ff5500;
+  /*color: #ff5500;*/
+  color: #d34600;
   background-color: #fff;
   transition: .25s background;
   padding: 1em 2em;
