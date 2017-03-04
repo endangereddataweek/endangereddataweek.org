@@ -5,6 +5,7 @@ tag                   : "bringing together researchers, journalists, librarians,
 date                  : "April 17-21, 2017"
 url                   : "http://endangereddataweek.org"
 repository            : "https://github.com/endangereddataweek/endangereddataweek.org"
+twitter_username      : "clirdlf"
 
 # Jekyll config
 markdown              : kramdown
