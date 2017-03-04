@@ -36,7 +36,51 @@ namespace :import do
         end
         # import:events
     end
+
+    desc 'Generate GeoJSON from Google Spreadsheet'
+    task map: :dotenv do
+        login
+        system('clear')
+        @features = []
+
+        (2..@ws.num_rows).each do |row|
+            feature = {} # feature container
+
+            feature = {
+                id: row,
+                title: @ws[row, 2],
+                date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
+                institution: @ws[row, 5],
+                location: @ws[row, 6],
+                contact: @ws[row, 7],
+                time: @ws[row, 4],
+                longitude: @ws[row, 9],
+                latitude: @ws[row, 10],
+            }
+
+            # check if a location has been created
+             if(feature[:longitude] == '' || feature[:latitude] == '')
+                 address = "#{@ws[row, 5]}, #{@ws[row, 6]}"
+                 puts "Looking up #{address}".yellow
+                 result = geocode(address)
+                 @ws[row, 9]  = result[:lat]
+                 @ws[row, 10] = result[:lon]
+                 @ws.save
+             else
+                 puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
+             end
+
+             puts "Adding #{feature[:title]}".yellow
+             @features << feature
+        end
+
+        puts "Rendering JavaScript map data".green
+        contents = render_erb('templates/events.js.erb')
+        write_file('./data/events_map.js', contents)
+
+    end
 end
+
 
 def filename(event)
     formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
