@@ -1,5 +1,5 @@
 //=require dlf.js
-//=require format-google-calendar.js
+//=require map.js
 
 (function(){
   'use strict';

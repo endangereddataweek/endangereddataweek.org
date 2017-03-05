@@ -57,8 +57,8 @@ namespace :import do
                 location: @ws[row, 6],
                 contact: @ws[row, 7],
                 time: @ws[row, 4],
-                longitude: @ws[row, 9],
-                latitude: @ws[row, 10]
+                latitude: @ws[row, 9],
+                longitude: @ws[row, 10]
             }
 
             # check if a location has been created
@@ -140,7 +140,7 @@ def geocode(address)
     if result
         {
             lat: result.latitude,
-            lon: result.latitude
+            lon: result.longitude
         }
     else
         {}

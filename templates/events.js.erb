@@ -1,7 +1,7 @@
 var events = {
   "type": "FeatureCollection",
   "features": [
-    <% @features.each do |feature| %>
+    <% @features.each do |feature, index| %>
     {
       "geometry": {
         "type": "Point",
@@ -9,10 +9,10 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><%= feature[:title] %></h2><p><strong>Institution:</strong> <%= feature[:institution] %></p><p><strong>Location:</strong> <%= feature[:location] %></p><p><strong>Date</strong><%= feature[:date]%> at <%= feature[:time] %></p><p><strong>Contact:</strong><%= feature[:contact] %></p>"
+        "popupContent": "<h2><%= feature[:title] %></h2><p><strong>Institution:</strong> <%= feature[:institution] %></p><p><strong>Location:</strong> <%= feature[:location] %></p><p><strong>Date:</strong> <%= feature[:date]%> at <%= feature[:time] %></p><p><strong>Contact:</strong> <%= feature[:contact] %></p>"
       },
       "id":  <%= feature[:id] %>
-    },
+    }<% unless index == feature.length - 1 %>,<% end %>
     <% end %>
   ]
 };
