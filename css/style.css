@@ -185,3 +185,17 @@ footer {
   font-size: 14px;
   font-weight: 200;
 }
+
+.dlf-font { font-family: 'Crimson Text', serif; }
+.dlf-color { color: #046BA5; }
+.logo {
+  float: left;
+  padding-right: 15px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.logo a {
+  text-decoration: none;
+}

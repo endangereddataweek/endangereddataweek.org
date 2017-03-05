@@ -1,13 +1,40 @@
 <footer>
-    <p class="sixty">
-        We strive to foster supportive and inclusive environments for all, and strongly encourage you to read the <a href="https://www.diglib.org/about/code-of-conduct/" title="DLF Code of Conduct">DLF Code of Conduct</a> and enforce it or a similar code
-        at your event.</p>
-    <p>
-        <p class="sixty">This website is <a href="{{ site.repository }}" title="Website source code on GitHub">open source</a> and Creative Commons licensed (<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>). Theme based on <a href="https://csvconf.com/">csv,conf</a>.</p>
-        <p class="sixty">
-            Facilitated by a dedicated <a href='/about/'>team of volunteers</a> in collaboration with the <a href="https://diglib.org/">Digital Library Federation</a> and its new <a href="https://www.diglib.org/transparency-accountability/">interest group</a>            on Records Transparency/Accountability.
-        </p>
+
+  <hr />
+
+  <p class="sixty">
+    <span class="logo">
+      <a href="https://www.diglib.org">
+        <i class="icon-dlf-logo dlf-color"></i>
+        <span class="dlf-font">DLF</span>
+      </a>
+    </span>
+    We strive to foster supportive and inclusive environments for all, and strongly encourage you to read the <a href="https://www.diglib.org/about/code-of-conduct/" title="DLF Code of Conduct">DLF Code of Conduct</a> and enforce it or a similar code
+    at your event.
+  </p>
+  <p class="sixty">This website is <a href="{{ site.repository }}" title="Website source code on GitHub">open source</a> and Creative Commons licensed (<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>). Theme based on <a href="https://csvconf.com/">csv,conf</a>.</p>
+  <p class="sixty">
+    Facilitated by a dedicated <a href='/about/'>team of volunteers</a> in collaboration with the <a href="https://diglib.org/">Digital Library Federation</a> and its new <a href="https://www.diglib.org/transparency-accountability/">interest group</a>            on Records Transparency/Accountability.
+  </p>
+
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
+{% for js in page.javascript %}
+   <script src="{{ js }}"></script>
+{% endfor %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.content | strip_html | xml_escape | truncate: 200 }}",
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "Endangered Data Week"
+  },
+  "license": "https://creativecommons.org/licenses/by-by/4.0/legalcode"
+}
+</script>
