@@ -201,5 +201,17 @@ footer {
 }
 
 #map {
-  height: 400px; 
+  height: 400px;
+}
+
+th.dynatable-head {
+  background: #F2F2F2;
+}
+
+th.dynatable-head a {
+  color: #333;
+}
+
+a.dynatable-active-page {
+  background: #d34600;
 }

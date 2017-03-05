@@ -22,22 +22,56 @@ namespace :import do
     task :events do
         login
         (2..@ws.num_rows).each do |row|
-            @event = {
-                title: @ws[row, 2],
-                date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
-                time: @ws[row, 4],
-                institution: @ws[row, 5],
-                location: @ws[row, 6],
-                contact: @ws[row, 7],
-                description: @ws[row, 8]
-            }
-
+            @event = event_hash(row)
             contents = render_erb('templates/event.html.erb')
-            file_path = filename(@event)
+            file_path = @event[:file_path]
             write_file(file_path, contents)
             puts "Writing the event for '#{@event[:title]}'".green
         end
-        # import:events
+    end
+
+    desc 'Generate JSON for dynatable plugin'
+    task data: :dotenv do
+        login
+        system('clear')
+        @events = []
+
+        (2..@ws.num_rows).each do |row|
+            @event = {
+                date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
+                location: @ws[row, 6],
+                title: @ws[row, 2]
+            }
+            @event.merge!(file_path: filename(@event))
+            @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
+            @event.merge!(link: link_title(@event))
+            @events << @event
+            File.open('data/events_table.json', 'w'){ |f| f.write(@events.to_json) }
+        end
+    end
+
+    def link_title(event)
+        "<a href='#{event[:web_path]}'>#{event[:title]}</a>"
+    end
+
+    def event_hash(row)
+        event = {
+            id: row,
+            title: @ws[row, 2],
+            date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
+            institution: @ws[row, 5],
+            location: @ws[row, 6],
+            contact: @ws[row, 7],
+            time: @ws[row, 4],
+            description: @ws[row, 8],
+            email: @ws[row, 9],
+            website: @ws[row, 10],
+            latitude: @ws[row, 11],
+            longitude: @ws[row, 12]
+        }
+        event.merge!(file_path: filename(event))
+        event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))
+        event.merge!(link: link_title(event))
     end
 
     desc 'Generate GeoJSON from Google Spreadsheet'
@@ -47,19 +81,7 @@ namespace :import do
         @features = []
 
         (2..@ws.num_rows).each do |row|
-            feature = {} # feature container
-
-            feature = {
-                id: row,
-                title: @ws[row, 2],
-                date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
-                institution: @ws[row, 5],
-                location: @ws[row, 6],
-                contact: @ws[row, 7],
-                time: @ws[row, 4],
-                latitude: @ws[row, 9],
-                longitude: @ws[row, 10]
-            }
+            feature = event_hash(row)
 
             # check if a location has been created
             if feature[:longitude] == '' || feature[:latitude] == ''

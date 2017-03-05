@@ -11,7 +11,7 @@ Location: {{ page.location_city}} | {{page.location_physical }}
 {{ content }}
 
 <div class="meta sixty">
-<h4>Contact {{ page.author }}</h4>
+<h4>Contact <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
 
-<p>{{ page.bio }} Posted on {{ page.date | date: "%Y-%m-%d" }}.</p>
+<p>Added on {{ page.date | date: "%Y-%m-%d" }}.</p>
 </div>
