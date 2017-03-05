@@ -4,14 +4,22 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-Date: {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
+<strong>Date:</strong> {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
 
-Location: {{ page.location_city}} | {{page.location_physical }}
+<strong>Location:</strong> {{ page.location_city}} | {{page.location_physical }}
+
+{% if page.website.size > 0 %}
+<br /><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a>
+{% endif %}
 
 {{ content }}
 
 <div class="meta sixty">
-<h4>Contact <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
+  {% if page.email %}
+    <h4>Contact <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
+  {% else %}
+    <h4>Contact {{ page.author }}</h4>
+  {% endif %}
 
-<p>Added on {{ page.date | date: "%Y-%m-%d" }}.</p>
+  <p>Added on {{ page.date | date: "%Y-%m-%d" }}.</p>
 </div>
