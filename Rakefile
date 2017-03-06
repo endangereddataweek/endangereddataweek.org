@@ -15,9 +15,13 @@ require 'json'
 
 Dotenv.load
 
-task default: 'import:events'
+# task default: 'import:events'
+task default: 'import:all'
 
 namespace :import do
+    desc 'Import events for the collection, map, and datatable'
+    task :all => [:events, :data, :map]
+
     desc 'Import Events from the Google Spreadsheet'
     task :events do
         login
@@ -46,6 +50,7 @@ namespace :import do
             @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
             @event.merge!(link: link_title(@event))
             @events << @event
+            puts "Writing events for table view'".green
             File.open('data/events_table.json', 'w'){ |f| f.write(@events.to_json) }
         end
     end
@@ -88,8 +93,8 @@ namespace :import do
                 address = "#{@ws[row, 5]}, #{@ws[row, 6]}"
                 puts "Looking up #{address}".yellow
                 result = geocode(address)
-                @ws[row, 9]  = result[:lat]
-                @ws[row, 10] = result[:lon]
+                @ws[row, 11]  = result[:lat]
+                @ws[row, 12] = result[:lon]
                 @ws.save
             else
                 puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
