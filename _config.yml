@@ -28,6 +28,8 @@ navigation:
     url: /
   - title: About
     url: /about/
+  - title: Events & Map
+    url: /map/
 
 exclude: ['templates','node_modules', '.gitignore', '.env', 'Gemfile*', 'gulpfile.js', 'Makefile', 'package.json', 'Rakefile', 'README.md']
 sass:
