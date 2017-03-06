@@ -9,7 +9,6 @@
     $.ajax({
         url: '/data/events_table.json',
         success: function(data) {
-            console.log(data);
             $('#event_table').dynatable({
                 dataset: {
                     records: data
