@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include twitter-card.html %}
     {% include opengraph.html %}
+    {% if site.google-tracking-id  %}
+      {% include google-analytics.html %}
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <script src="/js/vendor/modernizr.js"></script>
   </head>
