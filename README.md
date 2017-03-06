@@ -80,4 +80,4 @@ $ rake test:accessibility
 
 ## License
 
-[CC-BY](LICENSE.md)
+The code for Endangered Data Week is released under the [MIT License](LICENSE).
