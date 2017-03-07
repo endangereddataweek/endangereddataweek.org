@@ -33,7 +33,20 @@
     }
 
 
-    var markers = L.markerClusterGroup();
+    var markers = L.markerClusterGroup(); // @see https://github.com/Leaflet/Leaflet.markercluster
+    var oms = new OverlappingMarkerSpiderfier(map);
+
+    var popup = new L.Popup();
+
+    oms.addListener('click', function(marker){
+        popup.setContent(marker.desc);
+        popup.setLatLng(marker.getLatLng());
+        map.openPopup(popup);
+    });
+
+    oms.addListener('spiderfy', function(markers){
+            map.closePopup();
+    });
 
     var geoJsonLayer = L.geoJson(events, {
         onEachFeature: onEachFeature,
