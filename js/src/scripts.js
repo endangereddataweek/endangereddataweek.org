@@ -11,7 +11,8 @@
         success: function(data) {
             $('#event_table').dynatable({
                 dataset: {
-                    records: data
+                    records: data,
+                    sorts: { date: 1 }
                 }
             });
         }
