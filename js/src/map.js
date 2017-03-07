@@ -32,13 +32,17 @@
         layer.bindPopup(popupContent);
     }
 
-    L.geoJson([events], {
-        style: function(feature) {
-            return feature.properties && feature.properties.style;
-        },
+
+    var markers = L.markerClusterGroup();
+
+    var geoJsonLayer = L.geoJson(events, {
         onEachFeature: onEachFeature,
         pointToLayer: function(feature, latlng) {
             return L.marker(latlng);
         }
-    }).addTo(map);
+    });
+
+    markers.addLayer(geoJsonLayer);
+    map.addLayer(markers);
+    // map.fitBounds(markers.getBounds()); // this may be useful
 })();
