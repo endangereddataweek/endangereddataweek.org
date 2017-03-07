@@ -96,6 +96,8 @@ namespace :import do
         @ws[row, 11]  = result[:lat]
         @ws[row, 12] = result[:lon]
         @ws.save
+        feature[:longitude] = result[:lon]
+        feature[:latitude] = result[:lat]
       else
         puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
       end
