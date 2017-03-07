@@ -43,7 +43,7 @@ namespace :import do
     (2..@ws.num_rows).each do |row|
       @event = {
         date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
-        location: @ws[row, 6],
+        location: @ws[row, 5],
         title: @ws[row, 2]
       }
       @event.merge!(file_path: filename(@event))

@@ -8,8 +8,8 @@ title: "Web Scraping with R"
 author: "Jason Heppler"
 website: ""
 email: "jheppler@unomaha.edu"
-latitude: ""
-longitude: ""
+latitude: "41.2587253"
+longitude: "-96.0114672"
 ---
 
 We often want data in a tidy format. While this often makes for a convenient and human-readable framework, data doesn't always come nicely formatted especially from the web. This workshop will provide a quick overview of popular methods for acquiring information/data from the web using R, with a focus on harvesting government data.
