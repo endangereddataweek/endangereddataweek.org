@@ -10,7 +10,11 @@
 {% else %}
   <meta content="website" property="og:type">
 {% endif %}
+{% if page.excerpt %}
+<meta name="twitter:description" content="{{ page.excerpt }}">
+{% else %}
 <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
 {% if page.url %}
   <meta content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" property="og:url">
 {% endif %}

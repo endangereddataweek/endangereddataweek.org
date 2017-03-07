@@ -2,14 +2,15 @@
 layout: post
 date: "2017-04-18"
 time: "12:00:00 PM"
+excerpt: "Spend your lunch break advocating for better data collection policies and for better access to government data..."
 location_city: "Michigan State University"
 location_physical: "LEADR - 112 Old Horticulture"
 title: "Write and Bite Back"
 author: "Brandon Locke"
 website: "http://digitalhumanities.msu.edu/event/write-and-bite-back/"
 email: "blocke@msu.edu"
-latitude: ""
-longitude: ""
+latitude: "42.701848"
+longitude: "-84.4821719"
 ---
 
 Spend your lunch break advocating for better data collection policies and for better access to government data!

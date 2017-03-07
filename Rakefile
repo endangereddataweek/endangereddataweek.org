@@ -59,6 +59,10 @@ namespace :import do
     "<a href='#{event[:web_path]}'>#{event[:title]}</a>"
   end
 
+  def shorten(string, count)
+    string.match(/^.{0,#{count}}\b/)[0] + "..."
+  end
+
   def event_hash(row)
     event = {
       id: row,
@@ -69,6 +73,7 @@ namespace :import do
       contact: @ws[row, 7],
       time: @ws[row, 4],
       description: @ws[row, 8],
+      excerpt: shorten(@ws[row, 8], 140),
       email: @ws[row, 9],
       website: @ws[row, 10],
       latitude: @ws[row, 11],
