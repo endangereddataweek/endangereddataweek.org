@@ -26,5 +26,17 @@ var events = {
       "id":  3
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0114672, 41.25872529999999]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2><a href=\"/events/2017-04-18-web-scraping-with-r/\">Web Scraping with R</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library 225</p><p><strong>Date:</strong> 2017-04-18 at 11:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  4
+    },
+    
   ]
 };
