@@ -7,7 +7,7 @@ url                   : "http://endangereddataweek.org"
 repository            : "https://github.com/endangereddataweek/endangereddataweek.org"
 twitter_username      : "clirdlf"
 
-google-tracking-id    :
+google-tracking-id    : "UA-93198655-1"
 
 # Jekyll config
 markdown              : kramdown
