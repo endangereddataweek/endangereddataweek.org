@@ -8,7 +8,6 @@
 {% if page.url %}
   <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
 {% endif %}
-<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
 {% if page.image %}
   <meta name="twitter:image:src" content="{{ page.image }}">
 {% else %}
