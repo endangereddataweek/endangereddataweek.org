@@ -1,9 +1,9 @@
 ---
 layout: post
 date: "2017-04-21"
-time: "12:30:00 PM"
+time: "11:30:00 AM"
 location_city: "Michigan State University"
-location_physical: "Linton Hall 120"
+location_physical: "Library 3W"
 title: "Building a Scholarly Presence with Humanities Commons"
 author: "Kristen Mapes"
 website: "http://digitalhumanities.msu.edu/event/workshop-building-a-scholarly-presence-with-humanities-commons/"
