@@ -65,11 +65,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.331057, 47.60672]
+        "coordinates": [-84.4821719, 42.701848]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
+        "popupContent": "<h2><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library - Beaumont Instruction Room</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
       },
       "id":  7
     },
@@ -81,9 +81,21 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
+        "popupContent": "<h2><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
       },
       "id":  8
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.331057, 47.60672]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  9
     },
     
   ]
