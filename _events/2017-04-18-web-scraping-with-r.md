@@ -13,6 +13,6 @@ latitude: "41.2587253"
 longitude: "-96.0114672"
 ---
 
-We often want data in a tidy format. While this often makes for a convenient and human-readable framework, data doesn't always come nicely formatted especially from the web. This workshop will provide a quick overview of popular methods for acquiring information/data from the web using R, with a focus on harvesting government data.
+We often want data in a tidy format. While this often makes for a convenient and human-readable framework, data doesn't always come nicely formatted especially from the web. This hour-long workshop will provide a quick overview of popular methods for acquiring information/data from the web using R, with a focus on harvesting government data.  No prerequisite software is required; a version of RStudio will be provided to participants via a server. 
 
 
