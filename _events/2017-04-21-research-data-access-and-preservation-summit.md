@@ -9,8 +9,8 @@ title: "Research Data Access and Preservation Summit"
 author: ""
 website: "https://www.asis.org/rdap/program-2017/"
 email: ""
-latitude: ""
-longitude: ""
+latitude: "47.60672"
+longitude: "-122.331057"
 ---
 
 Two concurrent workshops will be offered on Friday. Coffee and light refreshments will be available in the morning.
