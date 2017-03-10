@@ -161,14 +161,14 @@ table.locations {
 .second-tagline .button {
   /*color: #ff5500;*/
   color: #333;
-  background-color: #b2b2b2;
+  background-color: #f2f2f2;
   transition: .25s background;
   padding: .4em 2em;
   display: inline-block;
   border: 1px solid #ff5500;
 }
 .second-tagline .button:hover {
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 .second-tagline .button:active {
   background-color: #f2f2f2;
