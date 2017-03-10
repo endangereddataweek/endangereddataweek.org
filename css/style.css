@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #fff;
+  background-image: url("bg.png");
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
   color: #333;
@@ -22,21 +23,27 @@ a {
   transition: .25s color;
 }
 a:hover {
-  /*color: #ff5500;*/
-  color: #d34600;
+  /*color: #d34600;*/
+  color: #ff5500;
 }
 a:active {
   color: #d34600;
   /*color: #ff5500;*/
 }
 h1, h2 {
-  color: #333;
+  color: #BE3F00;
+  border-left: 5px solid #666;
+  padding-left: .2em;
 }
 h1 {
   margin: 0;
   font-size: 54px;
   padding: 0 0 10px;
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid #666;
+}
+h3 {
+  border-left: 5px solid #BE3F00;
+  padding-left: .2em; 
 }
 .bold {
   font-weight: 500;
@@ -57,7 +64,7 @@ h1 {
 .header-logo {
   height: 200px;
   width: auto;
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid #666;
 }
 
 ul.navigation {
@@ -153,11 +160,12 @@ table.locations {
 }
 .second-tagline .button {
   /*color: #ff5500;*/
-  color: #d34600;
-  background-color: #fff;
+  color: #333;
+  background-color: #b2b2b2;
   transition: .25s background;
-  padding: 1em 2em;
+  padding: .4em 2em;
   display: inline-block;
+  border: 1px solid #ff5500;
 }
 .second-tagline .button:hover {
   background-color: #f2f2f2;
