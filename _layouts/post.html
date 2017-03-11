@@ -4,7 +4,7 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<strong>Date:</strong> {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
+<strong>Date &amp; Local Time:</strong> {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
 
 <strong>Location:</strong> {{ page.location_city}} | {{page.location_physical }}
 
@@ -14,12 +14,12 @@ layout: default
 
 {{ content }}
 
-<div class="meta sixty">
   {% if page.email %}
-    <h4>Contact <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
+    <strong>Contact:</strong> <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
   {% else %}
-    <h4>Contact {{ page.author }}</h4>
+    <strong>Contact {{ page.author }}</strong>
   {% endif %}
-
+  
+<div class="meta sixty">
   {% include share_buttons.html %}
 </div>
