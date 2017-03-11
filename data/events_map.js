@@ -113,11 +113,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.331057, 47.60672]
+        "coordinates": [, ]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
+        "popupContent": "<h2><a href=\"/events/2017-04-17-edw-at-ndsa-standards-practices-open-call/\">EDW at NDSA: Standards & Practices open call</a></h2><p><strong>Institution:</strong> National Digital Stewardship Alliance</p><p><strong>Location:</strong> virtual</p><p><strong>Date:</strong> 2017-04-17 at 1:00:00 PM</p><p><strong>Contact:</strong> Aaron Collie</p>"
       },
       "id":  11
     },
@@ -129,9 +129,21 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
+        "popupContent": "<h2><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
       },
       "id":  12
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.331057, 47.60672]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  13
     },
     
   ]
