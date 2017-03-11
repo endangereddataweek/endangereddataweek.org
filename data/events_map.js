@@ -1,7 +1,7 @@
 var events = {
   "type": "FeatureCollection",
   "features": [
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -13,7 +13,7 @@ var events = {
       },
       "id":  2
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@ var events = {
       },
       "id":  3
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -37,7 +37,7 @@ var events = {
       },
       "id":  4
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -49,7 +49,7 @@ var events = {
       },
       "id":  5
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@ var events = {
       },
       "id":  6
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -73,7 +73,7 @@ var events = {
       },
       "id":  7
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -85,7 +85,7 @@ var events = {
       },
       "id":  8
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -97,7 +97,7 @@ var events = {
       },
       "id":  9
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -109,11 +109,11 @@ var events = {
       },
       "id":  10
     },
-    
+
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [, ]
+        "coordinates": [-77.0392173, 38.9040754]
       },
       "type": "Feature",
       "properties": {
@@ -121,7 +121,7 @@ var events = {
       },
       "id":  11
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -133,7 +133,7 @@ var events = {
       },
       "id":  12
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -145,6 +145,6 @@ var events = {
       },
       "id":  13
     },
-    
+
   ]
 };
