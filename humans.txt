@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Wayne Graham -- @wayne_graham
+    Jason Heppler -- @jaheppler
+    Brandon Locke -- @brandontlocke
+    Bethany Nowviskie -- @nowviskie
+
+# THANKS
+
+    Digital Library Federation
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Gulp, Rake, Jekyll, jQuery, Modernizr, Leaflet, Dynatable.js
