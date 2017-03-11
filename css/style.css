@@ -54,6 +54,9 @@ h3 {
   text-decoration: none;
   font-weight: 500;
 }
+.button a {
+  text-decoration: none;
+}
 
 /* Header and navigation */
 .head-title a,
@@ -162,6 +165,7 @@ table.locations {
   /*color: #ff5500;*/
   color: #333;
   background-color: #f2f2f2;
+  text-decoration: none;
   transition: .25s background;
   padding: .4em 2em;
   display: inline-block;
