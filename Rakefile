@@ -108,7 +108,8 @@ namespace :import do
       end
 
       puts "Adding #{feature[:title]}".yellow
-      @features << feature
+
+      @features << feature unless feature[:latitude].nil?
     end
 
     puts 'Rendering JavaScript map data'.green
