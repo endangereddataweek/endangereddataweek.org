@@ -81,7 +81,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2><a href=\"/events/2017-04-17-what-is-endangered-data?/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2><a href=\"/events/2017-04-17-what-is-endangered-data/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  8
     },
