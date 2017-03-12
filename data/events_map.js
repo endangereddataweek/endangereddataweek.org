@@ -131,7 +131,7 @@ var events = {
       "properties": {
         "popupContent": "<h2><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
       },
-      "id":  12
+      "id":  13
     },
     
     {
@@ -143,7 +143,7 @@ var events = {
       "properties": {
         "popupContent": "<h2><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
       },
-      "id":  13
+      "id":  14
     },
     
   ]
