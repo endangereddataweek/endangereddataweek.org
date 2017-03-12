@@ -11,14 +11,14 @@
         });
 
     var map = L.map('map', {
-        center: [39.73, -104.99],
+        // center: [39.73, -104.99],
         zoom: 4,
         layers: [CartoDB_Positron, Thunderforest_Landscape]
     });
 
     var baseMaps = {
-        "Positron": CartoDB_Positron,
-        "Landscape": Thunderforest_Landscape
+        "Landscape": Thunderforest_Landscape,
+        "Positron": CartoDB_Positron
     };
 
     L.control.layers(baseMaps).addTo(map);
@@ -57,5 +57,5 @@
 
     markers.addLayer(geoJsonLayer);
     map.addLayer(markers);
-    // map.fitBounds(markers.getBounds()); // this may be useful
+    map.fitBounds(markers.getBounds()); // this may be useful
 })();
