@@ -17,8 +17,8 @@
     });
 
     var baseMaps = {
-        "Landscape": Thunderforest_Landscape,
-        "Positron": CartoDB_Positron
+        "Positron": CartoDB_Positron,
+        "Landscape": Thunderforest_Landscape
     };
 
     L.control.layers(baseMaps).addTo(map);
