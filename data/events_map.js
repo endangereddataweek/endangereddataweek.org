@@ -113,6 +113,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-77.0392173, 38.9040754]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2><a href=\"/events/2017-04-17-edw-at-ndsa-standards-practices-open-call/\">EDW at NDSA: Standards & Practices open call</a></h2><p><strong>Institution:</strong> National Digital Stewardship Alliance</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 1:00:00 PM</p><p><strong>Contact:</strong> Aaron Collie</p>"
+      },
+      "id":  11
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-122.331057, 47.60672]
       },
       "type": "Feature",

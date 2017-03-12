@@ -4,13 +4,13 @@ date: "2017-04-17"
 time: "1:00:00 PM"
 excerpt: "Join us for this special Endangered Data Week open call of the NDSA's Standards and Practices working group..."
 location_city: "National Digital Stewardship Alliance"
-location_physical: "virtual"
+location_physical: "Washington, DC"
 title: "EDW at NDSA: Standards & Practices open call"
 author: "Aaron Collie"
 website: "http://ndsa.org"
 email: "collie@mail.lib.msu.edu"
-latitude: ""
-longitude: ""
+latitude: "38.9040754"
+longitude: "-77.0392173"
 ---
 
 Join us for this special Endangered Data Week open call of the NDSA's Standards and Practices working group! 
