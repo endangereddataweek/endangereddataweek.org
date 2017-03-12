@@ -163,7 +163,7 @@ end
 
 def filename(event)
   formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
-  event_name = event[:title].split(%r{ |!|/|\?|:|&|-|$|,|“|”}).map do |i|
+  event_name = event[:title].split(%r{ |!|/|\?|\#|:|&|-|$|,|“|”}).map do |i|
     i.downcase if i != ''
   end.compact.join('-')
   "_events/#{formatted_date}-#{event_name}.md"

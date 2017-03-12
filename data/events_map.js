@@ -125,6 +125,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-77.0392173, 38.9040754]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2><a href=\"/events/2017-04-17-endangereddata-twitter-chat/\">#EndangeredData Twitter chat</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 3:00:00 PM</p><p><strong>Contact:</strong> Bethany Nowviskie</p>"
+      },
+      "id":  12
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-122.331057, 47.60672]
       },
       "type": "Feature",
