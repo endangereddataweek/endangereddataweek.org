@@ -124,8 +124,8 @@ namespace :import do
         address = "#{@ws[row, 5]}, #{@ws[row, 6]}"
         puts "Looking up #{address}".yellow
         result = geocode(address)
-        @ws[row, 11]  = result[:lat]
-        @ws[row, 12] = result[:lon]
+        @ws[row, @headers[:latitude]]  = result[:lat]
+        @ws[row, @headers[:longitude]] = result[:lon]
         @ws.save
         feature[:longitude] = result[:lon]
         feature[:latitude] = result[:lat]
