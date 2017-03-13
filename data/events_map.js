@@ -65,11 +65,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.4821719, 42.701848]
+        "coordinates": [-122.331057, 47.60672]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library - Beaumont Instruction Room</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
       },
       "id":  7
     },
@@ -77,11 +77,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.0107049, 41.2582497]
+        "coordinates": [-122.331057, 47.60672]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-what-is-endangered-data/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
       },
       "id":  8
     },
@@ -89,11 +89,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.0107049, 41.2582497]
+        "coordinates": [-84.4821719, 42.701848]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github/\">An Introduction to Github</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library - Beaumont Instruction Room</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
       },
       "id":  9
     },
@@ -105,9 +105,33 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-manipulation-with-r/\">Data Manipulation with R</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 1:30:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-what-is-endangered-data/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  10
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0107049, 41.2582497]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github/\">An Introduction to Github</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  11
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0107049, 41.2582497]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-manipulation-with-r/\">Data Manipulation with R</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 1:30:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  12
     },
     
     {
@@ -119,7 +143,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-edw-at-ndsa-standards-practices-open-call/\"><i class='fa fa-globe orange'></i> EDW at NDSA: Standards & Practices open call</a></h2><p><strong>Institution:</strong> National Digital Stewardship Alliance</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 1:00:00 PM</p><p><strong>Contact:</strong> Aaron Collie</p>"
       },
-      "id":  11
+      "id":  13
     },
     
     {
@@ -130,30 +154,6 @@ var events = {
       "type": "Feature",
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-endangereddata-twitter-chat/\"><i class='fa fa-globe orange'></i> #EndangeredData Twitter chat</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 3:00:00 PM</p><p><strong>Contact:</strong> Bethany Nowviskie</p>"
-      },
-      "id":  12
-    },
-    
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.331057, 47.60672]
-      },
-      "type": "Feature",
-      "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-20 at 8:00:00 AM</p><p><strong>Contact:</strong> </p>"
-      },
-      "id":  13
-    },
-    
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.331057, 47.60672]
-      },
-      "type": "Feature",
-      "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-research-data-access-and-preservation-summit/\">Research Data Access and Preservation Summit</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> Renaissance Seattle</p><p><strong>Date:</strong> 2017-04-21 at 8:30:00 AM</p><p><strong>Contact:</strong> </p>"
       },
       "id":  14
     },

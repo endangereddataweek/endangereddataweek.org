@@ -44,7 +44,7 @@ namespace :import do
     (2..@ws.num_rows).each do |row|
       @event = {
         date: Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y-%m-%d'),
-        location: @ws[row, @headers[:location_]],
+        location: @ws[row, @headers[:institution]],
         title: @ws[row, @headers[:title_of_your_event]]
       }
 
