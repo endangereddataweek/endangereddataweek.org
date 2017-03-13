@@ -123,7 +123,7 @@ header .row { z-index: 2; position: relative; }
 
 @media screen and (max-width: 468px) {
   .logo {
-    font-size: 50px;
+    font-size: 80px;
   }
   .btn-docs {
     border-color: #0097a7;
