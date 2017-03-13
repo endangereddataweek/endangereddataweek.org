@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h2>{% if page.virtual.size > 0 %} <i class="fa fa-globe orange"></i> {% endif %}{{ page.title }}</h2>
+{% if page.virtual.size > 0 %}
+<strong>This is a virtual/online event.</strong><br /><br />
+{% endif %}
 
 <strong>Date &amp; Local Time:</strong> {{ page.date | date: "%Y-%m-%d" }} {{ page.time }}  <br/>
 
@@ -19,7 +22,7 @@ layout: default
   {% else %}
     <strong>Contact {{ page.author }}</strong>
   {% endif %}
-  
+
 <div class="meta sixty">
   {% include share_buttons.html %}
 </div>

@@ -11,6 +11,7 @@ website: "https://www.asis.org/rdap/program-2017/"
 email: ""
 latitude: "47.60672"
 longitude: "-122.331057"
+virtual: ""
 ---
 
 Two concurrent workshops will be offered on Friday. Coffee and light refreshments will be available in the morning.

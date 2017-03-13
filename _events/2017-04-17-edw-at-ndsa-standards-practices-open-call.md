@@ -11,6 +11,7 @@ website: "http://ndsa.org"
 email: "collie@mail.lib.msu.edu"
 latitude: "38.9040754"
 longitude: "-77.0392173"
+virtual: "This is a virtual event"
 ---
 
 Join us for this special Endangered Data Week open call of the NDSA's Standards and Practices working group! 

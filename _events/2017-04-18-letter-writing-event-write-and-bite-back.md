@@ -11,6 +11,7 @@ website: "http://digitalhumanities.msu.edu/event/write-and-bite-back/"
 email: "blocke@msu.edu"
 latitude: "42.701848"
 longitude: "-84.4821719"
+virtual: ""
 ---
 
 Spend your lunch break advocating for better data collection policies and for better access to government data!

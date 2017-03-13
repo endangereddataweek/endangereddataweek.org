@@ -43,12 +43,17 @@ namespace :import do
 
     (2..@ws.num_rows).each do |row|
       @event = {
-        date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
-        location: @ws[row, 5],
-        title: @ws[row, 2]
+        date: Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y-%m-%d'),
+        location: @ws[row, @headers[:location_]],
+        title: @ws[row, @headers[:title_of_your_event]]
       }
+
       @event.merge!(file_path: filename(@event))
       @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
+
+      if(@ws[row, @headers[:virtual_event]].length > 0)
+        @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:title_of_your_event]]}"
+      end
       @event.merge!(link: link_title(@event))
       @events << @event
       puts "Writing events for table view'".green
@@ -78,7 +83,7 @@ namespace :import do
 
   # for testing
   task :set_headers do
-    set_headers
+    puts set_headers
   end
 
   def event_hash(row)
@@ -97,7 +102,8 @@ namespace :import do
       email:          @ws[row, @headers[:contact_email]],
       website:        @ws[row, @headers[:event_website]],
       latitude:       @ws[row, @headers[:latitude]],
-      longitude:      @ws[row, @headers[:longitude]]
+      longitude:      @ws[row, @headers[:longitude]],
+      virtual:        @ws[row, @headers[:virtual_event]],
     }
     event.merge!(file_path: filename(event))
     event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))

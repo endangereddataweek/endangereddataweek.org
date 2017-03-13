@@ -11,6 +11,7 @@ website: ""
 email: "jheppler@unomaha.edu"
 latitude: "41.2582497"
 longitude: "-96.0107049"
+virtual: ""
 ---
 
 During this three hour workshop, we will explore the ways that Github can be used for creating websites, storing data, and working with collaborators. We will explore the basics of git and Github, use some of Github's essential features, and talk about repo best practices. Participants will need to bring their own laptops; access to a *nix environment is preferred but not required.

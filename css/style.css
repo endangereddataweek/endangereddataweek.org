@@ -168,7 +168,8 @@ table.locations {
   transition: .25s background;
   padding: .4em 2em;
   display: inline-block;
-  border: 1px solid #ff5500;
+  border: 1px solid #d34600;
+  /*border: 1px solid #ff5500;*/
 }
 .second-tagline .button:hover {
   background-color: #fff;
@@ -233,4 +234,8 @@ a.dynatable-active-page {
 }
 .bar {
   border-top: 4px solid #999;
+}
+
+.orange {
+  color: #d34600;
 }
