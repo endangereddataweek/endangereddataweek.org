@@ -165,7 +165,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-a-dlf-sponsored-webinar-on-foia-government-data-and-transparency/\">Endangered Accountability: A DLF-Sponsored Webinar on FOIA, Government Data, and Transparency</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> New York, NY</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> Rachel Mattson</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-a-dlf-sponsored-webinar-on-foia-government-data-and-transparency/\"><i class='fa fa-globe orange'></i> Endangered Accountability: A DLF-Sponsored Webinar on FOIA, Government Data, and Transparency</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> New York, NY</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> Rachel Mattson</p>"
       },
       "id":  15
     },

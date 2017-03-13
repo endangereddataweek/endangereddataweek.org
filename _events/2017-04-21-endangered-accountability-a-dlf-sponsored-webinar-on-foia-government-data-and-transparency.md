@@ -11,7 +11,7 @@ website: "https://www.diglib.org/groups/transparency-accountability/"
 email: "rachmattson@gmail.com"
 latitude: "40.7127837"
 longitude: "-74.0059413"
-virtual: ""
+virtual: "This is a virtual event"
 ---
 
 Join members of the Digital Library Federation's new working group on Government Records Transparency and Accountability for a live conversation about government data and records transparency. In this webinar, we'll dig below the headlines to talk about the current state of FOIA, the difference between "records" and "data," and what, actually, is at risk in this current moment. Featuring presentations by Alex Howard of the Sunlight Foundation, Denice Ross from New America, and representatives from the National Archives FOIA Ombudsman's Office. 
