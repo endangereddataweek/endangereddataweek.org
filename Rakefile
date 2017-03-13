@@ -52,7 +52,7 @@ namespace :import do
       @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
 
       if(@ws[row, @headers[:virtual_event]].length > 0)
-        @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:title_of_your_event]]}"
+        @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:institution]]}"
       end
       @event.merge!(link: link_title(@event))
       @events << @event
