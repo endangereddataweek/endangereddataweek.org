@@ -1,3 +1,4 @@
+require 'active_support'
 require 'google_drive'
 require 'dotenv/tasks'
 require 'dotenv'
@@ -63,21 +64,40 @@ namespace :import do
     string.match(/^.{0,#{count}}\b/)[0] + "..."
   end
 
+  def set_headers
+    @headers ||= {}
+    login
+    counter = 1
+    (1..@ws.num_cols).each do |col|
+      @headers[@ws[1,col].gsub(/\s+/, '_').downcase.to_sym] = counter
+      counter +=1
+    end
+
+    @headers
+  end
+
+  # for testing
+  task :set_headers do
+    set_headers
+  end
+
   def event_hash(row)
+    @headers ||= set_headers
     event = {
       id: row,
-      title: @ws[row, 2],
-      date: Chronic.parse(@ws[row, 3]).strftime('%Y-%m-%d'),
-      institution: @ws[row, 5],
-      location: @ws[row, 6],
-      contact: @ws[row, 7],
-      time: @ws[row, 4],
-      description: @ws[row, 8],
-      excerpt: shorten(@ws[row, 8], 140),
-      email: @ws[row, 9],
-      website: @ws[row, 10],
-      latitude: @ws[row, 11],
-      longitude: @ws[row, 12]
+      title:          @ws[row, @headers[:title_of_your_event]],
+      date:           Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y-%m-%d'),
+      institution:    @ws[row, @headers[:institution]],
+      location:       @ws[row, @headers[:location_]],
+      contact:        @ws[row, @headers[:contact_person]],
+      time:           @ws[row, @headers[:time]],
+      description:    @ws[row, @headers[:event_description]],
+      excerpt:        shorten(@ws[row, @headers[:event_description]], 140),
+      contact_person: @ws[row, @headers[:contact_person]],
+      email:          @ws[row, @headers[:contact_email]],
+      website:        @ws[row, @headers[:event_website]],
+      latitude:       @ws[row, @headers[:latitude]],
+      longitude:      @ws[row, @headers[:longitude]]
     }
     event.merge!(file_path: filename(event))
     event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))
