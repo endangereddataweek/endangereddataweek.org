@@ -16,7 +16,10 @@
     "url": "https://github.com/endangereddataweek/endangereddataweek.org/issues"
   },
   "homepage": "http://ndsa.org",
-  "dependencies": {},
+  "dependencies": {
+    "leaflet": "^1.0.3",
+    "leaflet.markercluster": "^1.0.3"
+  },
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "dotenv": "^4.0.0",
