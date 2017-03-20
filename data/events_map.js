@@ -170,5 +170,17 @@ var events = {
       "id":  15
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0107049, 41.2582497]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-census-data-access-and-importance/\">Census Data: Access and Importance</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  17
+    },
+    
   ]
 };
