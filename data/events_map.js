@@ -117,7 +117,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github/\">An Introduction to Github</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github-for-data-and-data-science/\">An Introduction to Github for Data and Data Science</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  11
     },
@@ -168,6 +168,18 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-a-dlf-sponsored-webinar-on-foia-government-data-and-transparency/\"><i class='fa fa-globe orange'></i> Endangered Accountability: A DLF-Sponsored Webinar on FOIA, Government Data, and Transparency</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> New York, NY</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> Rachel Mattson</p>"
       },
       "id":  15
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7377198, 40.4511509]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-day-of-digital-humanities/\"><i class='fa fa-globe orange'></i> Day of Digital Humanities</a></h2><p><strong>Institution:</strong>  CenterNet and LINHD</p><p><strong>Location:</strong> UNED Madrid, Spain </p><p><strong>Date:</strong> 2017-04-20 at 9:00:00 AM</p><p><strong>Contact:</strong> Elena González-Blanco</p>"
+      },
+      "id":  16
     },
     
     {

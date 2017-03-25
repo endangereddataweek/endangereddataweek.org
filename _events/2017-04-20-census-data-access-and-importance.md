@@ -9,8 +9,8 @@ title: "Census Data: Access and Importance"
 author: "Jason Heppler"
 website: ""
 email: "jheppler@unomaha.edu"
-latitude: ""
-longitude: ""
+latitude: "41.2582497"
+longitude: "-96.0107049"
 virtual: ""
 ---
 
