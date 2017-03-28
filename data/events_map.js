@@ -117,7 +117,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github/\">An Introduction to Github</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github-for-data-and-data-science/\">An Introduction to Github for Data and Data Science</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  11
     },
@@ -173,6 +173,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-3.7377198, 40.4511509]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-day-of-digital-humanities/\"><i class='fa fa-globe orange'></i> Day of Digital Humanities</a></h2><p><strong>Institution:</strong>  CenterNet and LINHD</p><p><strong>Location:</strong> UNED Madrid, Spain </p><p><strong>Date:</strong> 2017-04-20 at 9:00:00 AM</p><p><strong>Contact:</strong> Elena González-Blanco</p>"
+      },
+      "id":  16
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-96.0107049, 41.2582497]
       },
       "type": "Feature",
@@ -180,6 +192,126 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-census-data-access-and-importance/\">Census Data: Access and Importance</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  17
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4832076, 42.730871]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Beaumont West Instruction Room (Main Library: 2 West)</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
+      },
+      "id":  18
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4832076, 42.730871]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-you-can-dig-the-same-hole-twice-the-development-of-a-metadata-scheme-for-archaeological-archives/\">You Can Dig the Same Hole Twice: The Development of a Metadata Scheme for Archaeological Archives</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> REAL Classroom (Main Library: 3 West)</p><p><strong>Date:</strong> 2017-04-18 at 4:00:00 PM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  19
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6741599, 42.0506909]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-22-save-climate-research-on-earth-day-datarescuechi/\">Save Climate Research on Earth Day #DataRescueCHI</a></h2><p><strong>Institution:</strong> Northwestern University</p><p><strong>Location:</strong> Knight Lab in Fisk Hall, 1845 Sheridan Rd, Evanston, IL 60208</p><p><strong>Date:</strong> 2017-04-22 at 10:00:00 AM</p><p><strong>Contact:</strong> Patricia Basuel</p>"
+      },
+      "id":  20
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-personal-digital-archiving/\">Personal Digital Archiving</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library Link (second floor)</p><p><strong>Date:</strong> 2017-04-17 at </p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  21
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library</p><p><strong>Date:</strong> 2017-04-18 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  22
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-(am)/\">Demos & Donuts: HCC (am)</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  23
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-[pm]/\">Demos & Donuts: HCC [pm]</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  24
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-19 at 3:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  25
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-endangered-data-what-is-it-and-how-can-i-help/\">Endangered Data: What is it and how can I help? </a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library South, Room 221</p><p><strong>Date:</strong> 2017-04-20 at 2:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  26
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7004763, 40.8201966]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability/\"><i class='fa fa-globe orange'></i> Endangered Accountability</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska Lincoln</p><p><strong>Location:</strong> Love Library South, Room 224</p><p><strong>Date:</strong> 2017-04-21 at 12:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+      },
+      "id":  27
     },
     
   ]

@@ -9,8 +9,8 @@ title: "Day of Digital Humanities"
 author: "Elena González-Blanco"
 website: "http://dayofdh2017.linhd.es"
 email: "egonzalezblanco@flog.uned.es"
-latitude: ""
-longitude: ""
+latitude: "40.4511509"
+longitude: "-3.7377198"
 virtual: "This is a virtual event"
 ---
 
