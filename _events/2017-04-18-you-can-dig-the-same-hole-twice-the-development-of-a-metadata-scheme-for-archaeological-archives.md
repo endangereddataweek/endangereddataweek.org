@@ -9,8 +9,8 @@ title: "You Can Dig the Same Hole Twice: The Development of a Metadata Scheme fo
 author: ""
 website: "http://bookings.lib.msu.edu/event/3238164"
 email: ""
-latitude: ""
-longitude: ""
+latitude: "42.730871"
+longitude: "-84.4832076"
 virtual: ""
 ---
 

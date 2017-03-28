@@ -9,8 +9,8 @@ title: "Census Data: Access, Importance, and the Future"
 author: "Amanda Tickner"
 website: "http://bookings.lib.msu.edu/event/3238139"
 email: "atickner@msu.edu"
-latitude: ""
-longitude: ""
+latitude: "42.730871"
+longitude: "-84.4832076"
 virtual: ""
 ---
 
