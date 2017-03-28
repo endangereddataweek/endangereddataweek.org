@@ -9,8 +9,8 @@ title: "Demos & Donuts: Box"
 author: "Elizabeth Lorang"
 website: ""
 email: ""
-latitude: ""
-longitude: ""
+latitude: "40.8201966"
+longitude: "-96.7004763"
 virtual: ""
 ---
 

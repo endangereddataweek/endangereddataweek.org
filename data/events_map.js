@@ -233,11 +233,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-personal-digital-archiving/\">Personal Digital Archiving</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library, second floor</p><p><strong>Date:</strong> 2017-04-17 at </p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-personal-digital-archiving/\">Personal Digital Archiving</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library Link (second floor)</p><p><strong>Date:</strong> 2017-04-17 at </p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  21
     },
@@ -245,11 +245,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library</p><p><strong>Date:</strong> 2017-04-18 at 3:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library</p><p><strong>Date:</strong> 2017-04-18 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  22
     },
@@ -257,11 +257,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc/\">Demos & Donuts: HCC</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-(am)/\">Demos & Donuts: HCC (am)</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  23
     },
@@ -269,11 +269,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc/\">Demos & Donuts: HCC</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-[pm]/\">Demos & Donuts: HCC [pm]</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  24
     },
@@ -281,7 +281,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
@@ -293,7 +293,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {
@@ -305,7 +305,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.70047629999999, 40.8201966]
+        "coordinates": [-96.7004763, 40.8201966]
       },
       "type": "Feature",
       "properties": {

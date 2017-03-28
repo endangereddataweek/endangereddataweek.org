@@ -9,8 +9,8 @@ title: "Endangered Data: What is it and how can I help? "
 author: "Elizabeth Lorang"
 website: ""
 email: ""
-latitude: ""
-longitude: ""
+latitude: "40.8201966"
+longitude: "-96.7004763"
 virtual: ""
 ---
 
