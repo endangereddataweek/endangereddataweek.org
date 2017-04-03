@@ -1,7 +1,7 @@
 var events = {
   "type": "FeatureCollection",
   "features": [
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -13,7 +13,7 @@ var events = {
       },
       "id":  2
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@ var events = {
       },
       "id":  3
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -37,7 +37,7 @@ var events = {
       },
       "id":  4
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -49,7 +49,7 @@ var events = {
       },
       "id":  5
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@ var events = {
       },
       "id":  6
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -73,7 +73,7 @@ var events = {
       },
       "id":  7
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -85,7 +85,7 @@ var events = {
       },
       "id":  8
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -97,7 +97,7 @@ var events = {
       },
       "id":  9
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@ var events = {
       },
       "id":  10
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -121,7 +121,7 @@ var events = {
       },
       "id":  11
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -133,7 +133,7 @@ var events = {
       },
       "id":  12
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -145,7 +145,7 @@ var events = {
       },
       "id":  13
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -157,7 +157,7 @@ var events = {
       },
       "id":  14
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -169,19 +169,6 @@ var events = {
       },
       "id":  15
     },
-    
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [, ]
-      },
-      "type": "Feature",
-      "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-day-of-digital-humanities/\"><i class='fa fa-globe orange'></i> Day of Digital Humanities</a></h2><p><strong>Institution:</strong>  CenterNet and LINHD</p><p><strong>Location:</strong> UNED Madrid, Spain </p><p><strong>Date:</strong> 2017-04-20 at 9:00:00 AM</p><p><strong>Contact:</strong> Elena González-Blanco</p>"
-      },
-      "id":  16
-    },
-    
     {
       "geometry": {
         "type": "Point",
@@ -193,7 +180,7 @@ var events = {
       },
       "id":  17
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -205,7 +192,7 @@ var events = {
       },
       "id":  18
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -217,7 +204,7 @@ var events = {
       },
       "id":  19
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -229,7 +216,7 @@ var events = {
       },
       "id":  20
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -241,7 +228,7 @@ var events = {
       },
       "id":  21
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -253,7 +240,7 @@ var events = {
       },
       "id":  22
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -265,7 +252,7 @@ var events = {
       },
       "id":  23
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -277,7 +264,7 @@ var events = {
       },
       "id":  24
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -289,7 +276,7 @@ var events = {
       },
       "id":  25
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -301,7 +288,7 @@ var events = {
       },
       "id":  26
     },
-    
+
     {
       "geometry": {
         "type": "Point",
@@ -313,6 +300,6 @@ var events = {
       },
       "id":  27
     },
-    
+
   ]
 };
