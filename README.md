@@ -40,6 +40,10 @@ $ git commit -am "Added new events [event names]"
 
 To see the full list of tasks available, you can run `rake -T` in the project directory.
 
+### Skipping Geocoding
+
+If there is an event that is a virtual event that needs to be manually excluded in the geocoding, edit the "Endangered Data Week Event (Responses)" sheet in Google Drive and set the `geocode` column value to **0** (actually any string will work--code just checks if there's something in that field). if there are any values in the `latitude` or `longitude` columns, be sure to delete those too. Then, rerun `rake`.
+
 ## Content Edits
 
 Content edits can be easily made on the browser-based GitHub editor.
