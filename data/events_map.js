@@ -1,7 +1,7 @@
 var events = {
   "type": "FeatureCollection",
   "features": [
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -13,7 +13,7 @@ var events = {
       },
       "id":  2
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@ var events = {
       },
       "id":  3
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -37,7 +37,7 @@ var events = {
       },
       "id":  4
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -49,7 +49,7 @@ var events = {
       },
       "id":  5
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@ var events = {
       },
       "id":  6
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -73,7 +73,7 @@ var events = {
       },
       "id":  7
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -85,7 +85,7 @@ var events = {
       },
       "id":  8
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -97,7 +97,7 @@ var events = {
       },
       "id":  9
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@ var events = {
       },
       "id":  10
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -121,7 +121,7 @@ var events = {
       },
       "id":  11
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -133,7 +133,7 @@ var events = {
       },
       "id":  12
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -145,7 +145,7 @@ var events = {
       },
       "id":  13
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -157,7 +157,7 @@ var events = {
       },
       "id":  14
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -169,6 +169,7 @@ var events = {
       },
       "id":  15
     },
+    
     {
       "geometry": {
         "type": "Point",
@@ -180,7 +181,7 @@ var events = {
       },
       "id":  17
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -192,7 +193,7 @@ var events = {
       },
       "id":  18
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -204,7 +205,7 @@ var events = {
       },
       "id":  19
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -216,7 +217,7 @@ var events = {
       },
       "id":  20
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -228,7 +229,7 @@ var events = {
       },
       "id":  21
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -240,7 +241,7 @@ var events = {
       },
       "id":  22
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -252,7 +253,7 @@ var events = {
       },
       "id":  23
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -264,7 +265,7 @@ var events = {
       },
       "id":  24
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -276,7 +277,7 @@ var events = {
       },
       "id":  25
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -288,7 +289,7 @@ var events = {
       },
       "id":  26
     },
-
+    
     {
       "geometry": {
         "type": "Point",
@@ -300,6 +301,6 @@ var events = {
       },
       "id":  27
     },
-
+    
   ]
 };
