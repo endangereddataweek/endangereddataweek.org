@@ -302,5 +302,17 @@ var events = {
       "id":  27
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.1684945, 42.3355488]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-endangered-data-at-boston-college/\">Endangered Data at Boston College</a></h2><p><strong>Institution:</strong> Boston College</p><p><strong>Location:</strong> Boston, Massachusetts</p><p><strong>Date:</strong> 2017-04-19 at 3:00:00 PM</p><p><strong>Contact:</strong> Sarah Melton</p>"
+      },
+      "id":  28
+    },
+    
   ]
 };
