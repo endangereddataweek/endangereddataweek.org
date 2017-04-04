@@ -9,8 +9,8 @@ title: "Pacific and Regional Archive for Digital Sources in Endangered Cultures 
 author: "Nick Thieberger"
 website: "http://catalog.paradisec.org.au"
 email: "thien@unimelb.edu.au"
-latitude: "-37.7963689"
-longitude: "144.9611738"
+latitude: ""
+longitude: ""
 virtual: "This is a virtual event"
 ---
 
