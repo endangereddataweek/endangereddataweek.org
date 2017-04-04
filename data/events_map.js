@@ -173,6 +173,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-3.7377198, 40.4511509]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-day-of-digital-humanities/\"><i class='fa fa-globe orange'></i> Day of Digital Humanities</a></h2><p><strong>Institution:</strong>  CenterNet and LINHD</p><p><strong>Location:</strong> UNED Madrid, Spain </p><p><strong>Date:</strong> 2017-04-20 at 9:00:00 AM</p><p><strong>Contact:</strong> Elena González-Blanco</p>"
+      },
+      "id":  16
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-96.0107049, 41.2582497]
       },
       "type": "Feature",
@@ -312,6 +324,18 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-endangered-data-at-boston-college/\">Endangered Data at Boston College</a></h2><p><strong>Institution:</strong> Boston College</p><p><strong>Location:</strong> Boston, Massachusetts</p><p><strong>Date:</strong> 2017-04-19 at 3:00:00 PM</p><p><strong>Contact:</strong> Sarah Melton</p>"
       },
       "id":  28
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.9611738, -37.7963689]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-pacific-and-regional-archive-for-digital-sources-in-endangered-cultures-(paradisec)/\"><i class='fa fa-globe orange'></i> Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)</a></h2><p><strong>Institution:</strong> University of Melbourne</p><p><strong>Location:</strong> University of Melbourne</p><p><strong>Date:</strong> 2017-04-19 at 8:00:00 AM</p><p><strong>Contact:</strong> Nick Thieberger</p>"
+      },
+      "id":  29
     },
     
   ]
