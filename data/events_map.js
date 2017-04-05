@@ -173,7 +173,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.7377198, 40.45115089999999]
+        "coordinates": [-3.7377198, 40.4511509]
       },
       "type": "Feature",
       "properties": {
@@ -261,7 +261,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-(am)/\">Demos & Donuts: HCC (am)</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-am/\">Demos & Donuts: HCC (am)</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  23
     },
@@ -333,7 +333,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-pacific-and-regional-archive-for-digital-sources-in-endangered-cultures-(paradisec)/\"><i class='fa fa-globe orange'></i> Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)</a></h2><p><strong>Institution:</strong> University of Melbourne</p><p><strong>Location:</strong> University of Melbourne</p><p><strong>Date:</strong> 2017-04-19 at 8:00:00 AM</p><p><strong>Contact:</strong> Nick Thieberger</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-pacific-and-regional-archive-for-digital-sources-in-endangered-cultures-paradisec/\"><i class='fa fa-globe orange'></i> Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)</a></h2><p><strong>Institution:</strong> University of Melbourne</p><p><strong>Location:</strong> University of Melbourne</p><p><strong>Date:</strong> 2017-04-19 at 8:00:00 AM</p><p><strong>Contact:</strong> Nick Thieberger</p>"
       },
       "id":  29
     },
@@ -348,6 +348,18 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-crash-course-in-research-data-management/\">Crash Course in Research Data Management</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library 3 West Instruction Room</p><p><strong>Date:</strong> 2017-04-19 at 9:30:00 AM</p><p><strong>Contact:</strong> Scout Calvert</p>"
       },
       "id":  30
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.8807049, 43.0767674]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-endangered-data-brown-bag-discussion/\">Endangered Data Brown Bag Discussion</a></h2><p><strong>Institution:</strong> University of Wisconsin-Milwaukee</p><p><strong>Location:</strong> UWM Libraries Digital Humanities Lab, 2311 E Hartford Ave, Milwaukee, WI 53211</p><p><strong>Date:</strong> 2017-04-18 at 12:00:00 PM</p><p><strong>Contact:</strong> Ann Hanlon</p>"
+      },
+      "id":  31
     },
     
   ]

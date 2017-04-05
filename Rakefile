@@ -19,6 +19,11 @@ Dotenv.load
 # task default: 'import:events'
 task default: 'import:all'
 
+desc 'Clean _events directory'
+task :clean do
+  FileUtils.rm_f Dir.glob('_events/*')
+end
+
 namespace :import do
   desc 'Import events for the collection, map, and datatable'
   task :all => [:events, :data, :map]
@@ -189,7 +194,7 @@ end
 
 def filename(event)
   formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
-  event_name = event[:title].split(%r{ |!|/|\?|\#|:|&|-|$|,|“|”}).map do |i|
+  event_name = event[:title].split(%r{ |!|/|\?|\#|\)|\(|:|&|-|$|,|"|"}).map do |i|
     i.downcase if i != ''
   end.compact.join('-')
   "_events/#{formatted_date}-#{event_name}.md"
