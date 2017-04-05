@@ -2,7 +2,7 @@
 layout: post
 date: "2017-04-18"
 time: "12:00:00 PM"
-excerpt: "We will be discussing endangered data using tow recent articles in the New York Times and Wired as prompts..."
+excerpt: "We will be discussing endangered data using two recent articles in the New York Times and Wired as prompts..."
 location_city: "University of Wisconsin-Milwaukee"
 location_physical: "UWM Libraries Digital Humanities Lab, 2311 E Hartford Ave, Milwaukee, WI 53211"
 title: "Endangered Data Brown Bag Discussion"
@@ -14,4 +14,4 @@ longitude: "-87.8807049"
 virtual: ""
 ---
 
-We will be discussing endangered data using tow recent articles in the New York Times and Wired as prompts
+We will be discussing endangered data using two recent articles in the New York Times and Wired as prompts
