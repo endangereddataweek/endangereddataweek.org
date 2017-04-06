@@ -189,7 +189,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-census-data-access-and-importance/\">Census Data: Access and Importance</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-dangers-to-census-data-quantity-and-quality/\">Dangers to Census Data Quantity and Quality</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  17
     },
