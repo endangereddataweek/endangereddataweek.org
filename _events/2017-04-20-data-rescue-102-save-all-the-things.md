@@ -9,8 +9,8 @@ title: "Data Rescue 102: Save All the Things"
 author: "Lillian Rigling"
 website: "https://www.lib.ncsu.edu/event/data-rescue-102-save-all-the-things"
 email: "lsriglin@ncsu.edu"
-latitude: ""
-longitude: ""
+latitude: "35.7875615"
+longitude: "-78.6718993"
 virtual: ""
 ---
 

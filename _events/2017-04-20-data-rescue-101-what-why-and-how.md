@@ -9,8 +9,8 @@ title: "Data Rescue 101: What, Why, and How?"
 author: "Lillian Rigling"
 website: "https://www.lib.ncsu.edu/workshop/data-rescue-101-what-why-and-how"
 email: "lsriglin@ncsu.edu"
-latitude: ""
-longitude: ""
+latitude: "35.7875615"
+longitude: "-78.6718993"
 virtual: ""
 ---
 

@@ -362,5 +362,29 @@ var events = {
       "id":  31
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.6718993, 35.7875615]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-rescue-101-what-why-and-how/\">Data Rescue 101: What, Why, and How?</a></h2><p><strong>Institution:</strong> NCSU Libraries</p><p><strong>Location:</strong> Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695</p><p><strong>Date:</strong> 2017-04-20 at 4:00:00 PM</p><p><strong>Contact:</strong> Lillian Rigling</p>"
+      },
+      "id":  32
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.6718993, 35.7875615]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-rescue-102-save-all-the-things/\">Data Rescue 102: Save All the Things</a></h2><p><strong>Institution:</strong> NCSU Libraries</p><p><strong>Location:</strong> Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695</p><p><strong>Date:</strong> 2017-04-20 at 5:00:00 PM</p><p><strong>Contact:</strong> Lillian Rigling</p>"
+      },
+      "id":  33
+    },
+    
   ]
 };
