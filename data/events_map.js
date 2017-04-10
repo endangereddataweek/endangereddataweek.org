@@ -398,5 +398,17 @@ var events = {
       "id":  34
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.62830699999999, 41.833676]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-data-refuge-from-a-veteran/\">Data Refuge: From a Veteran</a></h2><p><strong>Institution:</strong> Illinois Institute of Technology</p><p><strong>Location:</strong> Library Learning Center, Paul V. Galvin Library</p><p><strong>Date:</strong> 2017-04-19 at 2:00:00 PM</p><p><strong>Contact:</strong> Aric Ahrens</p>"
+      },
+      "id":  36
+    },
+    
   ]
 };

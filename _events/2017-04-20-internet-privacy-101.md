@@ -9,8 +9,8 @@ title: "Internet Privacy 101"
 author: "Megan Kudzia"
 website: "http://bookings.lib.msu.edu/event/3265913"
 email: "kudzia@msu.edu"
-latitude: ""
-longitude: ""
+latitude: "42.730871"
+longitude: "-84.4832076"
 virtual: ""
 ---
 
