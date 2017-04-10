@@ -386,5 +386,17 @@ var events = {
       "id":  33
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4832076, 42.730871]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-internet-privacy-101/\">Internet Privacy 101</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library, Beaumont Instruction Room (2West)</p><p><strong>Date:</strong> 2017-04-20 at 9:30:00 AM</p><p><strong>Contact:</strong> Megan Kudzia</p>"
+      },
+      "id":  34
+    },
+    
   ]
 };
