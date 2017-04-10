@@ -401,7 +401,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.62830699999999, 41.833676]
+        "coordinates": [-87.628307, 41.833676]
       },
       "type": "Feature",
       "properties": {

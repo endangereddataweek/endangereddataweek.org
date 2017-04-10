@@ -9,8 +9,8 @@ title: "Data Refuge: From a Veteran"
 author: "Aric Ahrens"
 website: "http://guides.library.iit.edu/govdocs/events/edw2017"
 email: "ahrens@iit.edu"
-latitude: ""
-longitude: ""
+latitude: "41.833676"
+longitude: "-87.628307"
 virtual: ""
 ---
 
