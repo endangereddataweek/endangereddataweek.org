@@ -446,5 +446,41 @@ var events = {
       "id":  40
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.941813, 38.9881646]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-endangered-data-week-panel/\">Endangered Data Week - Panel</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> Maryland Institute for Technology in the Humanities, College Park, Maryland</p><p><strong>Date:</strong> 2017-04-18 at 12:00:00 PM</p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  41
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9450882, 38.9859704]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-endangered-data-week-workshop/\">Endangered Data Week - Workshop</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> McKeldin Library Room 6107, College Park, Maryland</p><p><strong>Date:</strong> 2017-04-20 at 3:00:00 PM</p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  42
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9450882, 38.9859704]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-data-week-webinar/\">Endangered Data Week - Webinar</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> McKeldin Library Room 6103, College Park, Maryland</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  43
+    },
+    
   ]
 };

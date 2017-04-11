@@ -9,8 +9,8 @@ title: "Overview of High Performance Computing for Data Analysis"
 author: "Camille Archer & Pat Bills"
 website: "http://icer.msu.edu/education-events/overview-high-performance-computing-data-analysis"
 email: ""
-latitude: ""
-longitude: ""
+latitude: "42.730871"
+longitude: "-84.4832076"
 virtual: ""
 ---
 
