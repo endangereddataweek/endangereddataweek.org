@@ -89,11 +89,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.4821719, 42.701848]
+        "coordinates": [-96.0107049, 41.2582497]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library - Beaumont Instruction Room</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-what-is-endangered-data/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  9
     },
@@ -105,7 +105,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-what-is-endangered-data/\">What is Endangered Data?</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-17 at 2:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github-for-data-and-data-science/\">An Introduction to Github for Data and Data Science</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
       "id":  10
     },
@@ -117,21 +117,9 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-an-introduction-to-github-for-data-and-data-science/\">An Introduction to Github for Data and Data Science</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-19 at 9:00:00 AM</p><p><strong>Contact:</strong> Jason Heppler</p>"
-      },
-      "id":  11
-    },
-    
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-96.0107049, 41.2582497]
-      },
-      "type": "Feature",
-      "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-manipulation-with-r/\">Data Manipulation with R</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss Library, rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 1:30:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
-      "id":  12
+      "id":  11
     },
     
     {
@@ -143,7 +131,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-edw-at-ndsa-standards-practices-open-call/\"><i class='fa fa-globe orange'></i> EDW at NDSA: Standards & Practices open call</a></h2><p><strong>Institution:</strong> National Digital Stewardship Alliance</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 1:00:00 PM</p><p><strong>Contact:</strong> Aaron Collie</p>"
       },
-      "id":  13
+      "id":  12
     },
     
     {
@@ -155,7 +143,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-endangereddata-twitter-chat/\"><i class='fa fa-globe orange'></i> #EndangeredData Twitter chat</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> Washington, DC</p><p><strong>Date:</strong> 2017-04-17 at 3:00:00 PM</p><p><strong>Contact:</strong> Bethany Nowviskie</p>"
       },
-      "id":  14
+      "id":  13
     },
     
     {
@@ -167,7 +155,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-a-dlf-sponsored-webinar-on-foia-government-data-and-transparency/\"><i class='fa fa-globe orange'></i> Endangered Accountability: A DLF-Sponsored Webinar on FOIA, Government Data, and Transparency</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> New York, NY</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> Rachel Mattson</p>"
       },
-      "id":  15
+      "id":  14
     },
     
     {
@@ -179,7 +167,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-day-of-digital-humanities/\"><i class='fa fa-globe orange'></i> Day of Digital Humanities</a></h2><p><strong>Institution:</strong>  CenterNet and LINHD</p><p><strong>Location:</strong> UNED Madrid, Spain </p><p><strong>Date:</strong> 2017-04-20 at 9:00:00 AM</p><p><strong>Contact:</strong> Elena González-Blanco</p>"
       },
-      "id":  16
+      "id":  15
     },
     
     {
@@ -191,7 +179,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-dangers-to-census-data-quantity-and-quality/\">Dangers to Census Data Quantity and Quality</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Criss rm. 231</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
       },
-      "id":  17
+      "id":  16
     },
     
     {
@@ -201,9 +189,9 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Beaumont West Instruction Room (Main Library: 2 West)</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-census-data-access-importance-and-the-future/\">Census Data: Access, Importance, and the Future</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Beaumont Instruction Room (Main Library: 2 West)</p><p><strong>Date:</strong> 2017-04-17 at 12:00:00 PM</p><p><strong>Contact:</strong> Amanda Tickner</p>"
       },
-      "id":  18
+      "id":  17
     },
     
     {
@@ -215,7 +203,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-you-can-dig-the-same-hole-twice-the-development-of-a-metadata-scheme-for-archaeological-archives/\">You Can Dig the Same Hole Twice: The Development of a Metadata Scheme for Archaeological Archives</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> REAL Classroom (Main Library: 3 West)</p><p><strong>Date:</strong> 2017-04-18 at 4:00:00 PM</p><p><strong>Contact:</strong> </p>"
       },
-      "id":  19
+      "id":  18
     },
     
     {
@@ -227,7 +215,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-22-save-climate-research-on-earth-day-datarescuechi/\">Save Climate Research on Earth Day #DataRescueCHI</a></h2><p><strong>Institution:</strong> Northwestern University</p><p><strong>Location:</strong> Knight Lab in Fisk Hall, 1845 Sheridan Rd, Evanston, IL 60208</p><p><strong>Date:</strong> 2017-04-22 at 10:00:00 AM</p><p><strong>Contact:</strong> Patricia Basuel</p>"
       },
-      "id":  20
+      "id":  19
     },
     
     {
@@ -239,7 +227,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-personal-digital-archiving/\">Personal Digital Archiving</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library Link (second floor)</p><p><strong>Date:</strong> 2017-04-17 at </p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  21
+      "id":  20
     },
     
     {
@@ -251,7 +239,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library</p><p><strong>Date:</strong> 2017-04-18 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  22
+      "id":  21
     },
     
     {
@@ -263,7 +251,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-am/\">Demos & Donuts: HCC (am)</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 11:30:00 AM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  23
+      "id":  22
     },
     
     {
@@ -275,7 +263,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-demos-donuts-hcc-[pm]/\">Demos & Donuts: HCC [pm]</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-20 at 7:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  24
+      "id":  23
     },
     
     {
@@ -287,7 +275,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-demos-donuts-box/\">Demos & Donuts: Box</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Adele Hall Learning Commons</p><p><strong>Date:</strong> 2017-04-19 at 3:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  25
+      "id":  24
     },
     
     {
@@ -299,7 +287,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-endangered-data-what-is-it-and-how-can-i-help/\">Endangered Data: What is it and how can I help? </a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska-Lincoln</p><p><strong>Location:</strong> Love Library South, Room 221</p><p><strong>Date:</strong> 2017-04-20 at 2:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  26
+      "id":  25
     },
     
     {
@@ -311,7 +299,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability/\"><i class='fa fa-globe orange'></i> Endangered Accountability</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska Lincoln</p><p><strong>Location:</strong> Love Library South, Room 224</p><p><strong>Date:</strong> 2017-04-21 at 12:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
-      "id":  27
+      "id":  26
     },
     
     {
@@ -323,7 +311,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-endangered-data-at-boston-college/\">Endangered Data at Boston College</a></h2><p><strong>Institution:</strong> Boston College</p><p><strong>Location:</strong> Boston, Massachusetts</p><p><strong>Date:</strong> 2017-04-19 at 3:00:00 PM</p><p><strong>Contact:</strong> Sarah Melton</p>"
       },
-      "id":  28
+      "id":  27
     },
     
     {
@@ -335,7 +323,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-pacific-and-regional-archive-for-digital-sources-in-endangered-cultures-paradisec/\"><i class='fa fa-globe orange'></i> Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)</a></h2><p><strong>Institution:</strong> University of Melbourne</p><p><strong>Location:</strong> University of Melbourne</p><p><strong>Date:</strong> 2017-04-19 at 8:00:00 AM</p><p><strong>Contact:</strong> Nick Thieberger</p>"
       },
-      "id":  29
+      "id":  28
     },
     
     {
@@ -347,7 +335,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-crash-course-in-research-data-management/\">Crash Course in Research Data Management</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library 3 West Instruction Room</p><p><strong>Date:</strong> 2017-04-19 at 9:30:00 AM</p><p><strong>Contact:</strong> Scout Calvert</p>"
       },
-      "id":  30
+      "id":  29
     },
     
     {
@@ -359,7 +347,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-endangered-data-brown-bag-discussion/\">Endangered Data Brown Bag Discussion</a></h2><p><strong>Institution:</strong> University of Wisconsin-Milwaukee</p><p><strong>Location:</strong> UWM Libraries Digital Humanities Lab, 2311 E Hartford Ave, Milwaukee, WI 53211</p><p><strong>Date:</strong> 2017-04-18 at 12:00:00 PM</p><p><strong>Contact:</strong> Ann Hanlon</p>"
       },
-      "id":  31
+      "id":  30
     },
     
     {
@@ -371,7 +359,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-rescue-101-what-why-and-how/\">Data Rescue 101: What, Why, and How?</a></h2><p><strong>Institution:</strong> NCSU Libraries</p><p><strong>Location:</strong> Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695</p><p><strong>Date:</strong> 2017-04-20 at 4:00:00 PM</p><p><strong>Contact:</strong> Lillian Rigling</p>"
       },
-      "id":  32
+      "id":  31
     },
     
     {
@@ -383,7 +371,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-rescue-102-save-all-the-things/\">Data Rescue 102: Save All the Things</a></h2><p><strong>Institution:</strong> NCSU Libraries</p><p><strong>Location:</strong> Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695</p><p><strong>Date:</strong> 2017-04-20 at 5:00:00 PM</p><p><strong>Contact:</strong> Lillian Rigling</p>"
       },
-      "id":  33
+      "id":  32
     },
     
     {
@@ -395,7 +383,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-internet-privacy-101/\">Internet Privacy 101</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Library, Beaumont Instruction Room (2West)</p><p><strong>Date:</strong> 2017-04-20 at 9:30:00 AM</p><p><strong>Contact:</strong> Megan Kudzia</p>"
       },
-      "id":  34
+      "id":  33
     },
     
     {
@@ -407,7 +395,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-endangered-data-photo-stories/\"><i class='fa fa-globe orange'></i> Endangered Data Photo Stories</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> RDAP Conference</p><p><strong>Date:</strong> 2017-04-19 at 6:30:00 PM</p><p><strong>Contact:</strong> Jamie Wittenberg</p>"
       },
-      "id":  35
+      "id":  34
     },
     
     {
@@ -419,7 +407,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-data-refuge-from-a-veteran/\">Data Refuge: From a Veteran</a></h2><p><strong>Institution:</strong> Illinois Institute of Technology</p><p><strong>Location:</strong> Library Learning Center, Paul V. Galvin Library</p><p><strong>Date:</strong> 2017-04-19 at 2:00:00 PM</p><p><strong>Contact:</strong> Aric Ahrens</p>"
       },
-      "id":  36
+      "id":  35
     },
     
     {
@@ -431,7 +419,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-22-data-rescue-reno/\">Data Rescue Reno</a></h2><p><strong>Institution:</strong> University of Nevada, Reno Libraries</p><p><strong>Location:</strong> Reno Collective, 100 N. Arlington Ave., #100</p><p><strong>Date:</strong> 2017-04-22 at 1:00:00 PM</p><p><strong>Contact:</strong> Teresa Schultz</p>"
       },
-      "id":  37
+      "id":  36
     },
     
     {
@@ -443,7 +431,19 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-introduction-to-docnow/\">Introduction to DocNow</a></h2><p><strong>Institution:</strong> Scholars' Lab, University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421</p><p><strong>Date:</strong> 2017-04-18 at 2:00:00 PM</p><p><strong>Contact:</strong> Laura Miller</p>"
       },
-      "id":  38
+      "id":  37
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4832076, 42.730871]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-overview-of-high-performance-computing-for-data-analysis/\">Overview of High Performance Computing for Data Analysis</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> REAL Classroom, MSU Library, 3W</p><p><strong>Date:</strong> 2017-04-19 at 12:00:00 PM</p><p><strong>Contact:</strong> Camille Archer & Pat Bills</p>"
+      },
+      "id":  40
     },
     
   ]
