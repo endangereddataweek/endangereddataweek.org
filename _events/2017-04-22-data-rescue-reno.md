@@ -9,8 +9,8 @@ title: "Data Rescue Reno"
 author: "Teresa Schultz"
 website: "NevadaDataRescue.unr.edu"
 email: "teresas@unr.edu"
-latitude: ""
-longitude: ""
+latitude: "39.52532"
+longitude: "-119.816652"
 virtual: ""
 ---
 
