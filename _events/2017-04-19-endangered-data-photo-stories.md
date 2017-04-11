@@ -9,8 +9,8 @@ title: "Endangered Data Photo Stories"
 author: "Jamie Wittenberg"
 website: ""
 email: ""
-latitude: ""
-longitude: ""
+latitude: "47.60672"
+longitude: "-122.331057"
 virtual: "This is a virtual event"
 ---
 

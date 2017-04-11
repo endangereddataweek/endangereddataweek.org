@@ -401,6 +401,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-122.331057, 47.60672]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-endangered-data-photo-stories/\"><i class='fa fa-globe orange'></i> Endangered Data Photo Stories</a></h2><p><strong>Institution:</strong> Seattle, WA</p><p><strong>Location:</strong> RDAP Conference</p><p><strong>Date:</strong> 2017-04-19 at 6:30:00 PM</p><p><strong>Contact:</strong> Jamie Wittenberg</p>"
+      },
+      "id":  35
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-87.628307, 41.833676]
       },
       "type": "Feature",
@@ -408,6 +420,18 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-data-refuge-from-a-veteran/\">Data Refuge: From a Veteran</a></h2><p><strong>Institution:</strong> Illinois Institute of Technology</p><p><strong>Location:</strong> Library Learning Center, Paul V. Galvin Library</p><p><strong>Date:</strong> 2017-04-19 at 2:00:00 PM</p><p><strong>Contact:</strong> Aric Ahrens</p>"
       },
       "id":  36
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.816652, 39.52532]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-22-data-rescue-reno/\">Data Rescue Reno</a></h2><p><strong>Institution:</strong> University of Nevada, Reno Libraries</p><p><strong>Location:</strong> Reno Collective, 100 N. Arlington Ave., #100</p><p><strong>Date:</strong> 2017-04-22 at 1:00:00 PM</p><p><strong>Contact:</strong> Teresa Schultz</p>"
+      },
+      "id":  37
     },
     
   ]
