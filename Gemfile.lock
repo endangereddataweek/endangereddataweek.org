@@ -84,7 +84,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     little-plugger (1.1.4)
-    logging (2.2.0)
+    logging (2.2.1)
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
     memoist (0.15.0)
@@ -149,4 +149,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

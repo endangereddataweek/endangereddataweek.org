@@ -434,5 +434,17 @@ var events = {
       "id":  37
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5053683, 38.0364566]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-introduction-to-docnow/\">Introduction to DocNow</a></h2><p><strong>Institution:</strong> Scholars' Lab, University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421</p><p><strong>Date:</strong> 2017-04-18 at 2:00:00 PM</p><p><strong>Contact:</strong> Laura Miller</p>"
+      },
+      "id":  38
+    },
+    
   ]
 };
