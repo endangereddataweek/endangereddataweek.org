@@ -518,5 +518,17 @@ var events = {
       "id":  46
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5079772, 38.0335529]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-introduction-to-git-github/\">Introduction to Git/Github</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Charlottesville, VA</p><p><strong>Date:</strong> 2017-04-18 at 12:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  47
+    },
+    
   ]
 };
