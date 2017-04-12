@@ -9,8 +9,8 @@ title: "Indiana University Data Stories"
 author: "Jamie Wittenberg"
 website: "https://blogs.libraries.indiana.edu/scholcomm/"
 email: "jvwitten@indiana.edu"
-latitude: ""
-longitude: ""
+latitude: "39.171006"
+longitude: "-86.516804"
 virtual: ""
 ---
 

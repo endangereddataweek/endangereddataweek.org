@@ -494,5 +494,41 @@ var events = {
       "id":  44
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5079772, 38.0335529]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-introduction-to-libra-data-dataverse-at-uva/\">Introduction to Libra Data (Dataverse at UVa)</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Brown Science & Engineering Library, Room 133</p><p><strong>Date:</strong> 2017-04-17 at 11:00:00 AM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  45
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5053683, 38.0364566]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-introduction-to-docnow/\">Introduction to DocNow</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Alderman Library, Room 421</p><p><strong>Date:</strong> 2017-04-18 at 2:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  46
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5079772, 38.0335529]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-web-scraping-in-r/\">Web Scraping in R</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133</p><p><strong>Date:</strong> 2017-04-19 at 10:30:00 AM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  47
+    },
+    
   ]
 };
