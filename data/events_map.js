@@ -482,5 +482,17 @@ var events = {
       "id":  43
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.516804, 39.171006]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-17-indiana-university-data-stories/\">Indiana University Data Stories</a></h2><p><strong>Institution:</strong> Indiana University Libraries</p><p><strong>Location:</strong> Wells Library Scholars Commons</p><p><strong>Date:</strong> 2017-04-17 at 10:00:00 AM</p><p><strong>Contact:</strong> Jamie Wittenberg</p>"
+      },
+      "id":  44
+    },
+    
   ]
 };
