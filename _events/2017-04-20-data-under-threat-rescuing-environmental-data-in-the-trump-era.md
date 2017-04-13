@@ -9,8 +9,8 @@ title: "Data Under Threat: Rescuing Environmental Data in the Trump Era"
 author: "Ann Hubble"
 website: "https://library.ucsc.edu/news/data-under-threat-rescuing-environmental-data-in-the-trump-era"
 email: "ahubble@ucsc.edu"
-latitude: ""
-longitude: ""
+latitude: "36.9957314"
+longitude: "-122.0611919"
 virtual: ""
 ---
 

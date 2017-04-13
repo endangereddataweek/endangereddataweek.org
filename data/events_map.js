@@ -530,5 +530,17 @@ var events = {
       "id":  47
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.0611919, 36.9957314]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-20-data-under-threat-rescuing-environmental-data-in-the-trump-era/\">Data Under Threat: Rescuing Environmental Data in the Trump Era</a></h2><p><strong>Institution:</strong> University of California, Santa Cruz</p><p><strong>Location:</strong> McHenry Library, 2nd Floor Instruction & Outreach Alcove</p><p><strong>Date:</strong> 2017-04-20 at 12:00:00 PM</p><p><strong>Contact:</strong> Ann Hubble</p>"
+      },
+      "id":  48
+    },
+    
   ]
 };
