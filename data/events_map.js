@@ -273,7 +273,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability/\"><i class='fa fa-globe orange'></i> Endangered Accountability</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska Lincoln</p><p><strong>Location:</strong> Love Library South, Room 224</p><p><strong>Date:</strong> 2017-04-21 at 12:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-webinar-viewing-party/\">Endangered Accountability - webinar viewing party</a></h2><p><strong>Institution:</strong> University Libraries, University of Nebraska Lincoln</p><p><strong>Location:</strong> Love Library South, Room 224</p><p><strong>Date:</strong> 2017-04-21 at 12:00:00 PM</p><p><strong>Contact:</strong> Elizabeth Lorang</p>"
       },
       "id":  25
     },
