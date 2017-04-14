@@ -542,5 +542,29 @@ var events = {
       "id":  48
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5053683, 38.0364566]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-preserving-artifact-and-architecture-with-cultural-heritage-informatics/\">Preserving Artifact and Architecture with Cultural Heritage Informatics</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Clemons Library VizLounge, Charlottesville, VA</p><p><strong>Date:</strong> 2017-04-21 at 10:30:00 AM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  50
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5079772, 38.0335529]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-endangered-accountability-webinar-viewing-event/\">Endangered Accountability - webinar viewing event</a></h2><p><strong>Institution:</strong> University of Virginia</p><p><strong>Location:</strong> Brown Science & Engineering Library, Room 133, Charlottesville, VA</p><p><strong>Date:</strong> 2017-04-21 at 1:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  51
+    },
+    
   ]
 };
