@@ -12,6 +12,8 @@ email: ""
 latitude: ""
 longitude: ""
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 This month’s A&A Twitter chat is with  Bergis Jules, Community Lead for Documenting the Now. We’ll be talking about appraising social media content and the potential ethical considerations for collecting social media. You are invited to take part in the conversation, either by answering one our chat questions, sharing other thoughts, or posing your own question to the group.

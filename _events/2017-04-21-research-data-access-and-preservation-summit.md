@@ -12,6 +12,8 @@ email: ""
 latitude: "47.60672"
 longitude: "-122.331057"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Two concurrent workshops will be offered on Friday. Coffee and light refreshments will be available in the morning.

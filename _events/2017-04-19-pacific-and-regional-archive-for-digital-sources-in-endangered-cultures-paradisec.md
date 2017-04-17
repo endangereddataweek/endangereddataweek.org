@@ -12,6 +12,8 @@ email: "thien@unimelb.edu.au"
 latitude: "-37.7963689"
 longitude: "144.9611738"
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 Archive of endangered language data. Please visit!

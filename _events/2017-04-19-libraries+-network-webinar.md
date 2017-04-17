@@ -12,6 +12,8 @@ email: ""
 latitude: ""
 longitude: ""
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 Please plan to join us for an update on the latest activities and lessons learned across our network. Trying to keep up with the current status is a challenge for all of us!

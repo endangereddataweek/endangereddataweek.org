@@ -12,6 +12,8 @@ email: "atickner@msu.edu"
 latitude: "42.730871"
 longitude: "-84.4832076"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Census data provides some of the best longitudinal demographic data available and is used by a wide range of disciplines and research. In this workshop you will learn about how census data is collected and structured, how to access it from a variety of sources, why the census is important and what changes may be coming for census data in current proposed legislation.

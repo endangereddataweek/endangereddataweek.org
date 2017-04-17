@@ -12,6 +12,8 @@ email: "egonzalezblanco@flog.uned.es"
 latitude: "40.4511509"
 longitude: "-3.7377198"
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 Blog and tweet about your work with endangered data as part of the annual Day of Digital Humanities! 

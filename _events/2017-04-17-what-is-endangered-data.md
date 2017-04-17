@@ -12,6 +12,8 @@ email: "jheppler@unomaha.edu"
 latitude: "41.2582497"
 longitude: "-96.0107049"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 What is endangered data and how do we identify it? What are the risks of this data disappearing or being curtailed? Come to this workshop to learn more about endangered, missing, or uncollected data and ways you can help contribute to protecting and preserving data.

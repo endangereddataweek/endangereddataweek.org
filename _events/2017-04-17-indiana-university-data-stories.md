@@ -12,6 +12,8 @@ email: "jvwitten@indiana.edu"
 latitude: "39.171006"
 longitude: "-86.516804"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Librarians and archivists at IU Libraries will tell their data stories and discuss the at-risk data they steward. Interviews will be posted to the IU Libraries Scholarly Communication Blog at go.iu.edu/1v10 and photos of the data stories will be shared on Twitter.

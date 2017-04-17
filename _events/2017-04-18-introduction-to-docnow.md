@@ -12,6 +12,8 @@ email: "lam2c@virginia.edu"
 latitude: "38.0364566"
 longitude: "-78.5053683"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 In honor of Endangered Data Week, join us for an introduction to DocNow, a tool and community developed around supporting the ethical collection, use, and preservation of social media content.  Scholars' Lab staff and fellows will be on hand to provide a brief introduction to the tool, a discussion of data collection, and a consideration of the complex, often fraught, stories that can be told through social media data. All skill levels are welcome and encouraged to attend. 

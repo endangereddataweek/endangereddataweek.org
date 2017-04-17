@@ -12,6 +12,8 @@ email: "teresas@unr.edu"
 latitude: "39.52532"
 longitude: "-119.816652"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Event participants will help to save and preserve important federal web pages and datasets with environmental information.

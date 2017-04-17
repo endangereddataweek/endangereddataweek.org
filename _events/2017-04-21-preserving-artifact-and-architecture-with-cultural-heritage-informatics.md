@@ -12,6 +12,8 @@ email: ""
 latitude: "38.0364566"
 longitude: "-78.5053683"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Presented by Will Rourk and Arin Bennett. 

@@ -12,6 +12,8 @@ email: ""
 latitude: "40.8201966"
 longitude: "-96.7004763"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Week-long digital display/exhibit. This display provides helpful tips on how to rescue your own data based on the amount of time you have available - minutes, hours, days, or weeks.

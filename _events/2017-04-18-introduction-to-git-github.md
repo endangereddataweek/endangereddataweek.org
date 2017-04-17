@@ -12,6 +12,8 @@ email: ""
 latitude: "38.0335529"
 longitude: "-78.5079772"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Git is a program in the class of version control software. Proper use will help you to manage your development. Until recently the software has been a burden to operate but the development of Github.com has changed that. In this workshop we will explore the use of git through the github framework. We will work with the web interface and the desktop client. Please bring your laptops if you want to fully participate. The use of github requires a user account so please set one up prior to arrival at github.com.

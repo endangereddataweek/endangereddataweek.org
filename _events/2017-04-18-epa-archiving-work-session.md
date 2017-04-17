@@ -12,6 +12,8 @@ email: ""
 latitude: "43.651854"
 longitude: "-79.370854"
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 Environmental Data & Governance Initiative (EDGI) is hosting an in-person and remote Archivers meetup to preserve EPA data.

@@ -12,6 +12,8 @@ email: ""
 latitude: "42.730871"
 longitude: "-84.4832076"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Speaker: Jon Frey, Associate Professor, Classical Studies 

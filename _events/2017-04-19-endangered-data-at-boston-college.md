@@ -12,6 +12,8 @@ email: "sarah.melton@bc.edu"
 latitude: "42.3355488"
 longitude: "-71.1684945"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Are you worried about the availability and preservation of publicly accessible data? Boston College will be hosting an event to pull data.gov data & metadata for BC grants from the NEH, IMLS, NEA, and other federal agencies. NEA, NEH, and IMLS data was identified specifically because there are already a number of efforts underway to preserve science and climate change data, but no visible effort to do the same for humanities and performing arts data.

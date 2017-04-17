@@ -12,6 +12,8 @@ email: ""
 latitude: "40.8201966"
 longitude: "-96.7004763"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Learn about the Holland Computing Center (HCC) and how they can help you with your research needs. Presented by HCC.

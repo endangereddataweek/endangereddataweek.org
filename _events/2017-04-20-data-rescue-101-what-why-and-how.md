@@ -12,6 +12,8 @@ email: "lsriglin@ncsu.edu"
 latitude: "35.7875615"
 longitude: "-78.6718993"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Have you been wondering what this hacktivist hubbub about data rescue is all about? Join our resident expert librarians in web archiving for this special Endangered Data Week event and find out! Learn to locate public data sets, what endangered data is, and what organizations are involved in data rescue work. This workshop will introduce students to topics such as web archiving and what it means to archive a website versus a dataset and will provide them with time to get hands on experience. Immediately after, join student groups to get hands-on experience in a data rescue marathon. 

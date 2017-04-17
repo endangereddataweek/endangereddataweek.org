@@ -109,6 +109,8 @@ namespace :import do
       latitude:       @ws[row, @headers[:latitude]],
       longitude:      @ws[row, @headers[:longitude]],
       virtual:        @ws[row, @headers[:virtual_event]],
+      audio_url:      @ws[row, @headers[:audio_url]],
+      video_url:      @ws[row, @headers[:video_url]],
     }
     event.merge!(file_path: filename(event))
     event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))

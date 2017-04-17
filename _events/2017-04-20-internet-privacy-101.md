@@ -12,6 +12,8 @@ email: "kudzia@msu.edu"
 latitude: "42.730871"
 longitude: "-84.4832076"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 In light of recent legislation regarding how our browsing information may be collected by our internet service providers, there has been a lot of talk about internet privacy. If you're hearing about VPNs, browser tracking, and more, but aren't sure what concrete steps you can take, this workshop can help.

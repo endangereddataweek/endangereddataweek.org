@@ -15,6 +15,14 @@ layout: default
 <br /><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a>
 {% endif %}
 
+{% if page.audio_url.size > 0 %}
+  {% include audio.html %}
+{% endif %}
+
+{% if page.video_url.size > 0 %}
+  {% include video.html %}
+{% endif %}
+
 {{ content }}
 
   {% if page.email %}

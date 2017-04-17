@@ -12,6 +12,8 @@ email: ""
 latitude: "47.60672"
 longitude: "-122.331057"
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 RDAP is hosting an Endangered Data Week / Data Refuge dine around. Participants will discuss their roles and interests in at-risk data and hosts will tweet photos of data stories.

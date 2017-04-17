@@ -12,6 +12,8 @@ email: "hanlon@uwm.edu"
 latitude: "43.0767674"
 longitude: "-87.8807049"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 We will be discussing endangered data using two recent articles in the New York Times and Wired as prompts

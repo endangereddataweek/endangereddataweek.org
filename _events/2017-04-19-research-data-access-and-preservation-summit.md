@@ -12,6 +12,8 @@ email: ""
 latitude: "47.60672"
 longitude: "-122.331057"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 RDAP17 offers attendees the unique chance to interact with and learn from practitioners and researchers working in a variety of fields on research data management, access, and preservation issues. The Summit provides a forum for reaching across disciplines and institutions to work on common solutions to issues surrounding research data management. Participants will have multiple opportunities to expand professional networks and acquire practical knowledge and skills that can be applied to their own work and projects.

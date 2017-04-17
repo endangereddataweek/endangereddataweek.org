@@ -12,6 +12,8 @@ email: "jkoivist@umd.edu"
 latitude: "38.9859704"
 longitude: "-76.9450882"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Led by instructors from the University Libraries and the iSchool, this hands-on workshop will provide a basic introduction to digital preservation and the tools used to create sustainable data preservation workflows. Participants are encouraged to bring their own datasets, however instructors will have test data sets that can be used for experimentation.

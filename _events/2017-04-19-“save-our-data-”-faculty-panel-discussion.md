@@ -12,6 +12,8 @@ email: ""
 latitude: "40.9548827"
 longitude: "-76.8847321"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Many of us use data in our research and teaching that may be at risk due to the actions and initiatives of the current administration.  How should we think about access to datasets that we may have taken for granted in the past? The faculty panelists, Vanessa Massaro (Geography) and Kevin Gilmore (Civil and Environmental Engineering), will share how endangered data is crucial to each of their research agendas, how they are working to secure the data they have already, and what it means to be a data activist. 

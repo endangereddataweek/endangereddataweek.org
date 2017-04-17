@@ -12,6 +12,8 @@ email: "actnowchicagoarea@gmail.com"
 latitude: "42.0506909"
 longitude: "-87.6741599"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 We believe in supporting the fundamental role of science in sound government policy. Please help us preserve federal climate and environmental data that's vulnerable under an administration that denies the fact of ongoing climate change.

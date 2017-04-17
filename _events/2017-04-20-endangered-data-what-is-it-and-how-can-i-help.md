@@ -12,6 +12,8 @@ email: ""
 latitude: "40.8201966"
 longitude: "-96.7004763"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 This session will introduce participants to the topic of endangered data from a variety of perspectives as well as provide ideas and opportunities for getting involved in collaborative efforts to rescue, preserve, document the significance of, and keep available public datasets. Addressing the challenges of endangered data requires interest and expertise of all kinds, including gathering information, developing and following technical processes, fostering engagement, telling compelling stories, and more.

@@ -12,6 +12,8 @@ email: "blocke@msu.edu"
 latitude: "42.701848"
 longitude: "-84.4821719"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Spend your lunch break advocating for better data collection policies and for better access to government data!

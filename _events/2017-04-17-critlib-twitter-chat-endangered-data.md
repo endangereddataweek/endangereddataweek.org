@@ -12,6 +12,8 @@ email: ""
 latitude: ""
 longitude: ""
 virtual: "This is a virtual event"
+audio_url: ""
+video_url: ""
 ---
 
 Critlib is short for “critical librarianship,” a movement of library workers dedicated to bringing social justice principles into our work in libraries. We aim to engage in discussion about critical perspectives on library practice. Recognizing that we all work under regimes of white supremacy, capitalism, and a range of structural inequalities, how can our work as librarians intervene in and disrupt those systems?

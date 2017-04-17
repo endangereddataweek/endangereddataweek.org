@@ -12,6 +12,8 @@ email: "kmapes@msu.edu"
 latitude: "42.7276362"
 longitude: "-84.4821527"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Are you looking for a place to establish an academic profile? Would you like to save your research, publications, syllabi, and datasets for long term preservation somewhere safe? Do you want to connect with colleagues from across the Humanities and beyond? Humanities Commons is an expansion of MLA Commons and is open to anyone.

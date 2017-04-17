@@ -12,6 +12,8 @@ email: "jheppler@unomaha.edu"
 latitude: "41.2582497"
 longitude: "-96.0107049"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Join us for a lunch-time conversation with David Drozd, Research Coordinator

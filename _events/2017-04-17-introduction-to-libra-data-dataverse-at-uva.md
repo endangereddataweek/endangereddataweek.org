@@ -12,6 +12,8 @@ email: "ricky@virginia.edu"
 latitude: "38.0335529"
 longitude: "-78.5079772"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 An introduction to the data repository hosted by the UVa Library. Libra Data is an instance of Dataverse, and available to anyone at UVa to host research datasets in order to preserve them and make them available worldwide. Presented by Sherry Lake

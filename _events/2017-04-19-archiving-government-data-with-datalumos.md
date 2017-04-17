@@ -12,6 +12,8 @@ email: ""
 latitude: ""
 longitude: ""
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 You may have heard about the Data Refuge efforts around the country (including Data Rescue events here in Ann Arbor) to preserve federal government produced data. Continuing in that spirit, and during Endangered Data Week, the University of Michigan Libraries is hosting an event focusing on DataLumos, an archive created by ICPSR for preserving government data.

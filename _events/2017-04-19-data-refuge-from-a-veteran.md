@@ -12,6 +12,8 @@ email: "ahrens@iit.edu"
 latitude: "41.833676"
 longitude: "-87.628307"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Come to the Library Learning Center at 2 PM to see a short presentation from a Galvin staff member and Data Rescue veteran.  Find out firsthand what the Data Refuge is and what Data Rescue events are all about, so that you’ll be psyched to join the next one!

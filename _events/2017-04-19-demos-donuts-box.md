@@ -12,6 +12,8 @@ email: ""
 latitude: "40.8201966"
 longitude: "-96.7004763"
 virtual: ""
+audio_url: ""
+video_url: ""
 ---
 
 Stop by for a quick demo of Box, the cloud storage and collaboration platform that is free for all UNL faculty, staff, and students. Presented by UNL ITS.
