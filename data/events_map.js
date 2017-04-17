@@ -578,5 +578,29 @@ var events = {
       "id":  52
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.8847321, 40.9548827]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-19-“save-our-data-”-faculty-panel-discussion/\">“Save Our Data!” Faculty Panel Discussion</a></h2><p><strong>Institution:</strong> Bucknell University</p><p><strong>Location:</strong> Willard Smith Library</p><p><strong>Date:</strong> 2017-04-19 at 12:00:00 PM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  53
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.8826275, 40.9543429]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-save-our-data-hear-our-voices/\">Save Our Data! Hear Our Voices</a></h2><p><strong>Institution:</strong> Bucknell University</p><p><strong>Location:</strong> Bertrand Library Research Help Area</p><p><strong>Date:</strong> 2017-04-21 at 2:00:00 PM</p><p><strong>Contact:</strong> </p>"
+      },
+      "id":  54
+    },
+    
   ]
 };
