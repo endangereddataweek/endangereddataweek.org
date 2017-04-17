@@ -566,5 +566,17 @@ var events = {
       "id":  51
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.370854, 43.651854]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-18-epa-archiving-work-session/\"><i class='fa fa-globe orange'></i> EPA archiving work session</a></h2><p><strong>Institution:</strong> Environmental Data & Governance Initiative (EDGI)</p><p><strong>Location:</strong> Toronto, Ontario</p><p><strong>Date:</strong> 2017-04-18 at 7:00:00 PM</p><p><strong>Contact:</strong> Dawn Walker</p>"
+      },
+      "id":  52
+    },
+    
   ]
 };
