@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "12:00:00 PM"
-excerpt: "Many of us use data in our research and teaching that may be at risk due to the actions and initiatives of the current administration.  How ..."
+excerpt: >
+  Many of us use data in our research and teaching that may be at risk due to the actions and initiatives of the current administration.  How ...
 location_city: "Bucknell University"
 location_physical: "Willard Smith Library"
 title: "“Save Our Data!” Faculty Panel Discussion"

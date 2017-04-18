@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "9:00:00 PM"
-excerpt: "Critlib is short for “critical librarianship,” a movement of library workers dedicated to bringing social justice principles into our work ..."
+excerpt: >
+  Critlib is short for “critical librarianship,” a movement of library workers dedicated to bringing social justice principles into our work ...
 location_city: "#critlib"
 location_physical: "#critlib"
 title: "#critlib Twitter chat: Endangered Data"

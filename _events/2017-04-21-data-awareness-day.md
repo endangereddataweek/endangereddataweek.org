@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "12:30:00 PM"
-excerpt: "As part of Endangered Data Week, we're hosting an afternoon of "data awareness" on Friday, April 21, 2017. As an official government ..."
+excerpt: >
+  As part of Endangered Data Week, we're hosting an afternoon of "data awareness" on Friday, April 21, 2017. As an official government ...
 location_city: "Vassar College"
 location_physical: "Vassar College Main Library"
 title: "Data Awareness Day"

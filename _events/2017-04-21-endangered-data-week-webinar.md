@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "1:00:00 PM"
-excerpt: "The Digital Library Federation’s new working group on Government Records Transparency and Accountability will present a webinar on “the ..."
+excerpt: >
+  The Digital Library Federation’s new working group on Government Records Transparency and Accountability will present a webinar on “the ...
 location_city: "University of Maryland"
 location_physical: "McKeldin Library Room 6103, College Park, Maryland"
 title: "Endangered Data Week - Webinar"

@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "12:00:00 PM"
-excerpt: "Git is a program in the class of version control software. Proper use will help you to manage your development. Until recently the software ..."
+excerpt: >
+  Git is a program in the class of version control software. Proper use will help you to manage your development. Until recently the software ...
 location_city: "University of Virginia"
 location_physical: "Brown Science and Engineering Library, Room 133, Charlottesville, VA"
 title: "Introduction to Git/Github"

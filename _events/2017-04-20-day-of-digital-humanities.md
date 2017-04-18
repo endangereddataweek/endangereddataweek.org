@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "9:00:00 AM"
-excerpt: "Blog and tweet about your work with endangered data as part of the annual Day of Digital Humanities..."
+excerpt: >
+  Blog and tweet about your work with endangered data as part of the annual Day of Digital Humanities...
 location_city: " CenterNet and LINHD"
 location_physical: "UNED Madrid, Spain "
 title: "Day of Digital Humanities"

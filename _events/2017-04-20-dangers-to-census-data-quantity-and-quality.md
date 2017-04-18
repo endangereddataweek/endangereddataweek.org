@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "12:00:00 PM"
-excerpt: "Join us for a lunch-time conversation with David Drozd, Research Coordinator..."
+excerpt: >
+  Join us for a lunch-time conversation with David Drozd, Research Coordinator...
 location_city: "University of Nebraska at Omaha"
 location_physical: "Criss Library, rm. 249"
 title: "Dangers to Census Data Quantity and Quality"

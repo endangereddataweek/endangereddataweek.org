@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "7:00:00 PM"
-excerpt: "Environmental Data & Governance Initiative (EDGI) is hosting an in-person and remote Archivers meetup to preserve EPA data..."
+excerpt: >
+  Environmental Data & Governance Initiative (EDGI) is hosting an in-person and remote Archivers meetup to preserve EPA data...
 location_city: "Environmental Data & Governance Initiative (EDGI)"
 location_physical: "Toronto, Ontario"
 title: "EPA archiving work session"

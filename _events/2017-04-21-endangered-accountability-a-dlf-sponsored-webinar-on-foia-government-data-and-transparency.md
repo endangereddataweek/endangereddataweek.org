@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "1:00:00 PM"
-excerpt: "Join members of the Digital Library Federation's new working group on Government Records Transparency and Accountability for a live ..."
+excerpt: >
+  Join members of the Digital Library Federation's new working group on Government Records Transparency and Accountability for a live ...
 location_city: "Digital Library Federation"
 location_physical: "New York, NY"
 title: "Endangered Accountability: A DLF-Sponsored Webinar on FOIA, Government Data, and Transparency"

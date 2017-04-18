@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: ""
-excerpt: "This month’s A&A Twitter chat is with  Bergis Jules, Community Lead for Documenting the Now. We’ll be talking about appraising social media ..."
+excerpt: >
+  This month’s A&A Twitter chat is with  Bergis Jules, Community Lead for Documenting the Now. We’ll be talking about appraising social media ...
 location_city: "SAA Acquisitions and Appraisal Section"
 location_physical: "SAA Acquisitions and Appraisal Section"
 title: "Appraising Social Media Content - A Twitter Chat"

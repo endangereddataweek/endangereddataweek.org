@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "4:00:00 PM"
-excerpt: "Have you been wondering what this hacktivist hubbub about data rescue is all about? Join our resident expert librarians in web archiving for..."
+excerpt: >
+  Have you been wondering what this hacktivist hubbub about data rescue is all about? Join our resident expert librarians in web archiving for...
 location_city: "NCSU Libraries"
 location_physical: "Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695"
 title: "Data Rescue 101: What, Why, and How?"

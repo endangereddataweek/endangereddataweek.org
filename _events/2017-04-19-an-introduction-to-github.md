@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "11:00:00 AM"
-excerpt: "During this workshop, we will explore the ways that Github can be used for creating websites, storing data, and working with collaborators. ..."
+excerpt: >
+  During this workshop, we will explore the ways that Github can be used for creating websites, storing data, and working with collaborators. ...
 location_city: "University of Nebraska at Omaha"
 location_physical: "Criss Library, rm. 112"
 title: "An Introduction to Github"

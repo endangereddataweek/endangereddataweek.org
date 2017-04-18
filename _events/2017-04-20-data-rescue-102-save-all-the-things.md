@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "5:00:00 PM"
-excerpt: "It's Endangered Data Week at NC State, and we're coming together to save all the data! Join student groups and librarians to put your data ..."
+excerpt: >
+  It's Endangered Data Week at NC State, and we're coming together to save all the data! Join student groups and librarians to put your data ...
 location_city: "NCSU Libraries"
 location_physical: "Fishbowl Forum, 2 W Broughton Dr, Raleigh, NC 27695"
 title: "Data Rescue 102: Save All the Things"

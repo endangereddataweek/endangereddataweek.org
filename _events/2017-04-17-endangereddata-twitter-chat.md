@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "3:00:00 PM"
-excerpt: "Mark your calendar for Monday at 3pm Eastern and join us for a Twitter chat to kick off Endangered Data Week. Just follow @CLIRDLF and use ..."
+excerpt: >
+  Mark your calendar for Monday at 3pm Eastern and join us for a Twitter chat to kick off Endangered Data Week. Just follow @CLIRDLF and use ...
 location_city: "Digital Library Federation"
 location_physical: "Washington, DC"
 title: "#EndangeredData Twitter chat"

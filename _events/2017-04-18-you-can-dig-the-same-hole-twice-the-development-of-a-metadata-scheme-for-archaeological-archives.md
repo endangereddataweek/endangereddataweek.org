@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "4:00:00 PM"
-excerpt: "Speaker: Jon Frey, Associate Professor, Classical Studies..."
+excerpt: >
+  Speaker: Jon Frey, Associate Professor, Classical Studies...
 location_city: "Michigan State University"
 location_physical: "REAL Classroom (Main Library: 3 West)"
 title: "You Can Dig the Same Hole Twice: The Development of a Metadata Scheme for Archaeological Archives"

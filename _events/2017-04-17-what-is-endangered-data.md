@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "10:15:00 AM"
-excerpt: "What is endangered data and how do we identify it? What are the risks of this data disappearing or being curtailed? Come to this workshop to..."
+excerpt: >
+  What is endangered data and how do we identify it? What are the risks of this data disappearing or being curtailed? Come to this workshop to...
 location_city: "University of Nebraska at Omaha"
 location_physical: "Criss Library, rm. 232"
 title: "What is Endangered Data?"

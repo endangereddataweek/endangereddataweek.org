@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "11:00:00 AM"
-excerpt: "We often want data in a tidy format. While this often makes for a convenient and human-readable framework, data doesn't always come nicely ..."
+excerpt: >
+  We often want data in a tidy format. While this often makes for a convenient and human-readable framework, data doesn't always come nicely ...
 location_city: "University of Nebraska at Omaha"
 location_physical: "Criss Library 232"
 title: "Web Scraping with R"

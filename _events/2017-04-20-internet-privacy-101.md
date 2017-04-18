@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "9:30:00 AM"
-excerpt: "In light of recent legislation regarding how our browsing information may be collected by our internet service providers, there has been a ..."
+excerpt: >
+  In light of recent legislation regarding how our browsing information may be collected by our internet service providers, there has been a ...
 location_city: "Michigan State University"
 location_physical: "Library, Beaumont Instruction Room (2West)"
 title: "Internet Privacy 101"

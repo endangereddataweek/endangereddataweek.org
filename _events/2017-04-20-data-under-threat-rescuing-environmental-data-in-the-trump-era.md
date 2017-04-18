@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "12:00:00 PM"
-excerpt: "UCSC Sociology professor Lindsey Dillon will discuss her recent experience as a coordinator of a network of academics and non-profits ..."
+excerpt: >
+  UCSC Sociology professor Lindsey Dillon will discuss her recent experience as a coordinator of a network of academics and non-profits ...
 location_city: "University of California, Santa Cruz"
 location_physical: "McHenry Library, 2nd Floor Instruction & Outreach Alcove"
 title: "Data Under Threat: Rescuing Environmental Data in the Trump Era"

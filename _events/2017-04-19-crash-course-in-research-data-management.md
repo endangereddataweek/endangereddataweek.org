@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "9:30:00 AM"
-excerpt: "Have you ever lost a project file? Been unable to find the most recent version of a document? Suffered hard drive failure or had your laptop..."
+excerpt: >
+  Have you ever lost a project file? Been unable to find the most recent version of a document? Suffered hard drive failure or had your laptop...
 location_city: "Michigan State University"
 location_physical: "Library 3 West Instruction Room"
 title: "Crash Course in Research Data Management"

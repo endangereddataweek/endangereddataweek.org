@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "12:00:00 PM"
-excerpt: "Census data provides some of the best longitudinal demographic data available and is used by a wide range of disciplines and research. In ..."
+excerpt: >
+  Census data provides some of the best longitudinal demographic data available and is used by a wide range of disciplines and research. In ...
 location_city: "Michigan State University"
 location_physical: "Beaumont Instruction Room (Main Library: 2 West)"
 title: "Census Data: Access, Importance, and the Future"

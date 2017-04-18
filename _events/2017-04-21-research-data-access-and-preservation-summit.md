@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "8:30:00 AM"
-excerpt: "Two concurrent workshops will be offered on Friday. Coffee and light refreshments will be available in the morning..."
+excerpt: >
+  Two concurrent workshops will be offered on Friday. Coffee and light refreshments will be available in the morning...
 location_city: "Seattle, WA"
 location_physical: "Renaissance Seattle"
 title: "Research Data Access and Preservation Summit"

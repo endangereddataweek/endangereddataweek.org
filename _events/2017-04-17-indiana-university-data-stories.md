@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "10:00:00 AM"
-excerpt: "Librarians and archivists at IU Libraries will tell their data stories and discuss the at-risk data they steward. Interviews will be posted ..."
+excerpt: >
+  Librarians and archivists at IU Libraries will tell their data stories and discuss the at-risk data they steward. Interviews will be posted ...
 location_city: "Indiana University Libraries"
 location_physical: "Wells Library Scholars Commons"
 title: "Indiana University Data Stories"

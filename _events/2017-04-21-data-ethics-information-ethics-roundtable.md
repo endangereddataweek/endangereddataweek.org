@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "8:30:00 AM"
-excerpt: "In our knowledge society, our networked selves continually create and are created through data. In light of the ubiquity of data in  the ..."
+excerpt: >
+  In our knowledge society, our networked selves continually create and are created through data. In light of the ubiquity of data in  the ...
 location_city: "University of Illinois at Urbana-Champaign"
 location_physical: "Champaign, IL"
 title: "Data & Ethics: Information Ethics Roundtable"

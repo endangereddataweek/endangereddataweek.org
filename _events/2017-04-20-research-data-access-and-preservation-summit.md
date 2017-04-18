@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "8:00:00 AM"
-excerpt: "RDAP17 offers attendees the unique chance to interact with and learn from practitioners and researchers working in a variety of fields on ..."
+excerpt: >
+  RDAP17 offers attendees the unique chance to interact with and learn from practitioners and researchers working in a variety of fields on ...
 location_city: "Seattle, WA"
 location_physical: "Renaissance Seattle"
 title: "Research Data Access and Preservation Summit"

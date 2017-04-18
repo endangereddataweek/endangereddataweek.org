@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "3:00:00 PM"
-excerpt: "Are you worried about the availability and preservation of publicly accessible data? Boston College will be hosting an event to pull data...."
+excerpt: >
+  Are you worried about the availability and preservation of publicly accessible data? Boston College will be hosting an event to pull data....
 location_city: "Boston College"
 location_physical: "Boston, Massachusetts"
 title: "Endangered Data at Boston College"

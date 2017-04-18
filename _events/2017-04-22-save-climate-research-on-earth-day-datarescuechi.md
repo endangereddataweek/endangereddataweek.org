@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-22"
 time: "10:00:00 AM"
-excerpt: "We believe in supporting the fundamental role of science in sound government policy. Please help us preserve federal climate and ..."
+excerpt: >
+  We believe in supporting the fundamental role of science in sound government policy. Please help us preserve federal climate and ...
 location_city: "Northwestern University"
 location_physical: "Knight Lab in Fisk Hall, 1845 Sheridan Rd, Evanston, IL 60208"
 title: "Save Climate Research on Earth Day #DataRescueCHI"

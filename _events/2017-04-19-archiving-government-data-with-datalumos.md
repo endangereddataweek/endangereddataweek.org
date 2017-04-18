@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "3:00:00 PM"
-excerpt: "You may have heard about the Data Refuge efforts around the country (including Data Rescue events here in Ann Arbor) to preserve federal ..."
+excerpt: >
+  You may have heard about the Data Refuge efforts around the country (including Data Rescue events here in Ann Arbor) to preserve federal ...
 location_city: "University of Michigan Libraries"
 location_physical: "Clark Library Instructional Space, 240 Hatcher Graduate Library  "
 title: "Archiving Government Data with DataLumos"

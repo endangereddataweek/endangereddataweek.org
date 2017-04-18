@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "11:30:00 AM"
-excerpt: "Are you looking for a place to establish an academic profile? Would you like to save your research, publications, syllabi, and datasets for ..."
+excerpt: >
+  Are you looking for a place to establish an academic profile? Would you like to save your research, publications, syllabi, and datasets for ...
 location_city: "Michigan State University"
 location_physical: "Library 3W"
 title: "Building a Scholarly Presence with Humanities Commons"

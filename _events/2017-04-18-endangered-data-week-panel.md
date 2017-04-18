@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "12:00:00 PM"
-excerpt: "Hosted at the Maryland Institute for Technology in the Humanities, this panel discussion will feature scholarly representatives from a ..."
+excerpt: >
+  Hosted at the Maryland Institute for Technology in the Humanities, this panel discussion will feature scholarly representatives from a ...
 location_city: "University of Maryland"
 location_physical: "Maryland Institute for Technology in the Humanities, College Park, Maryland"
 title: "Endangered Data Week - Panel"

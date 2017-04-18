@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "10:30:00 AM"
-excerpt: "Presented by Will Rourk and Arin Bennett..."
+excerpt: >
+  Presented by Will Rourk and Arin Bennett...
 location_city: "University of Virginia"
 location_physical: "Clemons Library VizLounge, Charlottesville, VA"
 title: "Preserving Artifact and Architecture with Cultural Heritage Informatics"

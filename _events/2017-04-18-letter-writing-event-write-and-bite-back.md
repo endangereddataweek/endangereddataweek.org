@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "12:00:00 PM"
-excerpt: "Spend your lunch break advocating for better data collection policies and for better access to government data..."
+excerpt: >
+  Spend your lunch break advocating for better data collection policies and for better access to government data...
 location_city: "Michigan State University"
 location_physical: "LEADR - 112 Old Horticulture"
 title: "Letter Writing Event - Write and Bite Back"

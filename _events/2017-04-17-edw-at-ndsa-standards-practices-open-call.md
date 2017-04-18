@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "1:00:00 PM"
-excerpt: "Join us for this special Endangered Data Week open call of the NDSA's Standards and Practices working group..."
+excerpt: >
+  Join us for this special Endangered Data Week open call of the NDSA's Standards and Practices working group...
 location_city: "National Digital Stewardship Alliance"
 location_physical: "Washington, DC"
 title: "EDW at NDSA: Standards & Practices open call"
@@ -12,7 +13,7 @@ email: "collie@mail.lib.msu.edu"
 latitude: "38.9040754"
 longitude: "-77.0392173"
 virtual: "This is a virtual event"
-audio_url: "http://wordpress.clir.org/wp-content/uploads/2017/04/NDSA_Standards_and_Practices_EDW_2017_Call.mp3"
+audio_url: ""
 video_url: ""
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "10:30:00 AM"
-excerpt: "Sometimes data we find on the internet isn’t formatted for downloading and easy importing into our statistical program of choice. It’s ..."
+excerpt: >
+  Sometimes data we find on the internet isn’t formatted for downloading and easy importing into our statistical program of choice. It’s ...
 location_city: "University of Virginia"
 location_physical: "Brown Science and Engineering Library, Room 133"
 title: "Web Scraping in R"

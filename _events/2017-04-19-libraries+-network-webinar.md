@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-19"
 time: "2:00:00 PM"
-excerpt: "Please plan to join us for an update on the latest activities and lessons learned across our network. Trying to keep up with the current ..."
+excerpt: >
+  Please plan to join us for an update on the latest activities and lessons learned across our network. Trying to keep up with the current ...
 location_city: "DataRefuge + ARL"
 location_physical: "online - please register"
 title: "Libraries+ Network webinar"

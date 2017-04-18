@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-18"
 time: "2:00:00 PM"
-excerpt: "In honor of Endangered Data Week, join us for an introduction to DocNow, a tool and community developed around supporting the ethical ..."
+excerpt: >
+  In honor of Endangered Data Week, join us for an introduction to DocNow, a tool and community developed around supporting the ethical ...
 location_city: "Scholars' Lab, University of Virginia Library"
 location_physical: "Alderman Library, Room 421"
 title: "Introduction to DocNow"

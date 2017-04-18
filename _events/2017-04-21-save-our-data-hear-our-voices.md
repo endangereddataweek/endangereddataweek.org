@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "2:00:00 PM"
-excerpt: "Let our elected representatives know we care about access to government data sets. Write them a postcard, letter, or email and make your ..."
+excerpt: >
+  Let our elected representatives know we care about access to government data sets. Write them a postcard, letter, or email and make your ...
 location_city: "Bucknell University"
 location_physical: "Bertrand Library Research Help Area"
 title: "Save Our Data! Hear Our Voices"

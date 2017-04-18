@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "3:00:00 PM"
-excerpt: "Led by instructors from the University Libraries and the iSchool, this hands-on workshop will provide a basic introduction to digital ..."
+excerpt: >
+  Led by instructors from the University Libraries and the iSchool, this hands-on workshop will provide a basic introduction to digital ...
 location_city: "University of Maryland"
 location_physical: "McKeldin Library Room 6107, College Park, Maryland"
 title: "Endangered Data Week - Workshop"

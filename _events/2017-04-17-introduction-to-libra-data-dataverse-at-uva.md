@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-17"
 time: "11:00:00 AM"
-excerpt: "An introduction to the data repository hosted by the UVa Library. Libra Data is an instance of Dataverse, and available to anyone at UVa to ..."
+excerpt: >
+  An introduction to the data repository hosted by the UVa Library. Libra Data is an instance of Dataverse, and available to anyone at UVa to ...
 location_city: "University of Virginia"
 location_physical: "Brown Science & Engineering Library, Room 133"
 title: "Introduction to Libra Data (Dataverse at UVa)"

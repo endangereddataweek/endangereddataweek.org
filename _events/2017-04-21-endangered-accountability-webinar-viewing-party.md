@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "12:00:00 PM"
-excerpt: "Join members of the Digital Library Federation's new working group on Government Records Transparency and Accountability for a live ..."
+excerpt: >
+  Join members of the Digital Library Federation's new working group on Government Records Transparency and Accountability for a live ...
 location_city: "University Libraries, University of Nebraska Lincoln"
 location_physical: "Love Library South, Room 224"
 title: "Endangered Accountability - webinar viewing party"

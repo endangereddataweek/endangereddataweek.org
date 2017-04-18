@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "2:00:00 PM"
-excerpt: "This session will introduce participants to the topic of endangered data from a variety of perspectives as well as provide ideas and ..."
+excerpt: >
+  This session will introduce participants to the topic of endangered data from a variety of perspectives as well as provide ideas and ...
 location_city: "University Libraries, University of Nebraska-Lincoln"
 location_physical: "Love Library South, Room 221"
 title: "Endangered Data: What is it and how can I help? "

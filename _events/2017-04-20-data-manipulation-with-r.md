@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-20"
 time: "2:00:00 PM"
-excerpt: "This hands-on workshop will introduce the basics of tidying data in R. Rather than run the risk of research questions being wedged into a ..."
+excerpt: >
+  This hands-on workshop will introduce the basics of tidying data in R. Rather than run the risk of research questions being wedged into a ...
 location_city: "University of Nebraska at Omaha"
 location_physical: "Criss Library, rm. 112"
 title: "Data Manipulation with R"

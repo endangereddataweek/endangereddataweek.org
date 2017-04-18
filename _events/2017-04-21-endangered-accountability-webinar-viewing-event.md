@@ -2,7 +2,8 @@
 layout: post
 date: "2017-04-21"
 time: "1:00:00 PM"
-excerpt: "We’ll be airing this webinar in, with light refreshments, so come join us. From the description: “Join members of the Digital Library ..."
+excerpt: >
+  We’ll be airing this webinar in, with light refreshments, so come join us. From the description: “Join members of the Digital Library ...
 location_city: "University of Virginia"
 location_physical: "Brown Science & Engineering Library, Room 133, Charlottesville, VA"
 title: "Endangered Accountability - webinar viewing event"
