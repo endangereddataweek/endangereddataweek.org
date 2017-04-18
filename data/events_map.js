@@ -602,5 +602,17 @@ var events = {
       "id":  54
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.897343, 41.686047]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-data-awareness-day/\">Data Awareness Day</a></h2><p><strong>Institution:</strong> Vassar College</p><p><strong>Location:</strong> Vassar College Main Library</p><p><strong>Date:</strong> 2017-04-21 at 12:30:00 PM</p><p><strong>Contact:</strong> Rachel Finn</p>"
+      },
+      "id":  56
+    },
+    
   ]
 };
