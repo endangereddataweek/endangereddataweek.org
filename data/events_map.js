@@ -614,5 +614,17 @@ var events = {
       "id":  56
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.1684, 40.738894]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-fruits-of-failure-preserving-the-records-of-failed-entrepreneurial-ventures/\">Fruits of Failure: Preserving the Records of Failed Entrepreneurial Ventures</a></h2><p><strong>Institution:</strong> Mid-Atlantic Regional Archives Conference (MARAC)</p><p><strong>Location:</strong> Robert Treat Best Western, Newark, NJ</p><p><strong>Date:</strong> 2017-04-21 at 9:00:00 AM</p><p><strong>Contact:</strong> David Kirsch, University of Maryland</p>"
+      },
+      "id":  57
+    },
+    
   ]
 };
