@@ -127,7 +127,7 @@ namespace :import do
       feature = event_hash(row)
 
       # check if a location has been created
-      if (feature[:longitude] == '' || feature[:latitude] == '') && @ws[row, @headers[:geocode]].length == 0
+      if (feature[:longitude] == '' || feature[:latitude] == '') && @ws[row, @headers[:geocode]].length != 0
         address = "#{@ws[row, @headers[:institution]]}, #{@ws[row, @headers[:location_]]}"
         puts "Looking up #{address}".yellow
         result = geocode(address)
