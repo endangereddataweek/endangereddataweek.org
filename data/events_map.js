@@ -626,5 +626,17 @@ var events = {
       "id":  57
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.991437, 40.695102]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2017-04-21-securing-government-humanities-social-science-data/\">Securing Government Humanities/Social Science Data</a></h2><p><strong>Institution:</strong> Social Science Research Council</p><p><strong>Location:</strong> New York City</p><p><strong>Date:</strong> 2017-04-21 at 10:00:00 AM</p><p><strong>Contact:</strong> Jason Rhody</p>"
+      },
+      "id":  58
+    },
+    
   ]
 };
