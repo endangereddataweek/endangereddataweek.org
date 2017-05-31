@@ -21,4 +21,4 @@ UCSC Sociology professor Lindsey Dillon will discuss her recent experience as a 
 
 Discussion will follow the presentation. Bring your lunch, questions, observations and experiences. Learn about data rescue efforts such as the Environmental Data & Governance Initiative (EDGI), the End of Term Web Archive, #DataRescue, DataRefuge, DataLumos, and Open Access Week.
 
-[Slides from this event are available](https://github.com/endangereddataweek/resources/blob/master/slide-decks/EnvironmentalDataActivismUnderTheTrumpAdministration-UCSC.pptx).
+[Download slides from this event](https://github.com/endangereddataweek/resources/raw/master/slide-decks/EnvironmentalDataActivismUnderTheTrumpAdministration-UCSC.pptx).
