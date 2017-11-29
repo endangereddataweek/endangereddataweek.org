@@ -1,0 +1,15 @@
+---
+layout: default
+title: Past Events
+permalink: /archives/
+---
+{% assign groups = site.events | group_by: "category" | sort: "name" | reverse %}
+
+{% for group in groups %}
+    <h2>{{ group.name }}</h2>
+    <ul>
+    {% for item in group.items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {%endfor%}
+    </ul>
+{%endfor%}

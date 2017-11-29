@@ -19,6 +19,10 @@ Dotenv.load
 # task default: 'import:events'
 task default: 'import:all'
 
+# get the year for the next event from the _config file
+config = YAML.load_file('_config.yml')
+@current_year = Chronic.parse(config['date']).strftime('%Y')
+
 desc 'Clean _events directory'
 task :clean do
   FileUtils.rm_f Dir.glob('_events/*')
@@ -53,17 +57,26 @@ namespace :import do
         title: @ws[row, @headers[:title_of_your_event]]
       }
 
-      @event.merge!(file_path: filename(@event))
-      @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
+      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
+      t = (event_year == @current_year)
 
-      if(@ws[row, @headers[:virtual_event]].length > 0)
-        @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:institution]]}"
+      puts "#{@event['date']} #{event_year} #{t}".red
+
+      if( event_year == @current_year )
+        @event.merge!(file_path: filename(@event))
+        @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
+
+        if(@ws[row, @headers[:virtual_event]].length > 0)
+          @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:institution]]}"
+        end
+        @event.merge!(link: link_title(@event))
+        @events << @event
       end
-      @event.merge!(link: link_title(@event))
-      @events << @event
-      puts "Writing events for table view'".green
-      File.open('data/events_table.json', 'w'){ |f| f.write(@events.to_json) }
+
     end
+
+    puts "Writing events for table view'".green
+    File.open('data/events_table.json', 'w'){ |f| f.write(@events.to_json) }
   end
 
   def link_title(event)
@@ -95,6 +108,7 @@ namespace :import do
     @headers ||= set_headers
     event = {
       id: row,
+      category:       Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y'),
       title:          @ws[row, @headers[:title_of_your_event]],
       date:           Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y-%m-%d'),
       institution:    @ws[row, @headers[:institution]],
@@ -123,6 +137,8 @@ namespace :import do
     system('clear')
     @features = []
 
+    current_year = Date.today.year
+
     (2..@ws.num_rows).each do |row|
       feature = event_hash(row)
 
@@ -140,9 +156,12 @@ namespace :import do
         puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
       end
 
-      puts "Adding #{feature[:title]}".yellow
-
-      @features << feature unless feature[:latitude].to_s.length == 0
+      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
+      puts "#{event_year == @current_year}".red
+      if( event_year == @current_year )
+        puts "Adding #{feature[:title]}".yellow
+        @features << feature unless feature[:latitude].to_s.length == 0
+      end
     end
 
     puts 'Rendering JavaScript map data'.green
