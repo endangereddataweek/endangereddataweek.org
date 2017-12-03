@@ -5,7 +5,7 @@ time: "2:00:00 PM"
 excerpt: >
   Federal, state, and local governments are increasingly sharing datasets to improve transparency and allow scholars, businesses, and citizens...
 location_city: "Michigan State University"
-location_physical: "Digital Scholarship Lab - MSU Library 2W"
+location_physical: "Michigan State University Library - Digital Scholarship Lab (2W)"
 title: "Organizing and Using Government Data"
 author: "Brandon Locke"
 website: ""

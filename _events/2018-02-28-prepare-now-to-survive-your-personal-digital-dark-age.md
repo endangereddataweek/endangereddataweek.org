@@ -5,7 +5,7 @@ time: "2:00:00 PM"
 excerpt: >
   All digital files are vulnerable to decay and loss. Sometimes a hard drive fails or a file becomes corrupted. But we can also lose files due...
 location_city: "Michigan State University"
-location_physical: "Digital Scholarship Lab - MSU Library 2W"
+location_physical: "Michigan State University Library - Digital Scholarship Lab (2W)"
 title: "Prepare Now to Survive Your Personal Digital Dark Age"
 author: "Scout Calvert"
 website: ""

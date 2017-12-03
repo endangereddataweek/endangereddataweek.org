@@ -5,7 +5,7 @@ time: "3:00:00 PM"
 excerpt: >
   Census data provides some of the best longitudinal demographic data available and is used by a wide range of disciplines and research. In ...
 location_city: "Michigan State University"
-location_physical: "Digital Scholarship Lab - MSU Library 2W"
+location_physical: "Michigan State Library - Digital Scholarship Lab (2W)"
 title: "Census Data: Access, Importance, and the Future"
 author: "Amanda Tickner"
 website: ""
