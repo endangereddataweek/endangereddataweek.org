@@ -24,10 +24,10 @@ online: https://www.uberconference.com/clir-dlf (use Chrome for VOIP)
 and/or by telephone: 202-750-4186
 
 <ul>
-  <li><a href="https://www.diglib.org/wp-content/uploads/2017/04/DLF-EDW-Webinar.mp3">Audio of the Meeting</a></li>
+  <li><a href="https://www.diglib.org/wp-content/uploads/sites/3/2017/04/DLF-EDW-Webinar.mp3">Audio of the Meeting</a></li>
   <li><a href="https://docs.google.com/presentation/d/1w8sQDc9go6X-vr1E-_jqiH8LDl0tM2nb398vzJWKLzY/pub?start=false&loop=false&delayms=3000&slide=id.p">Alex Howard's Slides</a></li>
-  <li><a href="https://www.diglib.org/wp-content/uploads/2017/04/DLF-EDW-Webinar-OGIS.pptx">OGIS</a></li>
-  <li><a href="https://www.diglib.org/wp-content/uploads/2017/04/DLF-EDW-Webinar-Denice-Ross.pptx">Denice Ross</a></li>
+  <li><a href="https://www.diglib.org/wp-content/uploads/sites/3/2017/04/DLF-EDW-Webinar-OGIS.pptx">OGIS</a></li>
+  <li><a href="https://www.diglib.org/wp-content/uploads/sites/3/2017/04/DLF-EDW-Webinar-Denice-Ross.pptx">Denice Ross</a></li>
 </ul>
 
 
