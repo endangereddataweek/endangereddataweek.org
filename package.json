@@ -21,7 +21,7 @@
     "leaflet.markercluster": "^1.0.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.14.0",
+    "browser-sync": "^2.19.0",
     "dotenv": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
@@ -30,7 +30,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
-    "node-sass": "^3.10.1",
+    "node-sass": "^3.13.1",
     "pump": "^1.0.1"
   }
 }

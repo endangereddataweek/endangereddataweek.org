@@ -3,9 +3,11 @@ source "https://rubygems.org"
 
 gem "jekyll"
 
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-paginate"
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-paginate"
+end
 
 gem "google_drive"
 gem "google-api-client"
@@ -17,3 +19,6 @@ gem "rake"
 
 gem 'html-proofer'
 gem 'ra11y'
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

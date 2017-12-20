@@ -13,6 +13,7 @@ GEM
     colored (1.2)
     colorize (0.8.1)
     concurrent-ruby (1.0.5)
+    concurrent-ruby (1.0.5-java)
     declarative (0.0.9)
     declarative-option (0.1.0)
     dotenv (2.2.0)
@@ -21,6 +22,9 @@ GEM
     faraday (0.12.0.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
+    ffi (1.9.18-java)
+    ffi (1.9.18-x64-mingw32)
+    ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
     geocoder (1.4.3)
     google-api-client (0.11.1)
@@ -94,6 +98,11 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
+    nokogiri (1.7.1-java)
+    nokogiri (1.7.1-x64-mingw32)
+      mini_portile2 (~> 2.1.0)
+    nokogiri (1.7.1-x86-mingw32)
+      mini_portile2 (~> 2.1.0)
     os (0.9.6)
     parallel (1.11.1)
     pathutil (0.14.0)
@@ -120,15 +129,22 @@ GEM
       jwt (~> 1.5)
       multi_json (~> 1.10)
     thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2017.3)
+      tzinfo (>= 1.0.0)
     uber (0.1.0)
     yell (2.0.7)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   chronic
@@ -144,6 +160,7 @@ DEPENDENCIES
   jekyll-sitemap
   ra11y
   rake
+  tzinfo-data
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
