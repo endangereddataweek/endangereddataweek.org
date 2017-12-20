@@ -12,7 +12,7 @@ website: "http://datainnovation.org/2018/02/what-can-be-done-to-protect-endanger
 email: "info@datainnovation.org"
 latitude: ""
 longitude: ""
-virtual: ""
+virtual: "This is a virtual event"
 audio_url: ""
 video_url: ""
 category: 2018
