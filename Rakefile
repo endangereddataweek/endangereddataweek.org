@@ -23,6 +23,20 @@ task default: 'import:all'
 config = YAML.load_file('_config.yml')
 @current_year = Chronic.parse(config['date']).strftime('%Y')
 
+Geocoder.configure(
+  timeout: 2,
+
+  :google => {
+    api_key: ENV.fetch('MAP_KEY_GOOGLE', ''),
+    use_https: true,
+  },
+
+  :bing => {
+    api_key: ENV.fetch('MAP_KEY_BING', '')
+  }
+
+)
+
 desc 'Clean _events directory'
 task :clean do
   FileUtils.rm_f Dir.glob('_events/*')
@@ -60,7 +74,7 @@ namespace :import do
       event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
       t = (event_year == @current_year)
 
-      puts "#{@event['date']} #{event_year} #{t}".red
+      # puts "#{@event['date']} #{event_year} #{t}".red
 
       if( event_year == @current_year )
         @event.merge!(file_path: filename(@event))
@@ -143,7 +157,7 @@ namespace :import do
       feature = event_hash(row)
 
       # check if a location has been created
-      if (feature[:longitude] == '' || feature[:latitude] == '') && @ws[row, @headers[:geocode]].length != 0
+      if (feature[:longitude] == '' && @ws[row, @headers[:geocode]] != 0)
         address = "#{@ws[row, @headers[:institution]]}, #{@ws[row, @headers[:location_]]}"
         puts "Looking up #{address}".yellow
         result = geocode(address)
@@ -157,7 +171,7 @@ namespace :import do
       end
 
       event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
-      puts "#{event_year == @current_year}".red
+      # puts "#{event_year == @current_year}".red
       if( event_year == @current_year )
         puts "Adding #{feature[:title]}".yellow
         @features << feature unless feature[:latitude].to_s.length == 0
