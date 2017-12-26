@@ -40,6 +40,6 @@ exclude: ['templates','node_modules', '.gitignore', '.env', 'Gemfile*', 'gulpfil
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
