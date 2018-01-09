@@ -86,5 +86,17 @@ var events = {
       "id":  65
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.5401764, 42.8166152]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-environmental-justice-in-upstate-ny/\">Environmental Justice in Upstate NY</a></h2><p><strong>Institution:</strong> Colgate University</p><p><strong>Location:</strong> Palace Theater, Hamilton, NY</p><p><strong>Date:</strong> 2018-02-27 at 6:30:00 PM</p><p><strong>Contact:</strong> Joshua Finnell</p>"
+      },
+      "id":  66
+    },
+    
   ]
 };
