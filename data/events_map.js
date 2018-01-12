@@ -98,5 +98,53 @@ var events = {
       "id":  66
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9450882, 38.9859704]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-endangered-data-interdisciplinary-panel-practitioner-lightning-talks/\">Endangered Data: Interdisciplinary Panel & Practitioner Lightning Talks</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> McKeldin Library</p><p><strong>Date:</strong> 2018-02-26 at </p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  67
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9450882, 38.9859704]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-endangered-data-practices-workshop/\">Endangered Data Practices: Workshop</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> McKeldin Library</p><p><strong>Date:</strong> 2018-02-28 at </p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  68
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.94181300000001, 38.9881646]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-endangered-data-fishbowl/\">Endangered Data Fishbowl</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> MITH (Hornbake Library)</p><p><strong>Date:</strong> 2018-03-01 at </p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  69
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9381739, 38.9814534]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-endangered-data-happy-hour/\">Endangered Data Happy Hour</a></h2><p><strong>Institution:</strong> University of Maryland</p><p><strong>Location:</strong> MilkBoy ArtHouse</p><p><strong>Date:</strong> 2018-03-02 at </p><p><strong>Contact:</strong> Joseph Koivisto</p>"
+      },
+      "id":  70
+    },
+    
   ]
 };
