@@ -146,5 +146,17 @@ var events = {
       "id":  70
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.070234, 42.356942]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-03-endangered-data-panel-discussion/\"><i class='fa fa-globe orange'></i> Endangered Data Panel Discussion</a></h2><p><strong>Institution:</strong> Wayne State University</p><p><strong>Location:</strong> Kresge Library, Wayne State University, Detroit, MI, US and Virtually</p><p><strong>Date:</strong> 2018-03-03 at 2:00:00 PM</p><p><strong>Contact:</strong> Jodi Coalter</p>"
+      },
+      "id":  71
+    },
+    
   ]
 };
