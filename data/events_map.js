@@ -158,5 +158,17 @@ var events = {
       "id":  71
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5129458, 39.1745704]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-public-data-stories/\"><i class='fa fa-globe orange'></i> Public Data Stories</a></h2><p><strong>Institution:</strong> Indiana University</p><p><strong>Location:</strong> Bloomington, IN</p><p><strong>Date:</strong> 2018-02-26 at 9:00:00 AM</p><p><strong>Contact:</strong> Jamie Wittenberg</p>"
+      },
+      "id":  72
+    },
+    
   ]
 };
