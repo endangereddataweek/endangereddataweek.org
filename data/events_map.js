@@ -182,5 +182,53 @@ var events = {
       "id":  73
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0880713, 42.3383962]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-free-web-based-tools-for-information-visualization/\">Free Web-Based Tools for Information Visualization</a></h2><p><strong>Institution:</strong> Northeastern University</p><p><strong>Location:</strong> Snell Library</p><p><strong>Date:</strong> 2018-02-28 at 10:00:00 AM</p><p><strong>Contact:</strong> Jen Ferguson</p>"
+      },
+      "id":  74
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0880713, 42.3383962]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-22-intro-to-the-unix-shell/\">Intro to the Unix Shell</a></h2><p><strong>Institution:</strong> Northeastern University</p><p><strong>Location:</strong> Snell Library</p><p><strong>Date:</strong> 2018-02-22 at 12:00:00 PM</p><p><strong>Contact:</strong> Jen Ferguson</p>"
+      },
+      "id":  75
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0880713, 42.3383962]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-14-introduction-to-tableau/\">Introduction to Tableau</a></h2><p><strong>Institution:</strong> Northeastern University</p><p><strong>Location:</strong> Snell Library</p><p><strong>Date:</strong> 2018-02-14 at 10:00:00 AM</p><p><strong>Contact:</strong> Jen Ferguson</p>"
+      },
+      "id":  76
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0880713, 42.3383962]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-13-citizen-science-health-hackathon/\">Citizen Science:  Health Hackathon</a></h2><p><strong>Institution:</strong> Northeastern University</p><p><strong>Location:</strong> Snell Library</p><p><strong>Date:</strong> 2018-02-13 at 4:00:00 PM</p><p><strong>Contact:</strong> Jen Ferguson</p>"
+      },
+      "id":  77
+    },
+    
   ]
 };
