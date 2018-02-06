@@ -220,7 +220,8 @@ namespace :test do
     options = {
       :assume_extension => true,
       :check_opengraph => true,
-      :check_html => true
+      :check_html => true,
+      :disable_external => true
      }
     HTMLProofer.check_directory("./_site", options).run
   end
