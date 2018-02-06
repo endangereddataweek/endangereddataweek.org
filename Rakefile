@@ -1,4 +1,5 @@
 require 'active_support'
+require 'active_support/inflector'
 require 'google_drive'
 require 'dotenv/tasks'
 require 'dotenv'
@@ -229,9 +230,10 @@ end
 
 def filename(event)
   formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
-  event_name = event[:title].split(%r{ |!|/|\?|\#|\)|\(|:|&|-|$|,|'|"|"}).map do |i|
-    i.downcase if i != ''
-  end.compact.join('-')
+  # event_name = event[:title].split(%r{ |!|/|\?|\#|\)|\(|:|&|-|$|,|'|"|"}).map do |i|
+  #   i.downcase if i != ''
+  # end.compact.join('-')
+  event_name = ActiveSupport::Inflector.parameterize(event[:title])
   "_events/#{formatted_date}-#{event_name}.md"
 end
 
