@@ -212,12 +212,16 @@ namespace :test do
       puts 'Rendering JavaScript map data'.green
       contents = render_erb('templates/events.js.erb')
       write_file('./data/events_map.js', contents)
-
   end
+
   desc 'Validate HTML output'
   task :html do
     sh "bundle exec jekyll build"
-    options = { :assume_extension => true }
+    options = {
+      :assume_extension => true,
+      :check_opengraph => true,
+      :check_html => true
+     }
     HTMLProofer.check_directory("./_site", options).run
   end
 

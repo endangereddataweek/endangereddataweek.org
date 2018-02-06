@@ -25,7 +25,7 @@ layout: default
 
 {{ content }}
 
-  {% if page.email %}
+  {% if page.email != '' %}
     <strong>Contact:</strong> <a href="mailto:{{ page.email }}">{{ page.author }}</a></h4>
   {% else %}
     <strong>Contact {{ page.author }}</strong>
