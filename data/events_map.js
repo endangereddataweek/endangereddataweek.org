@@ -177,7 +177,7 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-exploring-chicago's-open-data/\">Exploring Chicago's Open Data</a></h2><p><strong>Institution:</strong> Illinois Institute of Technology</p><p><strong>Location:</strong> Chicago, IL</p><p><strong>Date:</strong> 2018-02-28 at 12:45:00 PM</p><p><strong>Contact:</strong> ahrens@iit.edu</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-exploring-chicago-s-open-data/\">Exploring Chicago's Open Data</a></h2><p><strong>Institution:</strong> Illinois Institute of Technology</p><p><strong>Location:</strong> Chicago, IL</p><p><strong>Date:</strong> 2018-02-28 at 12:45:00 PM</p><p><strong>Contact:</strong> ahrens@iit.edu</p>"
       },
       "id":  73
     },
