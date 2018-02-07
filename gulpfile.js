@@ -9,7 +9,12 @@ var include     = require('gulp-include');
 var uglify      = require('gulp-uglify');
 var pump        = require('pump');
 var modernizr   = require('gulp-modernizr');
-
+// @see https://gist.github.com/LoyEgor/e9dba0725b3ddbb8d1a68c91ca5452b5
+var imagemin         = require('gulp-imagemin');
+var imageminPngquant = require('imagemin-pngquant');
+var imageminZopfli   = require('imagemin-zopfli');
+var imageminMozjpeg  = require('imagemin-mozjpeg'); //need to run 'brew install libpng'
+var imageminGiflossy = require('imagemin-giflossy');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -70,6 +75,46 @@ gulp.task('scripts', function() {
    );
  });
 
+ gulp.task('imagemin', function(){
+  return gulp.src(['assets/**/*.{gif,png,jpg}', 'img/**/*.{gif,png,jpg}'])
+        .pipe(imagemin([
+            //png
+            imageminPngquant({
+                speed: 1,
+                quality: 98 //lossy settings
+            }),
+            imageminZopfli({
+                more: true
+            }),
+            //gif
+            // imagemin.gifsicle({
+            //     interlaced: true,
+            //     optimizationLevel: 3
+            // }),
+            //gif very light lossy, use only one of gifsicle or Giflossy
+            imageminGiflossy({
+                optimizationLevel: 3,
+                optimize: 3, //keep-empty: Preserve empty transparent frames
+                lossy: 2
+            }),
+            //svg
+            imagemin.svgo({
+                plugins: [{
+                    removeViewBox: false
+                }]
+            }),
+            //jpg lossless
+            imagemin.jpegtran({
+                progressive: true
+            }),
+            //jpg very light lossy, use vs jpegtran
+            imageminMozjpeg({
+                quality: 90
+            })
+        ]))
+        .pipe(gulp.dest('images'));
+});
+
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
@@ -105,11 +150,12 @@ gulp.task('modernizr', function() {
 gulp.task('watch', function () {
     gulp.watch('_sass/*.scss', ['sass']);
     gulp.watch('js/src/*.js', ['scripts', 'compress']);
-    gulp.watch(['**/*.html', '_events/*', 'js/scripts.js', '_posts/*',], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '*.md', '_events/*', '_posts/*',], ['jekyll-rebuild']);
+    gulp.watch(['img/**/*.{gif,png,jpg}'], ['imagemin']);
 });
 
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['browser-sync', 'watch', 'sass']);
