@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+bundle exec jekyll build
+bundle exec htmlproofer --assume-extension --only-4xx --disable_external ./_site
