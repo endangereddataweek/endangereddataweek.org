@@ -5,8 +5,9 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var sourcemaps  = require('gulp-sourcemaps');
 var include     = require('gulp-include');
-//@see https://www.npmjs.com/package/gulp-uglify
-var uglify      = require('gulp-uglify');
+//@see https://www.npmjs.com/package/gulp-uglify-es (for ec6)
+var uglify      = require('gulp-uglify-es').default;
+var rename      = require("gulp-rename");
 var pump        = require('pump');
 var modernizr   = require('gulp-modernizr');
 // @see https://gist.github.com/LoyEgor/e9dba0725b3ddbb8d1a68c91ca5452b5
@@ -66,6 +67,7 @@ gulp.task('scripts', function() {
  gulp.task('compress', function (cb) {
    pump([
          gulp.src('js/src/build/*.js'),
+         rename('script.min.js'),
          sourcemaps.init(),
          uglify(),
          sourcemaps.write(),
@@ -122,7 +124,7 @@ gulp.task('scripts', function() {
 gulp.task('sass', function () {
     return gulp.src('_sass/main.scss')
         .pipe(sass({
-            // includePaths: ['scss'],
+            includePaths: ['_sass', 'node_modules'],
             onError: browserSync.notify,
             outputStyle: 'compressed'
         }))

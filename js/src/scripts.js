@@ -1,6 +1,6 @@
 //= require ../../node_modules/jquery/dist/jquery.js
-//=require ../../node_modules/leaflet/dist/leaflet-src.js
-//=require ../../node_modules/leaflet.markercluster/dist/leaflet.markercluster-src.js
+//=require ../../node_modules/leaflet/dist/leaflet.js
+//=require ../../node_modules/leaflet.markercluster/dist/leaflet.markercluster.js
 //=require ../../node_modules/@ryancavanaugh/dynatable/index.d.ts
 //=require dlf.js
 //=require map.js
