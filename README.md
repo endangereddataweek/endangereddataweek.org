@@ -1,5 +1,7 @@
 # Endangered Data Week
 
+[![Build Status](https://travis-ci.org/endangereddataweek/endangereddataweek.org.svg?branch=gh-pages)](https://travis-ci.org/endangereddataweek/endangereddataweek.org)
+
 A static site, [http://endangereddataweek.org/](http://endangereddataweek.org).
 
 ## Getting started
@@ -57,7 +59,6 @@ Content edits can be easily made on the browser-based GitHub editor.
 For information on formatting, please review the [Markdown
   Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). GitHub keyboard shortcuts can be found
 [here](https://help.github.com/articles/using-keyboard-shortcuts/).
-
 
 ## Accessibility
 
