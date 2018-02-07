@@ -75,6 +75,10 @@ $ npm install -g phantomjs pa11y
 $ bundle
 ```
 
+## Thumbnails
+
+`convert apple-touch-icon.png -thumbnail 192x192^ -extent 192x192 icon.png`
+
 ### Generating a Report
 
 There is a `Rake` task that will generate the appropriate report:

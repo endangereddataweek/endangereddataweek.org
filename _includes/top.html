@@ -1,24 +1,16 @@
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ site.title }} - {{ site.date }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="author" href="/humans.txt" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500|Crimson+Text" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/clirdlf/logo-fonts/master/style.min.css">
-    {% for css in page.css %}
-    <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}">
-    {% endfor %}
+    <link rel="stylesheet" href="https://cdn.rawgit.com/clirdlf/logo-fonts/master/style.min.css"> {% for css in page.css %}
+    <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}"> {% endfor %}
     <script src="https://use.fontawesome.com/c1ca2c16bc.js"></script>
     <link href="/css/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include twitter-card.html %}
-    {% include opengraph.html %}
-    {% if site.google-tracking-id  %}
-      {% include google-analytics.html %}
-    {% endif %}
+    {% include twitter-card.html %} {% include opengraph.html %} {% if site.google-tracking-id %} {% include google-analytics.html %} {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <script src="/js/vendor/modernizr.js"></script>
-
-  </head>
+</head>
