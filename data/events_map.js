@@ -230,5 +230,17 @@ var events = {
       "id":  77
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.02775, 38.902859]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-what-can-be-done-to-protect-endangered-government-data/\">What Can Be Done to Protect Endangered Government Data?</a></h2><p><strong>Institution:</strong> Information Technology and Innovation Foundation</p><p><strong>Location:</strong> 1101 K Street NW, Suite 610A</p><p><strong>Date:</strong> 2018-02-27 at 9:00:00 AM</p><p><strong>Contact:</strong> Peter Coetzee</p>"
+      },
+      "id":  78
+    },
+    
   ]
 };
