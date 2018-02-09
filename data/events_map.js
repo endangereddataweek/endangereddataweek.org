@@ -266,5 +266,29 @@ var events = {
       "id":  81
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9682084, 40.6724808]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-panel-discussion-saving-local-news-on-the-web/\">Panel Discussion: Saving Local News on the Web</a></h2><p><strong>Institution:</strong> Brooklyn Collection, Brooklyn Public Library</p><p><strong>Location:</strong> Brooklyn Public Library Central Library, Info Commons Lab</p><p><strong>Date:</strong> 2018-03-01 at 7:00:00 PM</p><p><strong>Contact:</strong> Diana Bowers-Smith</p>"
+      },
+      "id":  82
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.61942499999999, 39.329053]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-oepn-baltimore-the-impact-of-local-data/\"><i class='fa fa-globe orange'></i> Oepn Baltimore: The Impact of Local Data</a></h2><p><strong>Institution:</strong> Johns Hopkins University Sheridan Libraries</p><p><strong>Location:</strong> JHU Milton S. Eisenhower Library, Electronic Resource Center</p><p><strong>Date:</strong> 2018-03-01 at 10:00:00 AM</p><p><strong>Contact:</strong> Elizabeth England</p>"
+      },
+      "id":  83
+    },
+    
   ]
 };
