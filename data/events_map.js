@@ -281,11 +281,11 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.61942499999999, 39.329053]
+        "coordinates": [-76.619425, 39.329053]
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-oepn-baltimore-the-impact-of-local-data/\"><i class='fa fa-globe orange'></i> Oepn Baltimore: The Impact of Local Data</a></h2><p><strong>Institution:</strong> Johns Hopkins University Sheridan Libraries</p><p><strong>Location:</strong> JHU Milton S. Eisenhower Library, Electronic Resource Center</p><p><strong>Date:</strong> 2018-03-01 at 10:00:00 AM</p><p><strong>Contact:</strong> Elizabeth England</p>"
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-open-baltimore-the-impact-of-local-data/\"><i class='fa fa-globe orange'></i> Open Baltimore: The Impact of Local Data</a></h2><p><strong>Institution:</strong> Johns Hopkins University Sheridan Libraries</p><p><strong>Location:</strong> JHU Milton S. Eisenhower Library, Electronic Resource Center</p><p><strong>Date:</strong> 2018-03-01 at 10:00:00 AM</p><p><strong>Contact:</strong> Elizabeth England</p>"
       },
       "id":  83
     },
