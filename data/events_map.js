@@ -242,5 +242,29 @@ var events = {
       "id":  78
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.6193351, 39.3284207]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-mind-the-gap-ensuring-sustained-access-to-government-data/\">Mind the Gap: Ensuring Sustained Access to Government Data</a></h2><p><strong>Institution:</strong> Johns Hopkins University Sheridan Libraries</p><p><strong>Location:</strong> Brody Learning Commons - 4040</p><p><strong>Date:</strong> 2018-03-01 at 3:30:00 PM</p><p><strong>Contact:</strong> Elizabeth England/Reid Boehm</p>"
+      },
+      "id":  80
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0107049, 41.2582497]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-introduction-to-data-manipulation-with-r/\">Introduction to Data Manipulation with R</a></h2><p><strong>Institution:</strong> University of Nebraska at Omaha</p><p><strong>Location:</strong> Omaha, NE</p><p><strong>Date:</strong> 2018-02-26 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  81
+    },
+    
   ]
 };
