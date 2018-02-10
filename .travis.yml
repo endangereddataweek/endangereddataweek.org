@@ -9,7 +9,6 @@ rvm:
 before_install:
   - gem update --system
 before_script:
-  - bundle update
   - chmod +x ./script/cibuild # or do this locally and commit
 
 # Assume bundler is being used, therefore
