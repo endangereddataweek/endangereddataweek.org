@@ -25,13 +25,26 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "WebPage",
+  "@type": "Event",
   "name": "{{ page.title }}",
-  "description": "{{ site.description }}",
-  "publisher": {
-    "@type": "EducationalOrganization",
-    "name": "Endangered Data Week"
+  "description": "{{ page.excerpt | trim | escape }}",
+  "startDate": "{{ page.date | date: "%Y-%m-%d" }}T{{page.time | date: "%H:%M" }}",
+  "image": "{{ '/img/edw-logo.png' | prefix: site.url }}",
+  "url": "{{ page.website }}",
+  "sponsor": {
+    "@type": "Organization",
+    "name": "{{ page.location_city }}"
   },
-  "license": "https://creativecommons.org/licenses/by-by/4.0/legalcode"
+  "location": {
+    "@type": "Place",
+    "name": "{{ page.location_city }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ page.locality }}",
+      "addressRegion": "{{ page.region }}"
+    },
+    "hasMap": "https://www.google.com/maps/@{{ page.latitude }},{{ page.longitude }},14z?hl=en&authuser=0"
+  }
+
 }
 </script>
