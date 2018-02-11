@@ -112,6 +112,7 @@ namespace :import do
     end
 
     @headers
+
   end
 
   # for testing
@@ -140,6 +141,10 @@ namespace :import do
       virtual:        @ws[row, @headers[:virtual_event]],
       audio_url:      @ws[row, @headers[:audio_url]],
       video_url:      @ws[row, @headers[:video_url]],
+      address:        @ws[row, @headers[:address]],
+      locality:       @ws[row, @headers[:locality]],
+      region:         @ws[row, @headers[:region]],
+      postalcode:     @ws[row, @headers[:postalcode]]
     }
     event.merge!(file_path: filename(event))
     event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))
@@ -162,11 +167,19 @@ namespace :import do
         address = "#{@ws[row, @headers[:institution]]}, #{@ws[row, @headers[:location_]]}"
         puts "Looking up #{address}".yellow
         result = geocode(address)
-        @ws[row, @headers[:latitude]]  = result[:lat]
-        @ws[row, @headers[:longitude]] = result[:lon]
+        @ws[row, @headers[:latitude]]   = result[:lat]
+        @ws[row, @headers[:longitude]]  = result[:lon]
+        @ws[row, @headers[:locality]]   = result[:locality]
+        @ws[row, @headers[:region]]     = result[:region]
+        @ws[row, @headers[:postalcode]] = result[:postalcode]
+        @ws[row, @headers[:address]]    = result[:address]
         @ws.save
-        feature[:longitude] = result[:lon]
-        feature[:latitude] = result[:lat]
+        feature[:longitude]  = result[:lon]
+        feature[:latitude]   = result[:lat]
+        feature[:locality]   = result[:locality]
+        feature[:region]     = result[:region]
+        feature[:postalcode] = result[:postalcode]
+        feature[:address]    = result[:address]
       else
         puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
       end
@@ -235,9 +248,6 @@ end
 
 def filename(event)
   formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
-  # event_name = event[:title].split(%r{ |!|/|\?|\#|\)|\(|:|&|-|$|,|'|"|"}).map do |i|
-  #   i.downcase if i != ''
-  # end.compact.join('-')
   event_name = ActiveSupport::Inflector.parameterize(event[:title])
   "_events/#{formatted_date}-#{event_name}.md"
 end
@@ -276,7 +286,11 @@ def geocode(address)
   if result
     {
       lat: result.latitude,
-      lon: result.longitude
+      lon: result.longitude,
+      region: result.state_code,
+      locality: result.city,
+      postalcode: result.postal_code,
+      address: result.address
     }
   else
     {}

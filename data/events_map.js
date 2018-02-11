@@ -245,6 +245,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-73.9660858, 40.8092405]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-a-different-kind-of-data-rescue-digitizing-preserving-obsolete-analog-video/\"> A Different Kind of Data Rescue: Digitizing & Preserving Obsolete Analog Video</a></h2><p><strong>Institution:</strong> Barnard College Library</p><p><strong>Location:</strong> Mehler Parlor, Elliott Hall / 49 Claremont Avenue (at the corner of 119th Street) / New York, NY</p><p><strong>Date:</strong> 2018-02-26 at 11:00:00 AM</p><p><strong>Contact:</strong> Jenna Freedman</p>"
+      },
+      "id":  79
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-76.6193351, 39.3284207]
       },
       "type": "Feature",

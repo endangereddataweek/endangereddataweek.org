@@ -41,7 +41,9 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "{{ page.locality }}",
-      "addressRegion": "{{ page.region }}"
+      "addressRegion": "{{ page.region }}",
+      "postalCode": "{{ page.postalcode }}",
+      "streetAddress": "{{ page.address }}"
     },
     "hasMap": "https://www.google.com/maps/@{{ page.latitude }},{{ page.longitude }},14z?hl=en&authuser=0"
   }
