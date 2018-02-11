@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<div class="h-event" itemscope itemtype="http://schema.org/Event">
+<div class="h-event">
 
-  <h2 class="p-name" itemprop="name">{% if page.virtual.size > 0 %} <i class="fa fa-globe orange"></i> {% endif %}{{ page.title }}</h2>
+  <h2 class="p-name">{% if page.virtual.size > 0 %} <i class="fa fa-globe orange"></i> {% endif %}{{ page.title }}</h2>
   {% if page.virtual.size > 0 %}
   <strong>This is a virtual/online event.</strong><br /><br />
   {% endif %}
-  <strong>Date &amp; Local Time:</strong> <time itemprop="startDate" class="dt-start" datetime="{{ page.date | date: "%Y-%m-%d" }} {{page.time | date: "%H:%M"}}">{{ page.date | date: "%Y-%m-%d" }} {{ page.time }}</time>  <br/>
+  <strong>Date &amp; Local Time:</strong> <time class="dt-start" datetime="{{ page.date | date: "%Y-%m-%d" }} {{page.time | date: "%H:%M"}}">{{ page.date | date: "%Y-%m-%d" }} {{ page.time }}</time>  <br/>
   <strong>Location:</strong>
-    <span class="p-location" itemprop="location" itemscope itemtype="http://schema.org/Place">{{ page.location_city}} | {{page.location_physical }}
+    <span class="p-location">{{ page.location_city}} | {{page.location_physical }}
       <span class="h-geo">
         <span class="p-latitude">{{ page.latitude }}</span>
         <span class="p-longitude">{{ page.longitude }}</span>
@@ -27,7 +27,7 @@ layout: default
   {% if page.video_url.size > 0 %}
     {% include video.html %}
   {% endif %}
-  <p class="p-description" itemprop="description">
+  <p class="p-description">
     {{ content }}
   </p>
 
