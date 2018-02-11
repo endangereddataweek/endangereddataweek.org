@@ -28,8 +28,8 @@
   "@type": "Event",
   "name": "{{ page.title }}",
   "description": "{{ page.excerpt | trim | escape }}",
-  "startDate": "{{ page.date | date: "%Y-%m-%d" }}T{{page.time | date: "%H:%M" }}",
-  "image": "{{ '/img/edw-logo.png' | prefix: site.url }}",
+  "startDate": "{{ page.date | date: "%Y-%m-%d" }}T{{ page.time | date: "%H:%M" }}",
+  "image": "{{ 'http://endangereddataweek.org/img/edw-logo.png' }}",
   "url": "{{ page.website }}",
   "sponsor": {
     "@type": "Organization",
