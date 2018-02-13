@@ -353,7 +353,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.5077038, 38.03329859999999]
+        "coordinates": [-78.5077038, 38.0332986]
       },
       "type": "Feature",
       "properties": {
@@ -365,13 +365,25 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.5077038, 38.03329859999999]
+        "coordinates": [-78.5077038, 38.0332986]
       },
       "type": "Feature",
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-introduction-to-libra-data-dataverse-at-uva/\">Introduction to Libra Data (Dataverse at UVa)</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Clark Hall, University of Virginia</p><p><strong>Date:</strong> 2018-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
       },
       "id":  89
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-introduction-to-docnow/\">Introduction to DocNow</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-03-01 at 2:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  90
     },
     
   ]
