@@ -386,5 +386,17 @@ var events = {
       "id":  90
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.70257679999999, 40.81822289999999]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-digital-archives-edw-trading-cards/\">Digital Archives & EDW Trading Cards</a></h2><p><strong>Institution:</strong> University of Nebraska at Lincoln</p><p><strong>Location:</strong> University of Nebraska at Lincoln, Love Library </p><p><strong>Date:</strong> 2018-02-26 at </p><p><strong>Contact:</strong> Blake Graham</p>"
+      },
+      "id":  91
+    },
+    
   ]
 };
