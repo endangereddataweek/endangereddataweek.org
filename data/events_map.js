@@ -302,5 +302,77 @@ var events = {
       "id":  83
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-introduction-to-r/\">Introduction to R</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-02-26 at 10:00:00 AM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  84
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-data-sharing-in-public-health-energencies/\">Data Sharing in Public Health Energencies</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-02-26 at 3:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  85
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-arcgis-online-story-maps/\">ArcGIS Online: Story Maps</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-02-27 at 10:00:00 AM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  86
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-basics-of-version-control-with-git/\">Basics of Version Control with Git</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of VIrginia</p><p><strong>Date:</strong> 2018-02-27 at 1:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  87
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5077038, 38.03329859999999]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-literate-data-science-in-stata/\">Literate Data Science in Stata</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Clark Hall, University of Virginia</p><p><strong>Date:</strong> 2018-02-27 at 2:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  88
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5077038, 38.03329859999999]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-introduction-to-libra-data-dataverse-at-uva/\">Introduction to Libra Data (Dataverse at UVa)</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Clark Hall, University of Virginia</p><p><strong>Date:</strong> 2018-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  89
+    },
+    
   ]
 };
