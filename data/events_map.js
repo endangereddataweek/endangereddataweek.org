@@ -398,5 +398,17 @@ var events = {
       "id":  91
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.3094434, 48.4634602]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-endangered-video-games/\">Endangered Video Games</a></h2><p><strong>Institution:</strong> University of Victoria</p><p><strong>Location:</strong> Foyer of the University Library</p><p><strong>Date:</strong> 2018-02-26 at 1:00:00 PM</p><p><strong>Contact:</strong> Matt Huculak</p>"
+      },
+      "id":  92
+    },
+    
   ]
 };
