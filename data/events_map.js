@@ -413,7 +413,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.6095728, 41.50734800000001]
+        "coordinates": [-81.6095728, 41.507348]
       },
       "type": "Feature",
       "properties": {
@@ -425,7 +425,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.6095728, 41.50734800000001]
+        "coordinates": [-81.6095728, 41.507348]
       },
       "type": "Feature",
       "properties": {
@@ -437,7 +437,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.6095728, 41.50734800000001]
+        "coordinates": [-81.6095728, 41.507348]
       },
       "type": "Feature",
       "properties": {
@@ -449,7 +449,7 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.6095728, 41.50734800000001]
+        "coordinates": [-81.6095728, 41.507348]
       },
       "type": "Feature",
       "properties": {
