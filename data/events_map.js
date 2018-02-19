@@ -410,5 +410,53 @@ var events = {
       "id":  92
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.6095728, 41.50734800000001]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-intro-to-web-scraping/\">Intro to Web Scraping</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-26 at 2:15:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
+      },
+      "id":  93
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.6095728, 41.50734800000001]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-citizen-analysts-how-regular-people-use-public-data-to-save-the-world/\">Citizen Analysts: How Regular People Use Public Data to Save the World</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-27 at 11:00:00 AM</p><p><strong>Contact:</strong> Blaine Martyn-Dow</p>"
+      },
+      "id":  94
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.6095728, 41.50734800000001]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-different-ways-dara-are-endangered/\">Different Ways Dara are Endangered</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
+      },
+      "id":  95
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.6095728, 41.50734800000001]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-finding-saving-and-fair-use-of-government-data/\">Finding, Saving, and Fair Use of Government Data</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-03-01 at 2:30:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
+      },
+      "id":  96
+    },
+    
   ]
 };
