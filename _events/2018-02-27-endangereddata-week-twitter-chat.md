@@ -8,7 +8,7 @@ location_city: "Digital Library Federation's Interest Group on Government Record
 location_physical: "Washington DC"
 title: "#EndangeredData Week Twitter Chat"
 author: "rachel mattson"
-website: "wiki.diglib.org/Transparency-Accountability#DLF_Government_Records_Transparency_and_Accountability_Group"
+website: "https://wiki.diglib.org/Transparency-Accountability#DLF_Government_Records_Transparency_and_Accountability_Group"
 email: "rachmattson@gmail.com"
 latitude: ""
 longitude: ""
