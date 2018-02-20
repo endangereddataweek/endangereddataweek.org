@@ -470,5 +470,17 @@ var events = {
       "id":  98
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.8826275, 40.9543429]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-are-census-data-endangered/\">Are Census Data Endangered? </a></h2><p><strong>Institution:</strong> Bucknell University</p><p><strong>Location:</strong> LIbrary</p><p><strong>Date:</strong> 2018-03-01 at 12:00:00 PM</p><p><strong>Contact:</strong> Kathleen McQuiston</p>"
+      },
+      "id":  99
+    },
+    
   ]
 };
