@@ -458,5 +458,17 @@ var events = {
       "id":  96
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5060869, 38.0363453]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-introduction-to-the-city-of-charlottesville-s-open-data-portal/\">Introduction to the City of Charlottesville's Open Data Portal</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-02-28 at 2:30:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
+      },
+      "id":  98
+    },
+    
   ]
 };
