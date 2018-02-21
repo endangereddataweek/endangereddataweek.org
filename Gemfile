@@ -1,25 +1,24 @@
 # frozen_string_literal: true
-source "https://rubygems.org"
 
-gem "jekyll"
+source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "jekyll-feed"
-  gem "jekyll-paginate"
+  gem 'jekyll-feed'
+  gem 'jekyll-paginate'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
 end
 
-gem "google_drive"
-gem "google-api-client"
-gem "dotenv"
-gem "colorize"
-gem "chronic"
+gem 'chronic'
+gem 'colorize'
+gem 'dotenv'
 gem 'geocoder'
-gem "rake"
-
+gem 'google-api-client'
+gem 'google_drive'
 gem 'html-proofer'
+gem 'jekyll'
 gem 'ra11y'
+gem 'rake'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

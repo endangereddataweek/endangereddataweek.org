@@ -1,28 +1,10 @@
-require 'active_support'
-require 'active_support/inflector'
-require 'google_drive'
-require 'dotenv/tasks'
-require 'dotenv'
-require 'colorize'
-require 'chronic'
-require 'geocoder'
-require 'html-proofer'
-require 'ra11y'
+# frozen_string_literal: true
 
-# system requirements
-require 'csv'
-require 'date'
-require 'erb'
-require 'json'
-
-# importing RSS feed
-require 'rss'
-require 'rss/2.0'
-require 'open-uri'
-require 'safe_yaml'
+require_relative 'lib/utils.rb'
 
 Dotenv.load
 
+# Feed for EDW posts
 @feed_url = 'https://www.diglib.org/category/edw/feed/'
 
 # task default: 'import:events'
@@ -32,20 +14,6 @@ task default: 'import:all'
 config = YAML.load_file('_config.yml')
 @current_year = Chronic.parse(config['date']).strftime('%Y')
 
-Geocoder.configure(
-  timeout: 2,
-
-  :google => {
-    api_key: ENV.fetch('MAP_KEY_GOOGLE', ''),
-    use_https: true,
-  },
-
-  :bing => {
-    api_key: ENV.fetch('MAP_KEY_BING', '')
-  }
-
-)
-
 desc 'Clean _events directory'
 task :clean do
   FileUtils.rm_f Dir.glob('_events/*')
@@ -53,7 +21,7 @@ end
 
 namespace :import do
   desc 'Import events for the collection, map, and datatable'
-  task :all => [:events, :data, :map, :rss]
+  task all: %i[events data map rss]
 
   desc 'Import Events from the Google Spreadsheet'
   task :events do
@@ -82,16 +50,15 @@ namespace :import do
           'date' => item.date.strftime('%Y-%m-%d %T %z')
         }
 
-        FileUtils.mkdir_p("_posts")
+        FileUtils.mkdir_p('_posts')
 
-        File.open("_posts/#{name}.html", "w") do |f|
+        File.open("_posts/#{name}.html", 'w') do |f|
           puts "Importing #{name}".green
           f.puts header.to_yaml
           f.puts "---\n\n"
           f.puts item.content_encoded
         end
       end
-
     end
   end
 
@@ -109,89 +76,26 @@ namespace :import do
       }
 
       event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
-      t = (event_year == @current_year)
 
-      # puts "#{@event['date']} #{event_year} #{t}".red
+      next unless event_year == @current_year
+      @event[:file_path] = filename(@event)
+      @event[:web_path] = filename(@event).gsub('_event', '/event').gsub('.md', '/')
 
-      if( event_year == @current_year )
-        @event.merge!(file_path: filename(@event))
-        @event.merge!(web_path: filename(@event).gsub('_event', '/event').gsub('.md', '/'))
-
-        if(@ws[row, @headers[:virtual_event]].length > 0)
-          @event[:location] = "<i class='fa fa-globe orange'></i> #{@ws[row, @headers[:institution]]}"
-        end
-        @event.merge!(link: link_title(@event))
-        @events << @event
+      unless @ws[row, @headers[:virtual_event]].empty?
+        @event[:location] = "<i class='fa fa-globe orange'></i>"\
+        " #{@ws[row, @headers[:institution]]}"
       end
-
+      @event[:link] = link_title(@event)
+      @events << @event
     end
 
     puts "Writing events for table view'".green
-    File.open('data/events_table.json', 'w'){ |f| f.write(@events.to_json) }
-  end
-
-  def link_title(event)
-    "<a href='#{event[:web_path]}'>#{event[:title]}</a>"
-  end
-
-  def shorten(string, count)
-    string.match(/^.{0,#{count}}\b/)[0] + "..."
-  end
-
-  def set_headers
-    @headers ||= {}
-    login
-    counter = 1
-    (1..@ws.num_cols).each do |col|
-      @headers[@ws[1,col].gsub(/\s+/, '_').downcase.to_sym] = counter
-      counter +=1
-    end
-
-    @headers
-
+    File.open('data/events_table.json', 'w') { |f| f.write(@events.to_json) }
   end
 
   # for testing
   task :set_headers do
     puts set_headers
-  end
-
-  def smart_add_url_protocol(url)
-    unless url[/\Ahttp:\/\//] || url[/\Ahttps:\/\//] || url.length == 0
-      url = "http://#{url}"
-    end
-    url
-  end
-
-  def event_hash(row)
-    @headers ||= set_headers
-    event = {
-      id: row,
-      category:       Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y'),
-      title:          @ws[row, @headers[:title_of_your_event]],
-      date:           Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y-%m-%d'),
-      institution:    @ws[row, @headers[:institution]],
-      location:       @ws[row, @headers[:location_]],
-      contact:        @ws[row, @headers[:contact_person]],
-      time:           @ws[row, @headers[:time]],
-      description:    @ws[row, @headers[:event_description]],
-      excerpt:        shorten(@ws[row, @headers[:event_description]], 140),
-      contact_person: @ws[row, @headers[:contact_person]],
-      email:          @ws[row, @headers[:contact_email]],
-      website:        smart_add_url_protocol(@ws[row, @headers[:event_website]]),
-      latitude:       @ws[row, @headers[:latitude]],
-      longitude:      @ws[row, @headers[:longitude]],
-      virtual:        @ws[row, @headers[:virtual_event]],
-      audio_url:      @ws[row, @headers[:audio_url]],
-      video_url:      @ws[row, @headers[:video_url]],
-      address:        @ws[row, @headers[:address]],
-      locality:       @ws[row, @headers[:locality]],
-      region:         @ws[row, @headers[:region]],
-      postalcode:     @ws[row, @headers[:postalcode]]
-    }
-    event.merge!(file_path: filename(event))
-    event.merge!(web_path: filename(event).gsub('_event', '/event').gsub('.md', '/'))
-    event.merge!(link: link_title(event))
   end
 
   desc 'Generate GeoJSON from Google Spreadsheet'
@@ -200,14 +104,16 @@ namespace :import do
     system('clear')
     @features = []
 
-    current_year = Date.today.year
+    # current_year = Date.today.year
 
     (2..@ws.num_rows).each do |row|
       feature = event_hash(row)
 
       # check if a location has been created
-      if (feature[:longitude] == '' && @ws[row, @headers[:geocode]] != 0)
-        address = "#{@ws[row, @headers[:institution]]}, #{@ws[row, @headers[:location_]]}"
+      if feature[:longitude] == '' && @ws[row, @headers[:geocode]] != 0
+        address = "#{@ws[row, @headers[:institution]]},"\
+          " #{@ws[row, @headers[:location_]]}"
+
         puts "Looking up #{address}".yellow
         result = geocode(address)
         @ws[row, @headers[:latitude]]   = result[:lat]
@@ -224,14 +130,15 @@ namespace :import do
         feature[:postalcode] = result[:postalcode]
         feature[:address]    = result[:address]
       else
-        puts "\tUsing cached location: (#{feature[:longitude]},#{feature[:latitude]}) for #{feature[:title]}".green
+        puts "\tUsing cached location: (#{feature[:longitude]},"\
+          "#{feature[:latitude]}) for #{feature[:title]}".green
       end
 
       event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
       # puts "#{event_year == @current_year}".red
-      if( event_year == @current_year )
+      if event_year == @current_year
         puts "Adding #{feature[:title]}".yellow
-        @features << feature unless feature[:latitude].to_s.length == 0
+        @features << feature unless feature[:latitude].to_s.empty?
       end
     end
 
@@ -242,100 +149,21 @@ namespace :import do
 end
 
 namespace :test do
-  desc 'Generate test map data'
-  task :map do
-    system('clear')
-    login
-
-    puts "Generating test data".green
-    puts "Make sure you replace this data with the real data before pushing!!!".red
-
-      @features = []
-
-      counter = 1000
-
-      (2..@ws.num_rows).each do |row|
-        feature = event_hash(row)
-
-        (1..10).each do |test|
-          feature[:id] = counter # fake the id
-          puts "Adding #{feature[:title]}".yellow
-          @features << feature
-          counter +=1
-        end
-      end
-
-      puts 'Rendering JavaScript map data'.green
-      contents = render_erb('templates/events.js.erb')
-      write_file('./data/events_map.js', contents)
-  end
-
   desc 'Validate HTML output'
   task :html do
-    sh "bundle exec jekyll build"
+    sh 'bundle exec jekyll build'
     options = {
-      :assume_extension => true,
-      :check_opengraph => true,
-      :check_html => true,
-      :disable_external => true
-     }
-    HTMLProofer.check_directory("./_site", options).run
+      assume_extension: true,
+      check_opengraph: true,
+      check_html: true,
+      disable_external: true
+    }
+    HTMLProofer.check_directory('./_site', options).run
   end
 
   desc 'Validate site with pa11y'
   task :accessibility do
-    sh "bundle exec jekyll build"
-    Ra11y::Site.new("./_site").run
-  end
-end
-
-def filename(event)
-  formatted_date = Chronic.parse(event[:date]).strftime('%Y-%m-%d')
-  event_name = ActiveSupport::Inflector.parameterize(event[:title])
-  "_events/#{formatted_date}-#{event_name}.md"
-end
-
-def render_erb(template_path)
-  template = File.open(template_path, 'r').read
-  erb = ERB.new(template)
-  erb.result(binding)
-end
-
-# Login to Google with a saved session and set spreadsheet
-def login
-  system('clear')
-  puts 'Authorizing...'.green
-
-  @session ||= GoogleDrive.saved_session('config.json')
-  @ws ||= @session.spreadsheet_by_key(ENV['SPREADSHEET_KEY']).worksheets[0]
-end
-
-def spreadsheet
-  @ws ||= @session.spreadsheet_by_key(ENV['SPREADSHEET_KEY'])
-end
-
-def write_file(path, contents)
-  file = File.open(path, 'w')
-  file.write(contents)
-rescue IOError => error
-  puts 'File not writable. Check your permissions'
-  puts error.inspect
-ensure
-  file.close unless file.nil?
-end
-
-def geocode(address)
-  result = Geocoder.search(address).first
-  if result
-    {
-      lat: result.latitude,
-      lon: result.longitude,
-      region: result.state_code,
-      locality: result.city,
-      postalcode: result.postal_code,
-      address: result.address
-    }
-  else
-    {}
+    sh 'bundle exec jekyll build'
+    Ra11y::Site.new('./_site').run
   end
 end
