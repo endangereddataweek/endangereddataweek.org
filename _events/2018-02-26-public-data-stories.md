@@ -3,7 +3,7 @@ layout: post
 date: "2018-02-26"
 time: "9:00:00 AM"
 excerpt: >
-  The virtual Public Data Stories Campaign aims to promote awareness of the impact of public data on citizens and scholars. The campaign will ...
+  To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddataweek...
 location_city: "Indiana University"
 location_physical: "Bloomington, IN"
 title: "Public Data Stories"
@@ -22,4 +22,6 @@ video_url: ""
 category: 2018
 ---
 
-The virtual Public Data Stories Campaign aims to promote awareness of the impact of public data on citizens and scholars. The campaign will take place on Twitter, using the #EndangeredData tag. 
+To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddataweek
+
+You are free to alter or remix the signs - they are licensed CC0. The signs are available here: https://github.com/endangereddataweek/resources/tree/master/media/public-data-stories-kit
