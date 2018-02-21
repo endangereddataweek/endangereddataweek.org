@@ -20,6 +20,8 @@ future                : true
 show_drafts           : false
 highlighter           : rouge
 
+permalink: pretty
+
 collections:
   events:
     output: true # generate a page for each document
@@ -35,6 +37,8 @@ navigation:
     url: /map/
   - title: past events
     url: /archives/
+  - title: news
+    url: /news/
 
 exclude: ['vendor', 'templates','node_modules', '.gitignore', '.env', 'Gemfile*', 'gulpfile.js', 'Makefile', 'package.json', 'Rakefile', 'README.md']
 sass:
@@ -43,3 +47,5 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag

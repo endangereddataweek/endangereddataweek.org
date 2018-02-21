@@ -15,7 +15,15 @@ require 'date'
 require 'erb'
 require 'json'
 
+# importing RSS feed
+require 'rss'
+require 'rss/2.0'
+require 'open-uri'
+require 'safe_yaml'
+
 Dotenv.load
+
+@feed_url = 'https://www.diglib.org/category/edw/feed/'
 
 # task default: 'import:events'
 task default: 'import:all'
@@ -56,6 +64,34 @@ namespace :import do
       file_path = @event[:file_path]
       write_file(file_path, contents)
       puts "Writing the event for '#{@event[:title]}'".green
+    end
+  end
+
+  desc 'Import EDW data feed'
+  task :rss do
+    open(@feed_url) do |rss|
+      feed = RSS::Parser.parse(rss)
+      feed.items.each do |item|
+        formatted_date = item.date.strftime('%Y-%m-%d')
+        post_name = ActiveSupport::Inflector.parameterize(item.title)
+        name = "#{formatted_date}-#{post_name}"
+
+        header = {
+          'layout' => 'blog_entry',
+          'title' => item.title,
+          'date' => item.date.strftime('%Y-%m-%d %T %z')
+        }
+
+        FileUtils.mkdir_p("_posts")
+
+        File.open("_posts/#{name}.html", "w") do |f|
+          puts "Importing #{name}".green
+          f.puts header.to_yaml
+          f.puts "---\n\n"
+          f.puts item.content_encoded
+        end
+      end
+
     end
   end
 

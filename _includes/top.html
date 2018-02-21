@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}"> {% endfor %}
     <script src="https://use.fontawesome.com/c1ca2c16bc.js"></script>
     <link href="/css/style.css" rel="stylesheet">
-    {% include twitter-card.html %} {% include opengraph.html %} {% if site.google-tracking-id %} {% include google-analytics.html %} {% endif %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% seo %}
+    {% if site.google-tracking-id %} {% include google-analytics.html %} {% endif %}
+    {% feed_meta %}
     <script src="/js/vendor/modernizr.js"></script>
 </head>
