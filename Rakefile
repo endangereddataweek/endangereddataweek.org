@@ -120,6 +120,14 @@ namespace :import do
     puts set_headers
   end
 
+  def smart_add_url_protocol(url)
+    puts url.red
+    unless url[/\Ahttp:\/\//] || url[/\Ahttps:\/\//] || url.length == 0
+      url = "http://#{url}"
+    end
+    url
+  end
+
   def event_hash(row)
     @headers ||= set_headers
     event = {
@@ -135,7 +143,7 @@ namespace :import do
       excerpt:        shorten(@ws[row, @headers[:event_description]], 140),
       contact_person: @ws[row, @headers[:contact_person]],
       email:          @ws[row, @headers[:contact_email]],
-      website:        @ws[row, @headers[:event_website]],
+      website:        smart_add_url_protocol(@ws[row, @headers[:event_website]]),
       latitude:       @ws[row, @headers[:latitude]],
       longitude:      @ws[row, @headers[:longitude]],
       virtual:        @ws[row, @headers[:virtual_event]],
