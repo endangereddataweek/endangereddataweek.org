@@ -53,7 +53,7 @@ end
 
 namespace :import do
   desc 'Import events for the collection, map, and datatable'
-  task :all => [:events, :data, :map]
+  task :all => [:events, :data, :map, :rss]
 
   desc 'Import Events from the Google Spreadsheet'
   task :events do
