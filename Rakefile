@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'lib/utils.rb'
+require_relative 'lib/multi_geocoder.rb'
 
 Dotenv.load
 
@@ -110,12 +111,15 @@ namespace :import do
       feature = event_hash(row)
 
       # check if a location has been created
-      if feature[:longitude] == '' && @ws[row, @headers[:geocode]] != 0
+      if feature[:longitude] == ''
+        next if @ws[row, @headers[:geocode]] != 0
+
         address = "#{@ws[row, @headers[:institution]]},"\
           " #{@ws[row, @headers[:location_]]}"
 
         puts "Looking up #{address}".yellow
-        result = geocode(address)
+        # result = geocode(address)
+        result = MultiGeocoder.geocode!(address)
         @ws[row, @headers[:latitude]]   = result[:lat]
         @ws[row, @headers[:longitude]]  = result[:lon]
         @ws[row, @headers[:locality]]   = result[:locality]
