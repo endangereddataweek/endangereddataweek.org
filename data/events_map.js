@@ -482,5 +482,17 @@ var events = {
       "id":  99
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.92877469999999, 41.311297]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-linguistics-friday-lunch-talk/\">Linguistics Friday Lunch Talk</a></h2><p><strong>Institution:</strong> Yale University</p><p><strong>Location:</strong> Sterling Memorial Library</p><p><strong>Date:</strong> 2018-03-02 at 12:00:00 PM</p><p><strong>Contact:</strong> Claire Bowern, Department of Linguistics, and Youn Noh, Yale University Library</p>"
+      },
+      "id":  102
+    },
+    
   ]
 };
