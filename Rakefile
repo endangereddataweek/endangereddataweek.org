@@ -118,7 +118,6 @@ namespace :import do
           " #{@ws[row, @headers[:location_]]}"
 
         puts "Looking up #{address}".yellow
-        # result = geocode(address)
         result = MultiGeocoder.geocode!(address)
         @ws[row, @headers[:latitude]]   = result[:lat]
         @ws[row, @headers[:longitude]]  = result[:lon]
