@@ -461,6 +461,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-83.7382, 42.278]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-datalumos-a-tool-for-improving-the-future-accessibility-of-valuable-government-data/\"><i class='fa fa-globe orange'></i> DataLumos: A Tool for Improving the Future Accessibility of Valuable Government Data</a></h2><p><strong>Institution:</strong> ICPSR - The University of Michigan</p><p><strong>Location:</strong> Virtual (ICPSR, University of Michigan, Ann Arbor, Michigan, USA)</p><p><strong>Date:</strong> 2018-02-27 at 1:00:00 PM</p><p><strong>Contact:</strong> David Bleckley</p>"
+      },
+      "id":  97
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-78.5060869, 38.0363453]
       },
       "type": "Feature",
@@ -485,7 +497,19 @@ var events = {
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.92877469999999, 41.311297]
+        "coordinates": [-122.1697, 37.4275]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-data-labs-improving-access-to-government-data/\"><i class='fa fa-globe orange'></i> Data Labs: Improving Access to Government Data</a></h2><p><strong>Institution:</strong> Digital Civil Society Lab</p><p><strong>Location:</strong> Stanford, CA</p><p><strong>Date:</strong> 2018-03-01 at 11:00:00 AM</p><p><strong>Contact:</strong> Laura Seaman</p>"
+      },
+      "id":  101
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.9287747, 41.311297]
       },
       "type": "Feature",
       "properties": {
