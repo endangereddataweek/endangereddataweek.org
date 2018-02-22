@@ -5,7 +5,7 @@ time: "9:00:00 PM"
 excerpt: >
   Critlib is short for “critical librarianship,” a movement of library workers dedicated to bringing social justice principles into our work ...
 location_city: "#critlib"
-location_physical: "#critlib"
+location_physical: "Toronto, Ontario"
 title: "#critlib Twitter chat: Endangered Data"
 author: "Brandon Locke & Sarah Melton"
 website: "http://critlib.org/endangered-data/"
