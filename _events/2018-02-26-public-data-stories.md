@@ -3,7 +3,7 @@ layout: post
 date: "2018-02-26"
 time: "9:00:00 AM"
 excerpt: >
-  To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddataweek...
+  To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddata...
 location_city: "Indiana University"
 location_physical: "Bloomington, IN"
 title: "Public Data Stories"
@@ -22,6 +22,6 @@ video_url: ""
 category: 2018
 ---
 
-To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddataweek
+To participate, complete a public data stories sign. Take a photo with your sign and tweet it with the tag #endangereddata
 
 You are free to alter or remix the signs - they are licensed CC0. The signs are available here: https://github.com/endangereddataweek/resources/tree/master/media/public-data-stories-kit
