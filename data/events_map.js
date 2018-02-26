@@ -345,21 +345,9 @@ var events = {
       },
       "type": "Feature",
       "properties": {
-        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-literate-data-science-in-stata/\">Literate Data Science in Stata</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Clark Hall, University of Virginia</p><p><strong>Date:</strong> 2018-02-27 at 2:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
-      },
-      "id":  87
-    },
-    
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-78.5077038, 38.0332986]
-      },
-      "type": "Feature",
-      "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-introduction-to-libra-data-dataverse-at-uva/\">Introduction to Libra Data (Dataverse at UVa)</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Brown Science and Engineering Library, Room 133, Clark Hall, University of Virginia</p><p><strong>Date:</strong> 2018-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
       },
-      "id":  88
+      "id":  87
     },
     
     {
@@ -371,7 +359,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-introduction-to-docnow/\">Introduction to DocNow</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-03-01 at 2:00:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
       },
-      "id":  89
+      "id":  88
     },
     
     {
@@ -383,7 +371,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-digital-archives-edw-trading-cards/\">Digital Archives & EDW Trading Cards</a></h2><p><strong>Institution:</strong> University of Nebraska at Lincoln</p><p><strong>Location:</strong> University of Nebraska at Lincoln, Love Library </p><p><strong>Date:</strong> 2018-02-26 at </p><p><strong>Contact:</strong> Blake Graham</p>"
       },
-      "id":  90
+      "id":  89
     },
     
     {
@@ -395,7 +383,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-endangered-video-games/\">Endangered Video Games</a></h2><p><strong>Institution:</strong> University of Victoria</p><p><strong>Location:</strong> Foyer of the University Library</p><p><strong>Date:</strong> 2018-02-26 at 1:00:00 PM</p><p><strong>Contact:</strong> Matt Huculak</p>"
       },
-      "id":  91
+      "id":  90
     },
     
     {
@@ -407,7 +395,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-26-intro-to-web-scraping/\">Intro to Web Scraping</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-26 at 2:15:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
       },
-      "id":  92
+      "id":  91
     },
     
     {
@@ -419,7 +407,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-citizen-analysts-how-regular-people-use-public-data-to-save-the-world/\">Citizen Analysts: How Regular People Use Public Data to Save the World</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-27 at 11:00:00 AM</p><p><strong>Contact:</strong> Blaine Martyn-Dow</p>"
       },
-      "id":  93
+      "id":  92
     },
     
     {
@@ -431,7 +419,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-different-ways-dara-are-endangered/\">Different Ways Dara are Endangered</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
       },
-      "id":  94
+      "id":  93
     },
     
     {
@@ -443,7 +431,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-finding-saving-and-fair-use-of-government-data/\">Finding, Saving, and Fair Use of Government Data</a></h2><p><strong>Institution:</strong> Case Western Reserve University</p><p><strong>Location:</strong> Freedman Center (Kelvin Smith Library)</p><p><strong>Date:</strong> 2018-03-01 at 2:30:00 PM</p><p><strong>Contact:</strong> Amanda Koziura</p>"
       },
-      "id":  95
+      "id":  94
     },
     
     {
@@ -455,7 +443,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-datalumos-a-tool-for-improving-the-future-accessibility-of-valuable-government-data/\"><i class='fa fa-globe orange'></i> DataLumos: A Tool for Improving the Future Accessibility of Valuable Government Data</a></h2><p><strong>Institution:</strong> ICPSR - The University of Michigan</p><p><strong>Location:</strong> Virtual (ICPSR, University of Michigan, Ann Arbor, Michigan, USA)</p><p><strong>Date:</strong> 2018-02-27 at 1:00:00 PM</p><p><strong>Contact:</strong> David Bleckley</p>"
       },
-      "id":  96
+      "id":  95
     },
     
     {
@@ -467,7 +455,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-28-introduction-to-the-city-of-charlottesville-s-open-data-portal/\">Introduction to the City of Charlottesville's Open Data Portal</a></h2><p><strong>Institution:</strong> University of Virginia Library</p><p><strong>Location:</strong> Alderman Library, Room 421, University of Virginia</p><p><strong>Date:</strong> 2018-02-28 at 2:30:00 PM</p><p><strong>Contact:</strong> Ricky Patterson</p>"
       },
-      "id":  97
+      "id":  96
     },
     
     {
@@ -479,7 +467,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-are-census-data-endangered/\">Are Census Data Endangered? </a></h2><p><strong>Institution:</strong> Bucknell University</p><p><strong>Location:</strong> LIbrary</p><p><strong>Date:</strong> 2018-03-01 at 12:00:00 PM</p><p><strong>Contact:</strong> Kathleen McQuiston</p>"
       },
-      "id":  98
+      "id":  97
     },
     
     {
@@ -491,7 +479,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-data-labs-improving-access-to-government-data/\"><i class='fa fa-globe orange'></i> Data Labs: Improving Access to Government Data</a></h2><p><strong>Institution:</strong> Digital Civil Society Lab</p><p><strong>Location:</strong> Stanford, CA</p><p><strong>Date:</strong> 2018-03-01 at 11:00:00 AM</p><p><strong>Contact:</strong> Laura Seaman</p>"
       },
-      "id":  100
+      "id":  99
     },
     
     {
@@ -503,7 +491,7 @@ var events = {
       "properties": {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-linguistics-friday-lunch-talk/\">Linguistics Friday Lunch Talk</a></h2><p><strong>Institution:</strong> Yale University</p><p><strong>Location:</strong> Sterling Memorial Library</p><p><strong>Date:</strong> 2018-03-02 at 12:00:00 PM</p><p><strong>Contact:</strong> Claire Bowern, Department of Linguistics, and Youn Noh, Yale University Library</p>"
       },
-      "id":  101
+      "id":  100
     },
     
   ]
