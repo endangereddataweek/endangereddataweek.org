@@ -105,14 +105,14 @@ namespace :import do
     system('clear')
     @features = []
 
-    # current_year = Date.today.year
+    puts "Rows are #{@ws.num_rows}".red
 
     (2..@ws.num_rows).each do |row|
       feature = event_hash(row)
 
       # check if a location has been created
       if feature[:longitude] == ''
-        next if @ws[row, @headers[:geocode]] != 0
+        next if @ws[row, @headers[:geocode]] == 0
 
         address = "#{@ws[row, @headers[:institution]]},"\
           " #{@ws[row, @headers[:location_]]}"

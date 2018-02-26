@@ -473,6 +473,18 @@ var events = {
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [-77.0391, 38.903748]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-02-27-endangereddata-week-twitter-chat/\"><i class='fa fa-globe orange'></i> #EndangeredData Week Twitter Chat</a></h2><p><strong>Institution:</strong> Digital Library Federation's Interest Group on Government Records Transparency & Accountability</p><p><strong>Location:</strong> Washington DC</p><p><strong>Date:</strong> 2018-02-27 at 9:00:00 PM</p><p><strong>Contact:</strong> rachel mattson</p>"
+      },
+      "id":  98
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [-122.1697, 37.4275]
       },
       "type": "Feature",
@@ -492,6 +504,42 @@ var events = {
         "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-linguistics-friday-lunch-talk/\">Linguistics Friday Lunch Talk</a></h2><p><strong>Institution:</strong> Yale University</p><p><strong>Location:</strong> Sterling Memorial Library</p><p><strong>Date:</strong> 2018-03-02 at 12:00:00 PM</p><p><strong>Contact:</strong> Claire Bowern, Department of Linguistics, and Youn Noh, Yale University Library</p>"
       },
       "id":  100
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.7382241, 42.2780436]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-save-the-data-downloading-data-and-archiving-with-datalumos/\">Save the Data: Downloading data and archiving with DataLumos</a></h2><p><strong>Institution:</strong> ICPSR - The University of Michigan</p><p><strong>Location:</strong> Room G150, Perry Building, 330 Packard St., Ann Arbor, Michigan</p><p><strong>Date:</strong> 2018-03-02 at 1:00:00 PM</p><p><strong>Contact:</strong> David Bleckley</p>"
+      },
+      "id":  101
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.2517451, 41.8066244]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-is-open-data-endangered-discussion-datasets-pizza/\">Is Open Data Endangered? Discussion, Datasets, Pizza!</a></h2><p><strong>Institution:</strong> UConn Library</p><p><strong>Location:</strong> Homer Babbidge Library, Storrs, CT</p><p><strong>Date:</strong> 2018-03-01 at 11:00:00 AM</p><p><strong>Contact:</strong> Jean Nelson</p>"
+      },
+      "id":  102
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.251486, 41.807005]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-01-is-open-data-endangered-discussion-datasets-and-pizza/\">Is Open Data Endangered? : Discussion, Datasets, and Pizza</a></h2><p><strong>Institution:</strong> University of Connecticut</p><p><strong>Location:</strong> Babbidge Library, Storrs, Mansfield, CT</p><p><strong>Date:</strong> 2018-03-01 at 11:00:00 AM</p><p><strong>Contact:</strong> Renee Walsh</p>"
+      },
+      "id":  103
     },
     
   ]

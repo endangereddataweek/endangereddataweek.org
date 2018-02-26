@@ -15,13 +15,15 @@ class MultiGeocoder
   include ActiveSupport::Configurable
 
   config.lookups = [
-    { lookup: :bing, api_key: ENV.fetch('MAP_KEY_BING', '') },
     { lookup:
         :google, api_key: ENV.fetch('MAP_KEY_GOOGLE', ''), use_https: true
     },
+    { lookup: :bing, api_key: ENV.fetch('MAP_KEY_BING', '') },
     { lookup: :geocoder_ca, api_key: ENV.fetch('MAP_KEY_GEOCODER_CA', '') },
     { lookup: :yandex, api_key: ENV.fetch('MAP_KEY_YANDEX', '') }
   ]
+
+  @@errors
 
   config.lookup_idx = 0
 
@@ -56,7 +58,19 @@ class MultiGeocoder
     #  :args: instance
     #
     def geocode!(instance)
-      coordinates(instance)
+      result = coordinates(instance).first
+      if result
+        {
+          lat: result.latitude,
+          lon: result.longitude,
+          region: result.state_code,
+          locality: result.city,
+          postalcode: result.postal_code,
+          address: result.address
+        }
+      else
+        {}
+      end
     end
   end
 end
