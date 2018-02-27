@@ -18,9 +18,11 @@ class MultiGeocoder
     { lookup:
         :google, api_key: ENV.fetch('MAP_KEY_GOOGLE', ''), use_https: true
     },
+    { lookup: :mapquest, api_key: ENV.fetch('MAP_KEY_MAPQUEST', ''), open: true },
     { lookup: :bing, api_key: ENV.fetch('MAP_KEY_BING', '') },
-    { lookup: :geocoder_ca, api_key: ENV.fetch('MAP_KEY_GEOCODER_CA', '') },
-    { lookup: :yandex, api_key: ENV.fetch('MAP_KEY_YANDEX', '') }
+    { lookup: :geocoder_ca },
+    { lookup: :yandex },
+    { lookup: :nominatim, http_headers: { 'User-Agent': 'endangereddata@diglib.org' } },
   ]
 
   @@errors
