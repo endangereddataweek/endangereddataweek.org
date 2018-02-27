@@ -3,9 +3,9 @@ layout: post
 date: "2018-03-03"
 time: "2:00:00 PM"
 excerpt: >
-  4 panelists including Justin Schell, Kim Schroeder, Dr. Katherine Akers, and Dr. Laura Sheble will be discussing the work they do preserving...
+  A panel discussion with 4 people from Wayne and the greater Detroit area working with endangered data...
 location_city: "Wayne State University"
-location_physical: "Kresge Library, Wayne State University, Detroit, MI, US and Virtually"
+location_physical: "Kresge Library Room 315, Wayne State Unviersity, Detroit, MI"
 title: "Endangered Data Panel Discussion"
 author: "Jodi Coalter"
 website: ""
@@ -22,4 +22,4 @@ video_url: ""
 category: 2018
 ---
 
-4 panelists including Justin Schell, Kim Schroeder, Dr. Katherine Akers, and Dr. Laura Sheble will be discussing the work they do preserving endangered data and what future MLIS grads can expect in the field.
+A panel discussion with 4 people from Wayne and the greater Detroit area working with endangered data.
