@@ -7,10 +7,16 @@
     Jason Heppler -- @jaheppler
     Brandon Locke -- @brandontlocke
     Bethany Nowviskie -- @nowviskie
+    Rachel Mattson -- @captain_maybe
+    Sarah Melton -- @WorldCatLady
 
 # THANKS
 
     Digital Library Federation
+    Mozilla Science Lab
+    CLIR
+    DataRefuge
+    National Digital Stewardship Alliance
 
 # TECHNOLOGY COLOPHON
 
