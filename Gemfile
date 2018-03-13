@@ -19,6 +19,7 @@ gem 'html-proofer'
 gem 'jekyll'
 gem 'ra11y'
 gem 'rake'
+gem 'timezone_finder'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

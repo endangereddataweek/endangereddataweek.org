@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'timezone_finder'
+
 require_relative 'lib/utils.rb'
 require_relative 'lib/multi_geocoder.rb'
 
@@ -94,6 +96,30 @@ namespace :import do
     File.open('data/events_table.json', 'w') { |f| f.write(@events.to_json) }
   end
 
+  desc 'Set timezone info'
+  task timezones: :dotenv do
+    login
+    system('clear')
+    tf = TimezoneFinder.create
+    set_headers
+
+    (2..@ws.num_rows).each do |row|
+      next unless @ws[row, @headers[:timezone]].nil?
+      lat = @ws[row, @headers[:latitude]].to_f
+      lon = @ws[row, @headers[:longitude]].to_f
+
+      begin
+        @ws[row, @headers[:timezone]] = tf.timezone_at(lng: lon, lat: lat)
+        @ws.save
+      rescue
+        puts "There was an error with #{lon}, #{lat} in "\
+         "#{@ws[row, @headers[:title]]}".red
+      end
+
+    end
+
+  end
+
   # for testing
   task :set_headers do
     puts set_headers
@@ -102,6 +128,7 @@ namespace :import do
   desc 'Generate GeoJSON from Google Spreadsheet'
   task map: :dotenv do
     login
+    tf = TimezoneFinder.create
     system('clear')
     @features = []
 
@@ -125,6 +152,7 @@ namespace :import do
         @ws[row, @headers[:region]]     = result[:region]
         @ws[row, @headers[:postalcode]] = result[:postalcode]
         @ws[row, @headers[:address]]    = result[:address]
+        @ws[row, @headers[:timezone]]   = tf.timezone_at(lng: result[:lon], lat: result[:lat])
         @ws.save
         feature[:longitude]  = result[:lon]
         feature[:latitude]   = result[:lat]

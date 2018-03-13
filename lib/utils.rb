@@ -63,6 +63,7 @@ end
 
 def event_hash(row)
   @headers ||= set_headers
+  tz = TZInfo::Timezone.get(@ws[row, @headers[:timezone])
   event = {
     id: row,
     category:       Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y'),
@@ -89,7 +90,9 @@ def event_hash(row)
     address:        @ws[row, @headers[:address]],
     locality:       @ws[row, @headers[:locality]],
     region:         @ws[row, @headers[:region]],
-    postalcode:     @ws[row, @headers[:postalcode]]
+    postalcode:     @ws[row, @headers[:postalcode]],
+    timezone:       @ws[row, @headers[:timezone]],
+    # localtime:      tz.local_to_utc(@ws[row, @headers[:time]])
   }
   event[:file_path] = filename(event)
   event[:web_path] = filename(event).gsub('_event', '/event').gsub('.md', '/')
