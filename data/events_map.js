@@ -542,5 +542,17 @@ var events = {
       "id":  103
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.480744, 33.9008359]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2018-03-02-endangered-research-data/\">Endangered Research Data</a></h2><p><strong>Institution:</strong> American University of Beirut</p><p><strong>Location:</strong> American University of Beirut Libraries - E-classroom</p><p><strong>Date:</strong> 2018-03-02 at 11:30:00 AM</p><p><strong>Contact:</strong> Dalal Rahme</p>"
+      },
+      "id":  104
+    },
+    
   ]
 };
