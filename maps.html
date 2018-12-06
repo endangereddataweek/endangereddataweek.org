@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Map of Events
+title: Events
 permalink: /map/
 css:
   - /css/vendor/leaflet.css
@@ -14,19 +14,17 @@ javascript:
   - /data/events_map.js
   - https://cdnjs.cloudflare.com/ajax/libs/Dynatable/0.3.1/jquery.dynatable.min.js
 ---
-<h2>{{ site.date }}</h2>
-
-  <div clas="row">
-    <div class="eighty">
-      <p>Find Endangered Data Week events online <span class="fa fa-globe orange"></span>, near you, or <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTZ30rbBS5axmn-QpWZML_nEqT_bmiz9V2TiQYYTTQSsKUxw/viewform" target="_blank">add your own</a> to the map and list!
-      </p>
-      </div>
-    </div>
+  <section class="section">
+    <div class="container">
+        <h2 class="title">{{page.title}}: {{ site.date }}</h2>
+        <p>Find Endangered Data Week events online <span class="fa fa-globe orange"></span>, near you, or <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTZ30rbBS5axmn-QpWZML_nEqT_bmiz9V2TiQYYTTQSsKUxw/viewform" target="_blank">add your own</a> to the map and list!
+        </div>
+  </section>
 
 <div id="map"></div>
 
 <div id="events" class="event_table">
-  <table id="event_table">
+  <table id="event_table" class="table is-fullwidth">
     <thead>
       <th>
         Date

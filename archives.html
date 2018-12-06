@@ -6,10 +6,15 @@ permalink: /archives/
 {% assign groups = site.events | group_by: "category" | sort: "name" | reverse %}
 
 {% for group in groups %}
-    <h2>{{ group.name }}</h2>
-    <ul>
-    {% for item in group.items %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-    {%endfor%}
-    </ul>
+<section class="section">
+    <div class="container">
+        <h2 class="title">{{ group.name }}</h2>
+            <ol>
+            {% for item in group.items %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a> | {% if item.location_city %} {{item.location_city}}, {% endif %} {{ item.date | date: "%B %d, %Y" }}</li>
+            {%endfor%}
+            </ol>
+    </div>
+</section>
 {%endfor%}
+
