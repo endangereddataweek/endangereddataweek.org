@@ -8,32 +8,32 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #fff;
-  background-image: url("bg.png");
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
-  color: #333;
+html {
+    background-image: url("bg.png");
 }
-@media (max-width: 400px) {
-  body {
-    margin: 20px;
-  }
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0 45px 45px 45px;
+  font-weight: 300;
+}
+
+p {
+  padding-bottom: 1.25em;
+  font-size: 20px;
 }
 
 /* Typography */
-a {
+/* a {
   color: #333;
   transition: .25s color;
 }
 a:hover {
-  /*color: #d34600;*/
   color: #ff5500;
 }
 a:active {
   color: #d34600;
-  /*color: #ff5500;*/
-}
+} */
 h1, h2 {
   color: #BE3F00;
   /*border-left: 4px solid #999;*/
@@ -46,7 +46,7 @@ h1 {
   /*border-bottom: 4px solid #999;*/
 }
 h3 {
-  border-left: 4px solid #BE3F00;
+  /* border-left: 4px solid #BE3F00; */
   padding-left: .2em;
 }
 .bold {
@@ -58,9 +58,9 @@ h3 {
   text-decoration: none;
   font-weight: 500;
 }
-.button a {
+/* .button a {
   text-decoration: none;
-}
+} */
 
 /* Header and navigation */
 .head-title a,
@@ -71,7 +71,6 @@ h3 {
 .header-logo {
   height: 200px;
   width: auto;
-  border-bottom: 4px solid #999;
 }
 
 ul.navigation {
@@ -104,6 +103,9 @@ table td, table th {
   margin: auto;
   font-size: 20px;
 }
+table th {
+  background: #fff;
+}
 td {
   font-weight: 300;
 }
@@ -130,26 +132,12 @@ table.locations {
 }
 
 /* Content */
-.sixty {
-  width: 100%;
-}
-.eighty {
-  width: 100%;
-}
 .meta {
   font-size: .7em;
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
   margin: 2em auto;
   padding: 2em 0 1em;
-}
-@media (min-width: 1024px) {
-  .sixty {
-    width: 60%;
-  }
-  .eighty {
-    width: 80%;
-  }
 }
 .date {
   width: 25%;
@@ -158,44 +146,7 @@ table.locations {
   width: 30%;
   padding: 10px 10px 10px 25px
 }
-.tagline {
-  padding: 13px 10px 7px 0px;
-}
-.second-tagline {
-  padding: 17px 10px 4rem 0px;
-}
-.second-tagline .button {
-  /*color: #ff5500;*/
-  color: #333;
-  background-color: #f2f2f2;
-  text-decoration: none;
-  transition: .25s background;
-  padding: .4em 2em;
-  display: inline-block;
-  border: 1px solid #d34600;
-  /*border: 1px solid #ff5500;*/
-}
-.second-tagline .button:hover {
-  background-color: #fff;
-}
-.second-tagline .button:active {
-  background-color: #f2f2f2;
-}
-.second-tagline--info {
-  width: 100%;
-  margin-top: 1em;
-  vertical-align: top;
-  display: inline-block;
-  padding: .5%;
-}
-@media (min-width: 1024px) {
-  .second-tagline--info {
-    width: 30%;
-  }
-}
-.slack-link {
-  margin-top: 2em;
-}
+
 footer {
   color: #333;
   font-size: 14px;

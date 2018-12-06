@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<div class="h-event">
 
-  <h2 class="p-name">{% if page.virtual.size > 0 %} <i class="fa fa-globe orange"></i> {% endif %}{{ page.title }}</h2>
+<section class="section">
+  <div class="container">
+
+  <h2 class="title">{% if page.virtual.size > 0 %} <i class="fa fa-globe orange"></i> {% endif %}{{ page.title }}</h2>
   {% if page.virtual.size > 0 %}
   <strong>This is a virtual/online event.</strong><br /><br />
   {% endif %}
@@ -41,4 +43,5 @@ layout: default
     {% include share_buttons.html %}
   </div>
 
-</div>
+  </div>
+</section>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -5,10 +6,13 @@
     <title>{{ site.title }} - {{ site.date }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="author" href="/humans.txt" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500|Crimson+Text" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/clirdlf/logo-fonts/master/style.min.css"> {% for css in page.css %}
-    <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}"> {% endfor %}
-    <script src="https://use.fontawesome.com/c1ca2c16bc.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/clirdlf/logo-fonts/master/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    {% for css in page.css %}
+    <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}">
+    {% endfor %}
     <link href="/css/style.css" rel="stylesheet">
     {% seo %}
     {% if site.google-tracking-id %} {% include google-analytics.html %} {% endif %}
