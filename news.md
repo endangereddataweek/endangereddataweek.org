@@ -4,26 +4,28 @@ title: News
 permalink: /news/
 ---
 
-<div class="home">
-
+<section class="section">
+    <div class="container">
   {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.title | default: "Posts" }}</h2>
-    <ul class="post-list">
+    <h2 class="title">{{ page.title | default: "Posts" }}</h2>
+    
       {% for post in site.posts %}
-      <li>
+      <section class="section">
+      <p>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="subtitle is-5" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
-        {% if site.show_excerpts %}
-          {{ post.excerpt }}
-        {% endif %}
-      </li>
+          {{ post.excerpt | strip_html | truncatewords: 75 }} 
+      </p>
+      </section>
       {% endfor %}
-    </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {% endif %}
+
+  </div>
+</section>
