@@ -29,10 +29,14 @@ collections:
 
 # Navigation
 navigation:
-  - title: home
-    url: /
   - title: about
     url: /about/
+  - title: resources
+    url: /resources/
+  - title: get involved
+    url: /get-involved/
+  - title: data stories
+    url: /stories/
   - title: events & map
     url: /map/
   - title: past events
