@@ -16,7 +16,7 @@ gem 'geocoder'
 gem 'google-api-client'
 gem 'google_drive'
 gem 'html-proofer'
-gem 'jekyll' ">= 3.8.4"
+gem 'jekyll'
 gem 'ra11y'
 gem 'rake'
 
