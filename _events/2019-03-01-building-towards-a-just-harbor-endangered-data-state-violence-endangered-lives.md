@@ -22,16 +22,18 @@ video_url: ""
 category: 2019
 ---
 
-The Government Records Transparency and Accountability interest group is happy to present the Endangered Data Week 2019 signature webinar. This year, our webinar is titled "“Building Towards a Just Harbor: Endangered Data, State Violence, & Endangered Lives". This webinar will feature a panel of speakers that will present on projects that use or critique governmental data, highlighting in particular the ways in which these types of data may be used to investigate or draw attention to state violence. 
+The Government Records Transparency and Accountability interest group is happy to present the Endangered Data Week 2019 signature webinar. This year, our webinar is titled “Building Towards a Just Harbor: Endangered Data, State Violence, & Endangered Lives". This webinar will feature a panel of speakers that will present on projects that use or critique governmental data, highlighting in particular the ways in which these types of data may be used to investigate or draw attention to state violence. 
 
 Our panel will feature the following speakers:
-•Manan Ahmed || Associate Professor, Department of History, Columbia University & the Torn Apart / Separados project 
 
-•Gabriel Solis || Executive Director, Texas After Violence Project
+Manan Ahmed | Associate Professor, Department of History, Columbia University & the Torn Apart / Separados project 
 
-•Stacy Wood || School of Computing and Information, University of Pittsburgh
+Gabriel Solis | Executive Director, Texas After Violence Project
 
-*Presentation titles and abstracts forthcoming.
+Stacy Wood | School of Computing and Information, University of Pittsburgh
+
+
+Presentation titles and abstracts forthcoming.
 
 Event will be held online from 2-4 PM EST.
 
