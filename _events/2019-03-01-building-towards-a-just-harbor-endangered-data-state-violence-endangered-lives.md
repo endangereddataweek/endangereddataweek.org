@@ -26,12 +26,20 @@ The Government Records Transparency and Accountability interest group is happy t
 
 Our panel will feature the following speakers:
 
-Manan Ahmed | Associate Professor, Department of History, Columbia University & the Torn Apart / Separados project 
+•Manan Ahmed, Associate Professor, Department of History, Columbia University & the Torn Apart / Separados project 
 
-Gabriel Solis | Executive Director, Texas After Violence Project
+Title: Mobilized Humanities and Crisis: Torn Apart/Separados
+Abstract: What are scholarly best-practices to create an agile, responsive community? How does one make sure the standards of transparent data, minimal computing, privacy are maintained? Ahmed will reflect from his experiences, as part of the Group for Experimental Methods, on the ways in which scholars can collaborate in response to political or natural crisis in an engaged and ethical way. The praxis for dealing with endangered archives needs even more acute clarity in the case of an immediate crisis.
 
-Stacy Wood | School of Computing and Information, University of Pittsburgh
+•Gabriel Solis, Executive Director, Texas After Violence Project
 
+Title: Documenting State Violence: (Symbolic) Annihilation & Archives of Survival
+Abstract: The personal stories and experiences of victims and survivors of state violence are critical counter-narratives to dominant discourses on violence, criminality, and the purported efficacy of retributive law enforcement and criminal justice policies and practices. They compel us to engage with complex questions about victimhood, disposability, and accountability; they also confront and challenge the social, cultural, and ideological power of symbolic annihilation. Because these counter-narratives are under constant threat of being suppressed, co-opted, or silenced, they are forms of endangered knowledge that must be protected and preserved. 
+
+•Stacy Wood, School of Computing and Information, University of Pittsburgh
+
+Title: TBD
+Abstract: TBD
 
 Presentation titles and abstracts forthcoming.
 
@@ -41,8 +49,8 @@ Join the webinar using the following link: https://clirdlf.zoom.us/j/893477873
 
 Dial by your location
 
-        +1 646 876 9923 US (New York)
++1 646 876 9923 US (New York)
 
-        +1 669 900 6833 US (San Jose)
++1 669 900 6833 US (San Jose)
 
  Meeting ID: 893 477 873
