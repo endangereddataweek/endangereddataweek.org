@@ -110,5 +110,65 @@ var events = {
       "id":  114
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.9925, 46.86006]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-25-endangered-languages-as-endangered-data/\">Endangered Languages as Endangered Data</a></h2><p><strong>Institution:</strong> University of Montana</p><p><strong>Location:</strong> Missoula, Montana</p><p><strong>Date:</strong> 2019-02-25 at 12:00:00 PM</p><p><strong>Contact:</strong> Ben Chiewphasa</p>"
+      },
+      "id":  115
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.9925, 46.86006]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-27-how-to-prevent-endangering-your-data/\">How to Prevent Endangering Your Data</a></h2><p><strong>Institution:</strong> University of Montana</p><p><strong>Location:</strong> Missoula, Montana</p><p><strong>Date:</strong> 2019-02-27 at 11:00:00 AM</p><p><strong>Contact:</strong> Ben Chiewphasa</p>"
+      },
+      "id":  116
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.9925, 46.86006]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-28-montana-government-info-what-where-and-how-to-save-it/\">Montana Government Info: What, Where, and How to Save It</a></h2><p><strong>Institution:</strong> University of Montana</p><p><strong>Location:</strong> Missoula, Montana</p><p><strong>Date:</strong> 2019-02-28 at 11:00:00 AM</p><p><strong>Contact:</strong> Ben Chiewphasa</p>"
+      },
+      "id":  117
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.47867, 42.73262]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-22-wikipedia-edit-a-thon-michigan-superfund-sites/\">Wikipedia Edit-a-thon: Michigan Superfund Sites</a></h2><p><strong>Institution:</strong> Michigan State University</p><p><strong>Location:</strong> Michigan State University Library, East Lansing, MI</p><p><strong>Date:</strong> 2019-02-22 at 1:00:00 PM</p><p><strong>Contact:</strong> Andy Boyles-Petersen or Tim Kiser</p>"
+      },
+      "id":  118
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.066067, 39.390897]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-22-wikipedia-edit-a-thon-michigan-superfund-sites/\">Wikipedia Edit-a-thon: Michigan Superfund Sites</a></h2><p><strong>Institution:</strong> Michigan State Unviersity</p><p><strong>Location:</strong> MSU Libraries, Beaumont Instruction Room (2W)</p><p><strong>Date:</strong> 2019-02-22 at 1:00:00 PM</p><p><strong>Contact:</strong> Andy Boyles Petersen, Tim Kiser</p>"
+      },
+      "id":  119
+    },
+    
   ]
 };
