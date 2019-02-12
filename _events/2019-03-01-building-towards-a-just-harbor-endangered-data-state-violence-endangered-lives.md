@@ -38,8 +38,8 @@ Abstract: The personal stories and experiences of victims and survivors of state
 
 •Stacy Wood, School of Computing and Information, University of Pittsburgh
 
-Title: TBD
-Abstract: TBD
+Title: Historical police data practices and current data priorities
+Abstract: US law enforcement agencies have, for over a century, produced and published a great deal of data about crime, but gathering data on the behaviors and actions of both individual officers and agencies as a whole remains difficult and ad-hoc. This presentation seeks to place current efforts at gathering and using data about police against the historical backdrop of police data practices. What can the ways in which police think about and collect information tell us? 
 
 Presentation titles and abstracts forthcoming.
 
