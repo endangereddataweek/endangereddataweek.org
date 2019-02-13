@@ -218,5 +218,17 @@ var events = {
       "id":  123
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17664, 39.95122]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-25-government-shutdown-and-data/\">Government Shutdown and Data</a></h2><p><strong>Institution:</strong> University of Pennsylvania</p><p><strong>Location:</strong> Van Pelt Library Room 124</p><p><strong>Date:</strong> 2019-02-25 at 12:30:00 PM</p><p><strong>Contact:</strong> Margaret Janz</p>"
+      },
+      "id":  124
+    },
+    
   ]
 };
