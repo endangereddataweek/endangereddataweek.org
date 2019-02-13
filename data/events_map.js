@@ -170,5 +170,53 @@ var events = {
       "id":  119
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.69061, 36.79733]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-25-data-cleaning-workshop/\">Data Cleaning Workshop</a></h2><p><strong>Institution:</strong> The Claremont Colleges Library</p><p><strong>Location:</strong> Claremont, California</p><p><strong>Date:</strong> 2019-02-25 at 4:00:00 PM</p><p><strong>Contact:</strong> Jeanine Finn</p>"
+      },
+      "id":  120
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.97944, 40.69744]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-26-data-stories/\">Data Stories</a></h2><p><strong>Institution:</strong> The Claremont Colleges Library</p><p><strong>Location:</strong> Founders Room, The Claremont Colleges Library</p><p><strong>Date:</strong> 2019-02-26 at 4:00:00 PM</p><p><strong>Contact:</strong> Jeanine Finn</p>"
+      },
+      "id":  121
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.49744, 42.43954]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-27-3d-data-visualizations-archaeological-heritage/\">3D Data Visualizations & Archaeological Heritage</a></h2><p><strong>Institution:</strong> The Claremont Colleges Library</p><p><strong>Location:</strong> Collaborative Commons, The Claremont Colleges Library</p><p><strong>Date:</strong> 2019-02-27 at 3:00:00 PM</p><p><strong>Contact:</strong> Jeanine Finn</p>"
+      },
+      "id":  122
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.49744, 42.43954]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-28-data-visualization-pop-up/\">Data Visualization Pop-Up</a></h2><p><strong>Institution:</strong> The Claremont Colleges Library</p><p><strong>Location:</strong> Collaborative Commons, The Claremont Colleges Library</p><p><strong>Date:</strong> 2019-02-28 at 1:00:00 PM</p><p><strong>Contact:</strong> Jeanine Finn</p>"
+      },
+      "id":  123
+    },
+    
   ]
 };
