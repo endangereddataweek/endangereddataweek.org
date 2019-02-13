@@ -230,5 +230,29 @@ var events = {
       "id":  124
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.066067, 39.390897]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-25-endangereddata-week-twitter-chat/\"><i class='fa fa-globe orange'></i> #EndangeredData Week Twitter Chat</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> Omaha, NE</p><p><strong>Date:</strong> 2019-02-25 at 12:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  125
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.066067, 39.390897]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-25-endangereddata-week-twitter-chat-9pm/\"><i class='fa fa-globe orange'></i> #EndangeredData Week Twitter Chat 9pm</a></h2><p><strong>Institution:</strong> Digital Library Federation</p><p><strong>Location:</strong> Omaha, NE</p><p><strong>Date:</strong> 2019-02-25 at 8:00:00 PM</p><p><strong>Contact:</strong> Jason Heppler</p>"
+      },
+      "id":  126
+    },
+    
   ]
 };
