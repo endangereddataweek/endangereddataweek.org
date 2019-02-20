@@ -254,5 +254,17 @@ var events = {
       "id":  126
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.60633, 37.96304]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-26-documenting-workflow-and-data-management/\">Documenting Workflow and Data Management</a></h2><p><strong>Institution:</strong> Stanford University</p><p><strong>Location:</strong> Green Library 121A</p><p><strong>Date:</strong> 2019-02-26 at 3:00:00 PM</p><p><strong>Contact:</strong> Katie McDonough</p>"
+      },
+      "id":  127
+    },
+    
   ]
 };
