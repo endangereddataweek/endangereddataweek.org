@@ -266,5 +266,29 @@ var events = {
       "id":  127
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.327482, 33.972643]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-02-27-introduction-to-web-scraping/\">Introduction to Web Scraping</a></h2><p><strong>Institution:</strong> University of California, Riverside</p><p><strong>Location:</strong> Tomás Rivera Library, Room 140</p><p><strong>Date:</strong> 2019-02-27 at 11:30:00 AM</p><p><strong>Contact:</strong> Katherine Koziar</p>"
+      },
+      "id":  128
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.327482, 33.972643]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-03-01-foia-basics-requesting-public-records/\">FOIA Basics: Requesting Public Records</a></h2><p><strong>Institution:</strong> University of California, Riverside</p><p><strong>Location:</strong> Tomás Rivera Library, Room 140</p><p><strong>Date:</strong> 2019-03-01 at 1:00:00 PM</p><p><strong>Contact:</strong> Noah Geraci</p>"
+      },
+      "id":  129
+    },
+    
   ]
 };
