@@ -290,5 +290,29 @@ var events = {
       "id":  129
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.066067, 39.390897]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-03-01-notes-toward-absolute-zero-a-hypertext-traversal/\"><i class='fa fa-globe orange'></i> Notes Toward Absolute Zero: A Hypertext Traversal</a></h2><p><strong>Institution:</strong> Electronic Literature Lab</p><p><strong>Location:</strong> Vancouver, WA</p><p><strong>Date:</strong> 2019-03-01 at 2:00:00 PM</p><p><strong>Contact:</strong> Dene Grigar</p>"
+      },
+      "id":  130
+    },
+    
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.066067, 39.390897]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-03-01-notes-toward-absolute-zero-a-hypertext-traversal/\"><i class='fa fa-globe orange'></i> Notes Toward Absolute Zero: A Hypertext Traversal</a></h2><p><strong>Institution:</strong> Electronic Literature Lab</p><p><strong>Location:</strong> Vancouver, WA</p><p><strong>Date:</strong> 2019-03-01 at 2:00:00 PM</p><p><strong>Contact:</strong> Dene Grigar</p>"
+      },
+      "id":  131
+    },
+    
   ]
 };
