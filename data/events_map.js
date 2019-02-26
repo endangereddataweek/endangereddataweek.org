@@ -314,5 +314,17 @@ var events = {
       "id":  131
     },
     
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.20111, 28.59511]
+      },
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<h2 class='popup'><a href=\"/events/2019-03-01-live-traversal-with-dene-grigar-and-tim-mclaughlin/\">Live Traversal with Dene Grigar and Tim McLaughlin</a></h2><p><strong>Institution:</strong> University of Victoria Libraries</p><p><strong>Location:</strong> The Digital Scholarship Commons</p><p><strong>Date:</strong> 2019-03-01 at 2:00:00 PM</p><p><strong>Contact:</strong> Matt Huculak</p>"
+      },
+      "id":  132
+    },
+    
   ]
 };
