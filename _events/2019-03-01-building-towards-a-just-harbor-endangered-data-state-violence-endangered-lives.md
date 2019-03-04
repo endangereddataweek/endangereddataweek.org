@@ -43,14 +43,6 @@ Abstract: US law enforcement agencies have, for over a century, produced and pub
 
 Presentation titles and abstracts forthcoming.
 
-Event will be held online from 2-4 PM EST.
+Event was held online from 2-4 PM EST.
 
-Join the webinar using the following link: https://clirdlf.zoom.us/j/893477873
-
-Dial by your location
-
-+1 646 876 9923 US (New York)
-
-+1 669 900 6833 US (San Jose)
-
- Meeting ID: 893 477 873
+https://youtu.be/vRVHFsGnj80 https://youtu.be/vRVHFsGnj80
