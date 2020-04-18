@@ -21,4 +21,4 @@
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Gulp, Rake, Jekyll, jQuery, Modernizr, Leaflet, Dynatable.js
+    Rake, Jekyll, jQuery, Modernizr, Leaflet, Dynatable.js

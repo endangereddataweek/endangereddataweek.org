@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
+gem 'activesupport'
 gem 'chronic'
 gem 'colorize'
 gem 'dotenv'
