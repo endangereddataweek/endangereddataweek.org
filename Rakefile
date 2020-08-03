@@ -13,7 +13,9 @@ task default: 'import:all'
 
 # get the year for the next event from the _config file
 config = YAML.load_file('_config.yml')
-@current_year = Chronic.parse(config['date']).strftime('%Y')
+
+# @current_year = Chronic.parse(config['date']).strftime('%Y')
+@current_year = Date.today.year
 
 desc 'Clean _events directory'
 task :clean do
