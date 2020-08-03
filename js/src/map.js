@@ -1,7 +1,7 @@
 (function() {
     // 'use strict';
 
-    var CartoDB_Positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
             subdomains: 'abcd',
             maxZoom: 19
@@ -38,14 +38,14 @@
 
     var popup = new L.Popup();
 
-    oms.addListener('click', function(marker){
+    oms.addListener('click', function(marker) {
         popup.setContent(marker.desc);
         popup.setLatLng(marker.getLatLng());
         map.openPopup(popup);
     });
 
-    oms.addListener('spiderfy', function(markers){
-            map.closePopup();
+    oms.addListener('spiderfy', function(markers) {
+        map.closePopup();
     });
 
     var geoJsonLayer = L.geoJson(events, {
