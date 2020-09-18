@@ -40,7 +40,7 @@ namespace :import do
 
   desc 'Import EDW data feed'
   task :rss do
-    open(@feed_url) do |rss|
+    URI.open(@feed_url) do |rss|
       feed = RSS::Parser.parse(rss)
       feed.items.each do |item|
         formatted_date = item.date.strftime('%Y-%m-%d')
@@ -78,7 +78,7 @@ namespace :import do
         title: @ws[row, @headers[:title_of_your_event]]
       }
 
-      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
+      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y').to_i
 
       next unless event_year == @current_year
       @event[:file_path] = filename(@event)
@@ -139,13 +139,14 @@ namespace :import do
           "#{feature[:latitude]}) for #{feature[:title]}".green
       end
 
-      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y')
-      # puts "#{event_year == @current_year}".red
+      event_year = Chronic.parse(@ws[row, @headers[:date]]).strftime('%Y').to_i
       if event_year == @current_year
         puts "Adding #{feature[:title]}".yellow
         @features << feature unless feature[:latitude].to_s.empty?
       end
     end
+
+
 
     puts 'Rendering JavaScript map data'.green
     contents = render_erb('templates/events.js.erb')
