@@ -169,6 +169,7 @@ footer {
 
 #map {
   height: 400px;
+  display:none; /* REMOVED FOR 2020 */
 }
 
 .event_table {
