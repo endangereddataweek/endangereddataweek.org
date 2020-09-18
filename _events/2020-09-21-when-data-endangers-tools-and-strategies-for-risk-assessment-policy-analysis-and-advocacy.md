@@ -3,7 +3,7 @@ layout: post
 date: "2020-09-21"
 time: "12:00:00 PM"
 excerpt: >
-This pre-recorded panel will focus on endangering data, and we'll present resources that can help librarians audit library-built and vendor-...
+  This pre-recorded panel will focus on endangering data, and we'll present resources that can help librarians audit library-built and vendor-...
 location_city: "DLF Technologies of Surveillance Interest Group"
 location_physical: "DLF Technologies of Surveillance Interest Group"
 title: "When Data Endangers: Tools and Strategies for Risk Assessment, Policy Analysis, and Advocacy"
