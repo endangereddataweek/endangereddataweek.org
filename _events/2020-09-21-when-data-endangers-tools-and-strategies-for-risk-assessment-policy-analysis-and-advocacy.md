@@ -30,3 +30,5 @@ Scarlet Galvan, Collection Strategist Librarian, Grand Valley State University
 Michelle Gibeault,  Scholarly Engagement Librarian for the Humanities, Tulane University  
 Paige Walker, Digital Collections & Preservation Librarian, Boston College  
 Scott W. H. Young, UX & Assessment Librarian, Montana State University  
+
+[View on YouTube](https://youtu.be/cWpQvGzhGYY)
