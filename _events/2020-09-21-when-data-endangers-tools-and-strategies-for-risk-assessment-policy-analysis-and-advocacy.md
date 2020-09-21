@@ -4,8 +4,8 @@ date: "2020-09-21"
 time: "12:00:00 PM"
 excerpt: >
   This pre-recorded panel will focus on endangering data, and we'll present resources that can help librarians audit library-built and vendor-...
-location_city: "DLF Technologies of Surveillance Interest Group"
-location_physical: "DLF Technologies of Surveillance Interest Group"
+location_city: "DLF Privacy and Ethics in Technology Working Group"
+location_physical: "DLF Privacy and Ethics in Technology Working Group"
 title: "When Data Endangers: Tools and Strategies for Risk Assessment, Policy Analysis, and Advocacy"
 author: "Scott W.H. Young & Michelle Gibeault"
 website: ""
@@ -30,5 +30,7 @@ Scarlet Galvan, Collection Strategist Librarian, Grand Valley State University
 Michelle Gibeault,  Scholarly Engagement Librarian for the Humanities, Tulane University  
 Paige Walker, Digital Collections & Preservation Librarian, Boston College  
 Scott W. H. Young, UX & Assessment Librarian, Montana State University  
+  
+This panel is sponsored by the [DLF Privacy and Ethics in Technology Working Group](https://wiki.diglib.org/Privacy_and_Ethics_in_Technology)
 
 [View on YouTube](https://youtu.be/cWpQvGzhGYY)
