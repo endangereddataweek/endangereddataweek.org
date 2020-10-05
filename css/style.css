@@ -27,6 +27,11 @@ p {
     padding-right: 1em;
 }
 
+.alignright {
+    float: right;
+    padding-left: 1em;
+}
+
 /* Typography */
 /* a {
   color: #333;
