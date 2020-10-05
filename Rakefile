@@ -59,7 +59,7 @@ namespace :import do
           puts "Importing #{name}".green
           f.puts header.to_yaml
           f.puts "---\n\n"
-          f.puts item.content_encoded
+          f.puts item.content_encoded.gsub(/<\/?span[^>]*>/, '').gsub('</span>', '')
         end
       end
     end
